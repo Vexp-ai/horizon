@@ -1,0 +1,35 @@
+# secrets
+.env
+
+# python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# heavy artifacts
+adapters/
+models/
+*.gguf
+*.safetensors
+data/cache/
+data/processed/
+hf_cache/
+
+# run output: per-problem benchmark JSONs are TRACKED (reproducibility,
+# promised in experiments/A2_preregistration.md); heavy sampling artifacts
+# (*.jsonl: raw generations, PRM scores) are published separately (HF/release).
+results/runs/*.jsonl
+*.log
+.pytest_cache/
+
+# private material — NEVER publish
+private/
+horizon_stem_prototype_plan*.md
+*.pdf
+tools/
+results/runs_jsonl_assets/
+.claude/
+.vscode/

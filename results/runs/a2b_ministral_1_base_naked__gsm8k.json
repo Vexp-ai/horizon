@@ -1,0 +1,820 @@
+{
+  "baseline": "1_base_naked",
+  "benchmark": "gsm8k",
+  "n_problems": 100,
+  "n_errors": 0,
+  "quality": {
+    "pass@1": 86.0,
+    "final": 86.0
+  },
+  "system": {
+    "avg_tokens_per_problem": 385.5,
+    "avg_samples_per_problem": 1.0,
+    "avg_latency_s": 5.85,
+    "wall_time_s": 190.2,
+    "peak_ram_mb": 210.0,
+    "peak_vram_mb": 0.0
+  },
+  "per_problem": [
+    {
+      "id": "gsm8k-0",
+      "pass@1": true,
+      "final": true,
+      "tokens": 240,
+      "latency_s": 3.969,
+      "n": 1
+    },
+    {
+      "id": "gsm8k-1",
+      "pass@1": true,
+      "final": true,
+      "tokens": 185,
+      "latency_s": 3.691,
+      "n": 1
+    },
+    {
+      "id": "gsm8k-2",
+      "pass@1": true,
+      "final": true,
+      "tokens": 345,
+      "latency_s": 6.208,
+      "n": 1
+    },
+    {
+      "id": "gsm8k-3",
+      "pass@1": true,
+      "final": true,
+      "tokens": 267,
+      "latency_s": 5.123,
+      "n": 1
+    },
+    {
+      "id": "gsm8k-4",
+      "pass@1": true,
+      "final": true,
+      "tokens": 462,
+      "latency_s": 7.47,
+      "n": 1
+    },
+    {
+      "id": "gsm8k-5",
+      "pass@1": true,
+      "final": true,
+      "tokens": 278,
+      "latency_s": 4.964,
+      "n": 1
+    },
+    {
+      "id": "gsm8k-6",
+      "pass@1": true,
+      "final": true,
+      "tokens": 275,
+      "latency_s": 5.162,
+      "n": 1
+    },
+    {
+      "id": "gsm8k-7",
+      "pass@1": false,
+      "final": false,
+      "tokens": 377,
+      "latency_s": 6.62,
+      "n": 1
+    },
+    {
+      "id": "gsm8k-8",
+      "pass@1": false,
+      "final": false,
+      "tokens": 580,
+      "latency_s": 9.963,
+      "n": 1
+    },
+    {
+      "id": "gsm8k-9",
+      "pass@1": true,
+      "final": true,
+      "tokens": 328,
+      "latency_s": 5.869,
+      "n": 1
+    },
+    {
+      "id": "gsm8k-10",
+      "pass@1": true,
+      "final": true,
+      "tokens": 346,
+      "latency_s": 4.627,
+      "n": 1
+    },
+    {
+      "id": "gsm8k-11",
+      "pass@1": true,
+      "final": true,
+      "tokens": 313,
+      "latency_s": 3.818,
+      "n": 1
+    },
+    {
+      "id": "gsm8k-12",
+      "pass@1": false,
+      "final": false,
+      "tokens": 368,
+      "latency_s": 4.94,
+      "n": 1
+    },
+    {
+      "id": "gsm8k-13",
+      "pass@1": true,
+      "final": true,
+      "tokens": 356,
+      "latency_s": 4.855,
+      "n": 1
+    },
+    {
+      "id": "gsm8k-14",
+      "pass@1": true,
+      "final": true,
+      "tokens": 364,
+      "latency_s": 5.15,
+      "n": 1
+    },
+    {
+      "id": "gsm8k-15",
+      "pass@1": true,
+      "final": true,
+      "tokens": 548,
+      "latency_s": 7.9,
+      "n": 1
+    },
+    {
+      "id": "gsm8k-16",
+      "pass@1": true,
+      "final": true,
+      "tokens": 259,
+      "latency_s": 3.081,
+      "n": 1
+    },
+    {
+      "id": "gsm8k-17",
+      "pass@1": true,
+      "final": true,
+      "tokens": 275,
+      "latency_s": 3.259,
+      "n": 1
+    },
+    {
+      "id": "gsm8k-18",
+      "pass@1": true,
+      "final": true,
+      "tokens": 286,
+      "latency_s": 4.073,
+      "n": 1
+    },
+    {
+      "id": "gsm8k-19",
+      "pass@1": true,
+      "final": true,
+      "tokens": 317,
+      "latency_s": 3.955,
+      "n": 1
+    },
+    {
+      "id": "gsm8k-20",
+      "pass@1": false,
+      "final": false,
+      "tokens": 8312,
+      "latency_s": 181.786,
+      "n": 1
+    },
+    {
+      "id": "gsm8k-21",
+      "pass@1": false,
+      "final": false,
+      "tokens": 330,
+      "latency_s": 4.581,
+      "n": 1
+    },
+    {
+      "id": "gsm8k-22",
+      "pass@1": true,
+      "final": true,
+      "tokens": 248,
+      "latency_s": 2.7,
+      "n": 1
+    },
+    {
+      "id": "gsm8k-23",
+      "pass@1": true,
+      "final": true,
+      "tokens": 251,
+      "latency_s": 3.11,
+      "n": 1
+    },
+    {
+      "id": "gsm8k-24",
+      "pass@1": true,
+      "final": true,
+      "tokens": 248,
+      "latency_s": 3.09,
+      "n": 1
+    },
+    {
+      "id": "gsm8k-25",
+      "pass@1": true,
+      "final": true,
+      "tokens": 304,
+      "latency_s": 3.653,
+      "n": 1
+    },
+    {
+      "id": "gsm8k-26",
+      "pass@1": true,
+      "final": true,
+      "tokens": 272,
+      "latency_s": 2.982,
+      "n": 1
+    },
+    {
+      "id": "gsm8k-27",
+      "pass@1": true,
+      "final": true,
+      "tokens": 308,
+      "latency_s": 3.849,
+      "n": 1
+    },
+    {
+      "id": "gsm8k-28",
+      "pass@1": true,
+      "final": true,
+      "tokens": 239,
+      "latency_s": 2.696,
+      "n": 1
+    },
+    {
+      "id": "gsm8k-29",
+      "pass@1": true,
+      "final": true,
+      "tokens": 269,
+      "latency_s": 2.931,
+      "n": 1
+    },
+    {
+      "id": "gsm8k-30",
+      "pass@1": true,
+      "final": true,
+      "tokens": 302,
+      "latency_s": 4.14,
+      "n": 1
+    },
+    {
+      "id": "gsm8k-31",
+      "pass@1": true,
+      "final": true,
+      "tokens": 294,
+      "latency_s": 3.52,
+      "n": 1
+    },
+    {
+      "id": "gsm8k-32",
+      "pass@1": true,
+      "final": true,
+      "tokens": 264,
+      "latency_s": 3.381,
+      "n": 1
+    },
+    {
+      "id": "gsm8k-33",
+      "pass@1": true,
+      "final": true,
+      "tokens": 281,
+      "latency_s": 3.923,
+      "n": 1
+    },
+    {
+      "id": "gsm8k-34",
+      "pass@1": true,
+      "final": true,
+      "tokens": 195,
+      "latency_s": 1.919,
+      "n": 1
+    },
+    {
+      "id": "gsm8k-35",
+      "pass@1": true,
+      "final": true,
+      "tokens": 274,
+      "latency_s": 3.346,
+      "n": 1
+    },
+    {
+      "id": "gsm8k-36",
+      "pass@1": true,
+      "final": true,
+      "tokens": 348,
+      "latency_s": 4.969,
+      "n": 1
+    },
+    {
+      "id": "gsm8k-37",
+      "pass@1": false,
+      "final": false,
+      "tokens": 425,
+      "latency_s": 6.184,
+      "n": 1
+    },
+    {
+      "id": "gsm8k-38",
+      "pass@1": true,
+      "final": true,
+      "tokens": 237,
+      "latency_s": 2.792,
+      "n": 1
+    },
+    {
+      "id": "gsm8k-39",
+      "pass@1": true,
+      "final": true,
+      "tokens": 404,
+      "latency_s": 5.561,
+      "n": 1
+    },
+    {
+      "id": "gsm8k-40",
+      "pass@1": true,
+      "final": true,
+      "tokens": 207,
+      "latency_s": 2.068,
+      "n": 1
+    },
+    {
+      "id": "gsm8k-41",
+      "pass@1": true,
+      "final": true,
+      "tokens": 369,
+      "latency_s": 3.732,
+      "n": 1
+    },
+    {
+      "id": "gsm8k-42",
+      "pass@1": true,
+      "final": true,
+      "tokens": 279,
+      "latency_s": 2.872,
+      "n": 1
+    },
+    {
+      "id": "gsm8k-43",
+      "pass@1": false,
+      "final": false,
+      "tokens": 378,
+      "latency_s": 5.272,
+      "n": 1
+    },
+    {
+      "id": "gsm8k-44",
+      "pass@1": true,
+      "final": true,
+      "tokens": 401,
+      "latency_s": 5.478,
+      "n": 1
+    },
+    {
+      "id": "gsm8k-45",
+      "pass@1": true,
+      "final": true,
+      "tokens": 418,
+      "latency_s": 5.411,
+      "n": 1
+    },
+    {
+      "id": "gsm8k-46",
+      "pass@1": true,
+      "final": true,
+      "tokens": 332,
+      "latency_s": 3.76,
+      "n": 1
+    },
+    {
+      "id": "gsm8k-47",
+      "pass@1": true,
+      "final": true,
+      "tokens": 563,
+      "latency_s": 9.318,
+      "n": 1
+    },
+    {
+      "id": "gsm8k-48",
+      "pass@1": true,
+      "final": true,
+      "tokens": 193,
+      "latency_s": 2.113,
+      "n": 1
+    },
+    {
+      "id": "gsm8k-49",
+      "pass@1": true,
+      "final": true,
+      "tokens": 259,
+      "latency_s": 3.33,
+      "n": 1
+    },
+    {
+      "id": "gsm8k-50",
+      "pass@1": true,
+      "final": true,
+      "tokens": 305,
+      "latency_s": 4.391,
+      "n": 1
+    },
+    {
+      "id": "gsm8k-51",
+      "pass@1": true,
+      "final": true,
+      "tokens": 248,
+      "latency_s": 2.984,
+      "n": 1
+    },
+    {
+      "id": "gsm8k-52",
+      "pass@1": true,
+      "final": true,
+      "tokens": 366,
+      "latency_s": 5.136,
+      "n": 1
+    },
+    {
+      "id": "gsm8k-53",
+      "pass@1": true,
+      "final": true,
+      "tokens": 352,
+      "latency_s": 4.072,
+      "n": 1
+    },
+    {
+      "id": "gsm8k-54",
+      "pass@1": true,
+      "final": true,
+      "tokens": 306,
+      "latency_s": 3.338,
+      "n": 1
+    },
+    {
+      "id": "gsm8k-55",
+      "pass@1": true,
+      "final": true,
+      "tokens": 226,
+      "latency_s": 2.506,
+      "n": 1
+    },
+    {
+      "id": "gsm8k-56",
+      "pass@1": true,
+      "final": true,
+      "tokens": 178,
+      "latency_s": 1.64,
+      "n": 1
+    },
+    {
+      "id": "gsm8k-57",
+      "pass@1": true,
+      "final": true,
+      "tokens": 299,
+      "latency_s": 3.473,
+      "n": 1
+    },
+    {
+      "id": "gsm8k-58",
+      "pass@1": true,
+      "final": true,
+      "tokens": 331,
+      "latency_s": 3.896,
+      "n": 1
+    },
+    {
+      "id": "gsm8k-59",
+      "pass@1": true,
+      "final": true,
+      "tokens": 217,
+      "latency_s": 2.693,
+      "n": 1
+    },
+    {
+      "id": "gsm8k-60",
+      "pass@1": true,
+      "final": true,
+      "tokens": 260,
+      "latency_s": 3.43,
+      "n": 1
+    },
+    {
+      "id": "gsm8k-61",
+      "pass@1": true,
+      "final": true,
+      "tokens": 259,
+      "latency_s": 2.919,
+      "n": 1
+    },
+    {
+      "id": "gsm8k-62",
+      "pass@1": false,
+      "final": false,
+      "tokens": 574,
+      "latency_s": 9.286,
+      "n": 1
+    },
+    {
+      "id": "gsm8k-63",
+      "pass@1": true,
+      "final": true,
+      "tokens": 396,
+      "latency_s": 5.625,
+      "n": 1
+    },
+    {
+      "id": "gsm8k-64",
+      "pass@1": true,
+      "final": true,
+      "tokens": 347,
+      "latency_s": 4.136,
+      "n": 1
+    },
+    {
+      "id": "gsm8k-65",
+      "pass@1": false,
+      "final": false,
+      "tokens": 223,
+      "latency_s": 2.537,
+      "n": 1
+    },
+    {
+      "id": "gsm8k-66",
+      "pass@1": false,
+      "final": false,
+      "tokens": 211,
+      "latency_s": 2.07,
+      "n": 1
+    },
+    {
+      "id": "gsm8k-67",
+      "pass@1": true,
+      "final": true,
+      "tokens": 277,
+      "latency_s": 3.514,
+      "n": 1
+    },
+    {
+      "id": "gsm8k-68",
+      "pass@1": true,
+      "final": true,
+      "tokens": 253,
+      "latency_s": 3.369,
+      "n": 1
+    },
+    {
+      "id": "gsm8k-69",
+      "pass@1": true,
+      "final": true,
+      "tokens": 221,
+      "latency_s": 2.399,
+      "n": 1
+    },
+    {
+      "id": "gsm8k-70",
+      "pass@1": true,
+      "final": true,
+      "tokens": 270,
+      "latency_s": 3.402,
+      "n": 1
+    },
+    {
+      "id": "gsm8k-71",
+      "pass@1": true,
+      "final": true,
+      "tokens": 216,
+      "latency_s": 2.495,
+      "n": 1
+    },
+    {
+      "id": "gsm8k-72",
+      "pass@1": true,
+      "final": true,
+      "tokens": 274,
+      "latency_s": 3.545,
+      "n": 1
+    },
+    {
+      "id": "gsm8k-73",
+      "pass@1": false,
+      "final": false,
+      "tokens": 304,
+      "latency_s": 4.277,
+      "n": 1
+    },
+    {
+      "id": "gsm8k-74",
+      "pass@1": true,
+      "final": true,
+      "tokens": 396,
+      "latency_s": 4.572,
+      "n": 1
+    },
+    {
+      "id": "gsm8k-75",
+      "pass@1": true,
+      "final": true,
+      "tokens": 361,
+      "latency_s": 5.035,
+      "n": 1
+    },
+    {
+      "id": "gsm8k-76",
+      "pass@1": true,
+      "final": true,
+      "tokens": 330,
+      "latency_s": 3.968,
+      "n": 1
+    },
+    {
+      "id": "gsm8k-77",
+      "pass@1": true,
+      "final": true,
+      "tokens": 405,
+      "latency_s": 6.421,
+      "n": 1
+    },
+    {
+      "id": "gsm8k-78",
+      "pass@1": true,
+      "final": true,
+      "tokens": 263,
+      "latency_s": 3.467,
+      "n": 1
+    },
+    {
+      "id": "gsm8k-79",
+      "pass@1": true,
+      "final": true,
+      "tokens": 174,
+      "latency_s": 1.498,
+      "n": 1
+    },
+    {
+      "id": "gsm8k-80",
+      "pass@1": true,
+      "final": true,
+      "tokens": 320,
+      "latency_s": 4.815,
+      "n": 1
+    },
+    {
+      "id": "gsm8k-81",
+      "pass@1": true,
+      "final": true,
+      "tokens": 252,
+      "latency_s": 2.823,
+      "n": 1
+    },
+    {
+      "id": "gsm8k-82",
+      "pass@1": true,
+      "final": true,
+      "tokens": 202,
+      "latency_s": 2.44,
+      "n": 1
+    },
+    {
+      "id": "gsm8k-83",
+      "pass@1": true,
+      "final": true,
+      "tokens": 211,
+      "latency_s": 2.654,
+      "n": 1
+    },
+    {
+      "id": "gsm8k-84",
+      "pass@1": true,
+      "final": true,
+      "tokens": 377,
+      "latency_s": 6.32,
+      "n": 1
+    },
+    {
+      "id": "gsm8k-85",
+      "pass@1": true,
+      "final": true,
+      "tokens": 304,
+      "latency_s": 3.417,
+      "n": 1
+    },
+    {
+      "id": "gsm8k-86",
+      "pass@1": true,
+      "final": true,
+      "tokens": 282,
+      "latency_s": 2.98,
+      "n": 1
+    },
+    {
+      "id": "gsm8k-87",
+      "pass@1": false,
+      "final": false,
+      "tokens": 433,
+      "latency_s": 6.364,
+      "n": 1
+    },
+    {
+      "id": "gsm8k-88",
+      "pass@1": true,
+      "final": true,
+      "tokens": 251,
+      "latency_s": 3.398,
+      "n": 1
+    },
+    {
+      "id": "gsm8k-89",
+      "pass@1": false,
+      "final": false,
+      "tokens": 209,
+      "latency_s": 2.245,
+      "n": 1
+    },
+    {
+      "id": "gsm8k-90",
+      "pass@1": true,
+      "final": true,
+      "tokens": 294,
+      "latency_s": 3.282,
+      "n": 1
+    },
+    {
+      "id": "gsm8k-91",
+      "pass@1": true,
+      "final": true,
+      "tokens": 205,
+      "latency_s": 2.453,
+      "n": 1
+    },
+    {
+      "id": "gsm8k-92",
+      "pass@1": true,
+      "final": true,
+      "tokens": 213,
+      "latency_s": 2.301,
+      "n": 1
+    },
+    {
+      "id": "gsm8k-93",
+      "pass@1": true,
+      "final": true,
+      "tokens": 348,
+      "latency_s": 4.301,
+      "n": 1
+    },
+    {
+      "id": "gsm8k-94",
+      "pass@1": true,
+      "final": true,
+      "tokens": 359,
+      "latency_s": 5.333,
+      "n": 1
+    },
+    {
+      "id": "gsm8k-95",
+      "pass@1": true,
+      "final": true,
+      "tokens": 300,
+      "latency_s": 4.309,
+      "n": 1
+    },
+    {
+      "id": "gsm8k-96",
+      "pass@1": true,
+      "final": true,
+      "tokens": 194,
+      "latency_s": 2.317,
+      "n": 1
+    },
+    {
+      "id": "gsm8k-97",
+      "pass@1": true,
+      "final": true,
+      "tokens": 261,
+      "latency_s": 3.138,
+      "n": 1
+    },
+    {
+      "id": "gsm8k-98",
+      "pass@1": false,
+      "final": false,
+      "tokens": 399,
+      "latency_s": 5.163,
+      "n": 1
+    },
+    {
+      "id": "gsm8k-99",
+      "pass@1": true,
+      "final": true,
+      "tokens": 318,
+      "latency_s": 3.735,
+      "n": 1
+    }
+  ]
+}

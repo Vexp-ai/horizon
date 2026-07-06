@@ -1,0 +1,260 @@
+{
+  "baseline": "1_base_naked",
+  "benchmark": "aime2024",
+  "n_problems": 30,
+  "n_errors": 0,
+  "quality": {
+    "pass@1": 43.33,
+    "final": 43.33
+  },
+  "system": {
+    "avg_tokens_per_problem": 6752.6,
+    "avg_samples_per_problem": 1.0,
+    "avg_latency_s": 127.959,
+    "wall_time_s": 1014.6,
+    "peak_ram_mb": 216.0,
+    "peak_vram_mb": 0.0
+  },
+  "per_problem": [
+    {
+      "id": "aime-60",
+      "pass@1": true,
+      "final": true,
+      "tokens": 1533,
+      "latency_s": 27.931,
+      "n": 1
+    },
+    {
+      "id": "aime-61",
+      "pass@1": false,
+      "final": false,
+      "tokens": 8349,
+      "latency_s": 162.975,
+      "n": 1
+    },
+    {
+      "id": "aime-62",
+      "pass@1": false,
+      "final": false,
+      "tokens": 8319,
+      "latency_s": 162.987,
+      "n": 1
+    },
+    {
+      "id": "aime-63",
+      "pass@1": false,
+      "final": false,
+      "tokens": 8324,
+      "latency_s": 162.999,
+      "n": 1
+    },
+    {
+      "id": "aime-64",
+      "pass@1": false,
+      "final": false,
+      "tokens": 8308,
+      "latency_s": 160.871,
+      "n": 1
+    },
+    {
+      "id": "aime-65",
+      "pass@1": true,
+      "final": true,
+      "tokens": 6379,
+      "latency_s": 118.773,
+      "n": 1
+    },
+    {
+      "id": "aime-66",
+      "pass@1": true,
+      "final": true,
+      "tokens": 7377,
+      "latency_s": 139.7,
+      "n": 1
+    },
+    {
+      "id": "aime-67",
+      "pass@1": true,
+      "final": true,
+      "tokens": 7175,
+      "latency_s": 136.628,
+      "n": 1
+    },
+    {
+      "id": "aime-68",
+      "pass@1": true,
+      "final": true,
+      "tokens": 4578,
+      "latency_s": 84.966,
+      "n": 1
+    },
+    {
+      "id": "aime-69",
+      "pass@1": true,
+      "final": true,
+      "tokens": 3770,
+      "latency_s": 70.473,
+      "n": 1
+    },
+    {
+      "id": "aime-70",
+      "pass@1": false,
+      "final": false,
+      "tokens": 8320,
+      "latency_s": 158.955,
+      "n": 1
+    },
+    {
+      "id": "aime-71",
+      "pass@1": true,
+      "final": true,
+      "tokens": 2296,
+      "latency_s": 42.567,
+      "n": 1
+    },
+    {
+      "id": "aime-72",
+      "pass@1": true,
+      "final": true,
+      "tokens": 5105,
+      "latency_s": 96.145,
+      "n": 1
+    },
+    {
+      "id": "aime-73",
+      "pass@1": false,
+      "final": false,
+      "tokens": 8336,
+      "latency_s": 160.035,
+      "n": 1
+    },
+    {
+      "id": "aime-74",
+      "pass@1": false,
+      "final": false,
+      "tokens": 8327,
+      "latency_s": 160.004,
+      "n": 1
+    },
+    {
+      "id": "aime-75",
+      "pass@1": false,
+      "final": false,
+      "tokens": 8355,
+      "latency_s": 159.48,
+      "n": 1
+    },
+    {
+      "id": "aime-76",
+      "pass@1": true,
+      "final": true,
+      "tokens": 5652,
+      "latency_s": 108.111,
+      "n": 1
+    },
+    {
+      "id": "aime-77",
+      "pass@1": false,
+      "final": false,
+      "tokens": 8329,
+      "latency_s": 156.65,
+      "n": 1
+    },
+    {
+      "id": "aime-78",
+      "pass@1": true,
+      "final": true,
+      "tokens": 8440,
+      "latency_s": 156.648,
+      "n": 1
+    },
+    {
+      "id": "aime-79",
+      "pass@1": true,
+      "final": true,
+      "tokens": 4738,
+      "latency_s": 88.232,
+      "n": 1
+    },
+    {
+      "id": "aime-80",
+      "pass@1": false,
+      "final": false,
+      "tokens": 8390,
+      "latency_s": 155.661,
+      "n": 1
+    },
+    {
+      "id": "aime-81",
+      "pass@1": false,
+      "final": false,
+      "tokens": 8422,
+      "latency_s": 158.728,
+      "n": 1
+    },
+    {
+      "id": "aime-82",
+      "pass@1": false,
+      "final": false,
+      "tokens": 8319,
+      "latency_s": 158.272,
+      "n": 1
+    },
+    {
+      "id": "aime-83",
+      "pass@1": true,
+      "final": true,
+      "tokens": 5144,
+      "latency_s": 93.651,
+      "n": 1
+    },
+    {
+      "id": "aime-84",
+      "pass@1": false,
+      "final": false,
+      "tokens": 8386,
+      "latency_s": 159.463,
+      "n": 1
+    },
+    {
+      "id": "aime-85",
+      "pass@1": false,
+      "final": false,
+      "tokens": 8305,
+      "latency_s": 159.727,
+      "n": 1
+    },
+    {
+      "id": "aime-86",
+      "pass@1": true,
+      "final": true,
+      "tokens": 3356,
+      "latency_s": 61.702,
+      "n": 1
+    },
+    {
+      "id": "aime-87",
+      "pass@1": false,
+      "final": false,
+      "tokens": 6063,
+      "latency_s": 114.567,
+      "n": 1
+    },
+    {
+      "id": "aime-88",
+      "pass@1": false,
+      "final": false,
+      "tokens": 8636,
+      "latency_s": 157.1,
+      "n": 1
+    },
+    {
+      "id": "aime-89",
+      "pass@1": false,
+      "final": false,
+      "tokens": 5546,
+      "latency_s": 104.756,
+      "n": 1
+    }
+  ]
+}

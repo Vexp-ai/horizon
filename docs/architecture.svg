@@ -1,0 +1,120 @@
+<svg width="100%" viewBox="0 0 880 880" role="img" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif">
+<title>Horizon architecture (validated 07/2026)</title>
+<desc>Transformer-paper-style block diagram of the Horizon verification-first layer. A user task enters the metacognitive router at the bottom, which dispatches to two parallel domain stacks: the math path (7B base with math LoRA, sample N solutions, Math-Verify symbolic check, verified majority vote) and the code path (7B base with a 0.5B speculative drafter, generate candidate, sandboxed execution against a frozen test suite, verified selection) with an objective-feedback repair loop bounded at 4 iterations. Hard verifiers hold final authority; failures can escalate back to the router. Both stacks converge into the presenter, which emits the verified answer with its audit evidence.</desc>
+<defs>
+<marker id="arr" viewBox="0 0 10 10" refX="7.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+<path d="M1.5 1L8 5L1.5 9" fill="none" stroke="#1a1a1a" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+</marker>
+<marker id="arrg" viewBox="0 0 10 10" refX="7.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+<path d="M1.5 1L8 5L1.5 9" fill="none" stroke="#7a7a7a" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+</marker>
+</defs>
+
+<!-- ===================== output ===================== -->
+<text x="440" y="42" text-anchor="middle" font-size="16" fill="#1a1a1a">Verified output</text>
+<text x="440" y="62" text-anchor="middle" font-size="12" fill="#555">(answer + audit evidence)</text>
+<line x1="440" y1="122" x2="440" y2="74" stroke="#1a1a1a" stroke-width="1.8" marker-end="url(#arr)"/>
+
+<!-- presenter (green, softmax-style) -->
+<rect x="330" y="124" width="220" height="52" rx="10" fill="#BFE5BF" stroke="#1a1a1a" stroke-width="1.6"/>
+<text x="440" y="146" text-anchor="middle" font-size="15" font-weight="600" fill="#1a1a1a">Presenter</text>
+<text x="440" y="164" text-anchor="middle" font-size="11" fill="#333">tests run · logs · confidence status</text>
+
+<!-- converge arrows from both columns -->
+<path d="M225 258 V226 H438" fill="none" stroke="#1a1a1a" stroke-width="1.8"/>
+<path d="M655 258 V226 H442" fill="none" stroke="#1a1a1a" stroke-width="1.8"/>
+<line x1="440" y1="226" x2="440" y2="178" stroke="#1a1a1a" stroke-width="1.8" marker-end="url(#arr)"/>
+
+<!-- ===================== containers ===================== -->
+<rect x="85" y="240" width="280" height="412" rx="16" fill="#F3F3F3" stroke="#B3B3B3" stroke-width="1.2"/>
+<rect x="515" y="240" width="280" height="412" rx="16" fill="#F3F3F3" stroke="#B3B3B3" stroke-width="1.2"/>
+
+<!-- N-style annotations -->
+<text x="52" y="446" text-anchor="middle" font-size="16" font-style="italic" fill="#1a1a1a">N ≤ 16</text>
+<text x="838" y="452" text-anchor="start" font-size="11" fill="#333">repair</text>
+<text x="838" y="470" text-anchor="start" font-size="16" font-style="italic" font-weight="600" fill="#1a1a1a">≤ 4×</text>
+
+<!-- ===================== MATH PATH (left, bottom-up) ===================== -->
+<!-- verified majority (lavender) -->
+<rect x="105" y="260" width="240" height="52" rx="10" fill="#CFC6EE" stroke="#1a1a1a" stroke-width="1.6"/>
+<text x="225" y="282" text-anchor="middle" font-size="15" font-weight="600" fill="#1a1a1a">Verified majority vote</text>
+<text x="225" y="300" text-anchor="middle" font-size="11" fill="#333">hard verifier = final authority</text>
+<line x1="225" y1="358" x2="225" y2="314" stroke="#1a1a1a" stroke-width="1.8" marker-end="url(#arr)"/>
+
+<!-- Math-Verify (yellow, add&norm-style) -->
+<rect x="105" y="360" width="240" height="52" rx="10" fill="#FBF1A9" stroke="#1a1a1a" stroke-width="1.6"/>
+<text x="225" y="382" text-anchor="middle" font-size="15" font-weight="600" fill="#1a1a1a">Math-Verify</text>
+<text x="225" y="400" text-anchor="middle" font-size="11" fill="#333">symbolic equivalence check</text>
+<line x1="225" y1="458" x2="225" y2="414" stroke="#1a1a1a" stroke-width="1.8" marker-end="url(#arr)"/>
+
+<!-- sample N (blue, ffn-style) -->
+<rect x="105" y="460" width="240" height="52" rx="10" fill="#AFD5F0" stroke="#1a1a1a" stroke-width="1.6"/>
+<text x="225" y="482" text-anchor="middle" font-size="15" font-weight="600" fill="#1a1a1a">Sample N solutions</text>
+<text x="225" y="500" text-anchor="middle" font-size="11" fill="#333">early stop on agreement</text>
+<line x1="225" y1="558" x2="225" y2="514" stroke="#1a1a1a" stroke-width="1.8" marker-end="url(#arr)"/>
+
+<!-- base + math lora (orange, attention-style) -->
+<rect x="105" y="560" width="240" height="56" rx="10" fill="#F8CFA0" stroke="#1a1a1a" stroke-width="1.6"/>
+<text x="225" y="582" text-anchor="middle" font-size="15" font-weight="600" fill="#1a1a1a">7B base · math LoRA</text>
+<text x="225" y="601" text-anchor="middle" font-size="11" fill="#333">R1-Distill-Qwen-7B · 4-bit</text>
+
+<!-- ===================== CODE PATH (right, bottom-up) ===================== -->
+<!-- verified selection -->
+<rect x="535" y="260" width="240" height="52" rx="10" fill="#CFC6EE" stroke="#1a1a1a" stroke-width="1.6"/>
+<text x="655" y="282" text-anchor="middle" font-size="15" font-weight="600" fill="#1a1a1a">Verified selection</text>
+<text x="655" y="300" text-anchor="middle" font-size="11" fill="#333">first candidate passing all tests</text>
+<line x1="655" y1="358" x2="655" y2="314" stroke="#1a1a1a" stroke-width="1.8" marker-end="url(#arr)"/>
+
+<!-- sandboxed execution (yellow) -->
+<rect x="535" y="360" width="240" height="52" rx="10" fill="#FBF1A9" stroke="#1a1a1a" stroke-width="1.6"/>
+<text x="655" y="382" text-anchor="middle" font-size="15" font-weight="600" fill="#1a1a1a">Sandboxed execution</text>
+<text x="655" y="400" text-anchor="middle" font-size="11" fill="#333">rlimits · timeout · I/O + asserts</text>
+<line x1="655" y1="458" x2="655" y2="414" stroke="#1a1a1a" stroke-width="1.8" marker-end="url(#arr)"/>
+
+<!-- repair loop (residual-style, outer right) -->
+<path d="M775 386 H818 V486 H779" fill="none" stroke="#1a1a1a" stroke-width="1.8" marker-end="url(#arr)"/>
+<text x="800" y="524" text-anchor="middle" font-size="10.5" fill="#555">failing test</text>
+<text x="800" y="538" text-anchor="middle" font-size="10.5" fill="#555">expected vs got</text>
+<text x="800" y="552" text-anchor="middle" font-size="10.5" fill="#555">traceback</text>
+
+<!-- generate candidate (blue) -->
+<rect x="535" y="460" width="240" height="52" rx="10" fill="#AFD5F0" stroke="#1a1a1a" stroke-width="1.6"/>
+<text x="655" y="482" text-anchor="middle" font-size="15" font-weight="600" fill="#1a1a1a">Generate candidate</text>
+<text x="655" y="500" text-anchor="middle" font-size="11" fill="#333">initial burst k ≤ 2 · budget ≤ best-of-N</text>
+<line x1="655" y1="558" x2="655" y2="514" stroke="#1a1a1a" stroke-width="1.8" marker-end="url(#arr)"/>
+
+<!-- base + drafter (orange) -->
+<rect x="535" y="560" width="240" height="56" rx="10" fill="#F8CFA0" stroke="#1a1a1a" stroke-width="1.6"/>
+<text x="655" y="582" text-anchor="middle" font-size="15" font-weight="600" fill="#1a1a1a">7B base · code path</text>
+<text x="655" y="601" text-anchor="middle" font-size="11" fill="#333">+ 0.5B speculative drafter (code: 1.65×)</text>
+
+<!-- ===================== FROZEN TESTS (cross-connection) ===================== -->
+<rect x="372" y="360" width="136" height="52" rx="10" fill="#FBF1A9" stroke="#1a1a1a" stroke-width="1.6"/>
+<text x="440" y="380" text-anchor="middle" font-size="13.5" font-weight="600" fill="#1a1a1a">Frozen tests</text>
+<text x="440" y="398" text-anchor="middle" font-size="10.5" fill="#333">public I/O · CodeT, once</text>
+<line x1="508" y1="386" x2="531" y2="386" stroke="#1a1a1a" stroke-width="1.8" marker-end="url(#arr)"/>
+
+<!-- ===================== ROUTER + INPUT ===================== -->
+<rect x="320" y="700" width="240" height="56" rx="10" fill="#F6C7CE" stroke="#1a1a1a" stroke-width="1.6"/>
+<text x="440" y="722" text-anchor="middle" font-size="15" font-weight="600" fill="#1a1a1a">Metacognitive router</text>
+<text x="440" y="741" text-anchor="middle" font-size="11" fill="#333">code-first heuristics v1.2 · path + budget</text>
+
+<!-- split: router -> two stacks + frozen tests riser -->
+<path d="M440 700 V672" fill="none" stroke="#1a1a1a" stroke-width="1.8"/>
+<path d="M440 672 H225 V620" fill="none" stroke="#1a1a1a" stroke-width="1.8" marker-end="url(#arr)"/>
+<path d="M440 672 H655 V620" fill="none" stroke="#1a1a1a" stroke-width="1.8" marker-end="url(#arr)"/>
+<path d="M440 672 V416" fill="none" stroke="#1a1a1a" stroke-width="1.8" marker-end="url(#arr)"/>
+<text x="432" y="580" text-anchor="end" font-size="10.5" fill="#555">problem</text>
+<text x="432" y="594" text-anchor="end" font-size="10.5" fill="#555">statement</text>
+
+<!-- escalation (dashed, verifier -> router) -->
+<path d="M105 286 H36 V728 H316" fill="none" stroke="#7a7a7a" stroke-width="1.5" stroke-dasharray="5 4" marker-end="url(#arrg)"/>
+<text transform="rotate(-90 26 560)" x="26" y="560" text-anchor="middle" font-size="10.5" fill="#7a7a7a">escalate on failure</text>
+
+<!-- input -->
+<line x1="440" y1="800" x2="440" y2="760" stroke="#1a1a1a" stroke-width="1.8" marker-end="url(#arr)"/>
+<text x="440" y="824" text-anchor="middle" font-size="16" fill="#1a1a1a">User task</text>
+
+<!-- footnote -->
+<text x="440" y="862" text-anchor="middle" font-size="11" fill="#777">Consumer envelope: 7.7–8.3 GB RSS on a 16 GB machine · llama.cpp Q4_K_M · speed scales with memory bandwidth</text>
+</svg>

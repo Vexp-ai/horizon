@@ -1,0 +1,43 @@
+# Horizon STEM prototype — Python deps
+# NOTE (§2, §7): some versions evolve. Where needed, verify on PyPI/HF.
+# "Compatible" pinning (>=) for the prototype; freeze with `pip freeze` before serious runs.
+
+# --- core ML ---
+torch>=2.4.0
+transformers>=4.48.0
+datasets>=3.2.0
+accelerate>=1.3.0
+peft>=0.14.0
+trl>=0.13.0
+
+# --- LoRA training (GPU tier) ---
+# Unsloth is optional but preferred (cheap/single-GPU). If it cannot be installed,
+# train/train_lora.py automatically falls back to the TRL+PEFT path.
+# unsloth>=2025.1.1          # VERIFY / install separately: pip install unsloth
+bitsandbytes>=0.45.0        # adamw_8bit / quant training
+
+# --- serving (GPU tier) ---
+vllm>=0.7.0                 # multi-LoRA (--enable-lora). Requires a GPU.
+
+# --- router (embedding) ---
+sentence-transformers>=3.3.0
+
+# --- scoring ---
+math-verify>=0.5.2          # symbolic math equivalence (open-r1 repo). VERIFY
+sympy>=1.13.0
+
+# --- DeepSeek ceiling API (OpenRouter, openai-compatible) ---
+openai>=1.59.0
+
+# --- utilities ---
+pyyaml>=6.0
+numpy>=1.26.0
+tqdm>=4.67.0
+python-dotenv>=1.0.1
+tabulate>=0.9.0
+datasketch>=1.6.5           # MinHash LSH for approximate decontamination (optional)
+
+# --- eval harnesses (install separately when needed; heavy deps) ---
+# lighteval>=0.7.0
+# lm-eval>=0.4.7            # EleutherAI lm-evaluation-harness
+# livecodebench             # own harness, install from repo. VERIFY

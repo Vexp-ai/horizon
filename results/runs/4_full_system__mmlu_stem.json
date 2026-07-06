@@ -1,0 +1,1220 @@
+{
+  "baseline": "4_full_system",
+  "benchmark": "mmlu_stem",
+  "n_problems": 150,
+  "n_errors": 0,
+  "quality": {
+    "pass@1": 88.67,
+    "final": 90.0
+  },
+  "system": {
+    "avg_tokens_per_problem": 8201.7,
+    "avg_samples_per_problem": 4.0,
+    "avg_latency_s": 75.164,
+    "wall_time_s": 1937.6,
+    "peak_ram_mb": 10239.1,
+    "peak_vram_mb": 0.0
+  },
+  "per_problem": [
+    {
+      "id": "mmlu-0",
+      "pass@1": true,
+      "final": true,
+      "tokens": 1656,
+      "latency_s": 84.331,
+      "n": 4
+    },
+    {
+      "id": "mmlu-1",
+      "pass@1": true,
+      "final": true,
+      "tokens": 2376,
+      "latency_s": 90.438,
+      "n": 4
+    },
+    {
+      "id": "mmlu-2",
+      "pass@1": false,
+      "final": false,
+      "tokens": 9832,
+      "latency_s": 160.02,
+      "n": 4
+    },
+    {
+      "id": "mmlu-3",
+      "pass@1": true,
+      "final": true,
+      "tokens": 6024,
+      "latency_s": 118.322,
+      "n": 4
+    },
+    {
+      "id": "mmlu-4",
+      "pass@1": false,
+      "final": true,
+      "tokens": 17552,
+      "latency_s": 275.616,
+      "n": 4
+    },
+    {
+      "id": "mmlu-5",
+      "pass@1": false,
+      "final": true,
+      "tokens": 27780,
+      "latency_s": 275.607,
+      "n": 4
+    },
+    {
+      "id": "mmlu-6",
+      "pass@1": true,
+      "final": true,
+      "tokens": 3844,
+      "latency_s": 24.703,
+      "n": 4
+    },
+    {
+      "id": "mmlu-7",
+      "pass@1": true,
+      "final": true,
+      "tokens": 4720,
+      "latency_s": 47.967,
+      "n": 4
+    },
+    {
+      "id": "mmlu-8",
+      "pass@1": true,
+      "final": true,
+      "tokens": 2212,
+      "latency_s": 12.205,
+      "n": 4
+    },
+    {
+      "id": "mmlu-9",
+      "pass@1": true,
+      "final": true,
+      "tokens": 8480,
+      "latency_s": 111.879,
+      "n": 4
+    },
+    {
+      "id": "mmlu-10",
+      "pass@1": true,
+      "final": true,
+      "tokens": 3512,
+      "latency_s": 20.699,
+      "n": 4
+    },
+    {
+      "id": "mmlu-11",
+      "pass@1": true,
+      "final": true,
+      "tokens": 2296,
+      "latency_s": 13.354,
+      "n": 4
+    },
+    {
+      "id": "mmlu-12",
+      "pass@1": true,
+      "final": true,
+      "tokens": 3052,
+      "latency_s": 15.989,
+      "n": 4
+    },
+    {
+      "id": "mmlu-13",
+      "pass@1": true,
+      "final": true,
+      "tokens": 10816,
+      "latency_s": 92.553,
+      "n": 4
+    },
+    {
+      "id": "mmlu-14",
+      "pass@1": true,
+      "final": true,
+      "tokens": 4064,
+      "latency_s": 28.029,
+      "n": 4
+    },
+    {
+      "id": "mmlu-15",
+      "pass@1": true,
+      "final": true,
+      "tokens": 2372,
+      "latency_s": 15.228,
+      "n": 4
+    },
+    {
+      "id": "mmlu-16",
+      "pass@1": true,
+      "final": true,
+      "tokens": 2572,
+      "latency_s": 14.883,
+      "n": 4
+    },
+    {
+      "id": "mmlu-17",
+      "pass@1": true,
+      "final": true,
+      "tokens": 2456,
+      "latency_s": 18.167,
+      "n": 4
+    },
+    {
+      "id": "mmlu-18",
+      "pass@1": true,
+      "final": true,
+      "tokens": 3552,
+      "latency_s": 20.962,
+      "n": 4
+    },
+    {
+      "id": "mmlu-19",
+      "pass@1": true,
+      "final": true,
+      "tokens": 11680,
+      "latency_s": 124.257,
+      "n": 4
+    },
+    {
+      "id": "mmlu-20",
+      "pass@1": true,
+      "final": true,
+      "tokens": 2956,
+      "latency_s": 32.008,
+      "n": 4
+    },
+    {
+      "id": "mmlu-21",
+      "pass@1": true,
+      "final": true,
+      "tokens": 4196,
+      "latency_s": 34.529,
+      "n": 4
+    },
+    {
+      "id": "mmlu-22",
+      "pass@1": true,
+      "final": true,
+      "tokens": 3416,
+      "latency_s": 35.518,
+      "n": 4
+    },
+    {
+      "id": "mmlu-23",
+      "pass@1": true,
+      "final": true,
+      "tokens": 2096,
+      "latency_s": 30.915,
+      "n": 4
+    },
+    {
+      "id": "mmlu-24",
+      "pass@1": true,
+      "final": true,
+      "tokens": 1872,
+      "latency_s": 15.507,
+      "n": 4
+    },
+    {
+      "id": "mmlu-25",
+      "pass@1": false,
+      "final": true,
+      "tokens": 10944,
+      "latency_s": 101.164,
+      "n": 4
+    },
+    {
+      "id": "mmlu-26",
+      "pass@1": true,
+      "final": true,
+      "tokens": 4632,
+      "latency_s": 31.105,
+      "n": 4
+    },
+    {
+      "id": "mmlu-27",
+      "pass@1": true,
+      "final": true,
+      "tokens": 7116,
+      "latency_s": 63.727,
+      "n": 4
+    },
+    {
+      "id": "mmlu-28",
+      "pass@1": true,
+      "final": true,
+      "tokens": 2888,
+      "latency_s": 31.456,
+      "n": 4
+    },
+    {
+      "id": "mmlu-29",
+      "pass@1": true,
+      "final": true,
+      "tokens": 3196,
+      "latency_s": 19.176,
+      "n": 4
+    },
+    {
+      "id": "mmlu-30",
+      "pass@1": true,
+      "final": false,
+      "tokens": 10920,
+      "latency_s": 139.835,
+      "n": 4
+    },
+    {
+      "id": "mmlu-31",
+      "pass@1": true,
+      "final": true,
+      "tokens": 19680,
+      "latency_s": 165.74,
+      "n": 4
+    },
+    {
+      "id": "mmlu-32",
+      "pass@1": true,
+      "final": true,
+      "tokens": 2424,
+      "latency_s": 14.777,
+      "n": 4
+    },
+    {
+      "id": "mmlu-33",
+      "pass@1": true,
+      "final": true,
+      "tokens": 2368,
+      "latency_s": 15.841,
+      "n": 4
+    },
+    {
+      "id": "mmlu-34",
+      "pass@1": true,
+      "final": true,
+      "tokens": 3976,
+      "latency_s": 36.543,
+      "n": 4
+    },
+    {
+      "id": "mmlu-35",
+      "pass@1": true,
+      "final": true,
+      "tokens": 2744,
+      "latency_s": 15.874,
+      "n": 4
+    },
+    {
+      "id": "mmlu-36",
+      "pass@1": false,
+      "final": true,
+      "tokens": 2528,
+      "latency_s": 17.179,
+      "n": 4
+    },
+    {
+      "id": "mmlu-37",
+      "pass@1": true,
+      "final": true,
+      "tokens": 2168,
+      "latency_s": 11.432,
+      "n": 4
+    },
+    {
+      "id": "mmlu-38",
+      "pass@1": true,
+      "final": true,
+      "tokens": 1896,
+      "latency_s": 9.201,
+      "n": 4
+    },
+    {
+      "id": "mmlu-39",
+      "pass@1": true,
+      "final": true,
+      "tokens": 5752,
+      "latency_s": 47.404,
+      "n": 4
+    },
+    {
+      "id": "mmlu-40",
+      "pass@1": true,
+      "final": true,
+      "tokens": 6164,
+      "latency_s": 73.609,
+      "n": 4
+    },
+    {
+      "id": "mmlu-41",
+      "pass@1": true,
+      "final": true,
+      "tokens": 33800,
+      "latency_s": 202.26,
+      "n": 4
+    },
+    {
+      "id": "mmlu-42",
+      "pass@1": true,
+      "final": true,
+      "tokens": 5256,
+      "latency_s": 51.9,
+      "n": 4
+    },
+    {
+      "id": "mmlu-43",
+      "pass@1": true,
+      "final": true,
+      "tokens": 15356,
+      "latency_s": 142.033,
+      "n": 4
+    },
+    {
+      "id": "mmlu-44",
+      "pass@1": true,
+      "final": true,
+      "tokens": 19296,
+      "latency_s": 202.232,
+      "n": 4
+    },
+    {
+      "id": "mmlu-45",
+      "pass@1": true,
+      "final": true,
+      "tokens": 11100,
+      "latency_s": 88.221,
+      "n": 4
+    },
+    {
+      "id": "mmlu-46",
+      "pass@1": true,
+      "final": true,
+      "tokens": 2840,
+      "latency_s": 20.275,
+      "n": 4
+    },
+    {
+      "id": "mmlu-47",
+      "pass@1": true,
+      "final": true,
+      "tokens": 5792,
+      "latency_s": 38.676,
+      "n": 4
+    },
+    {
+      "id": "mmlu-48",
+      "pass@1": false,
+      "final": false,
+      "tokens": 15060,
+      "latency_s": 147.442,
+      "n": 4
+    },
+    {
+      "id": "mmlu-49",
+      "pass@1": true,
+      "final": true,
+      "tokens": 20056,
+      "latency_s": 225.057,
+      "n": 4
+    },
+    {
+      "id": "mmlu-50",
+      "pass@1": true,
+      "final": true,
+      "tokens": 3044,
+      "latency_s": 57.869,
+      "n": 4
+    },
+    {
+      "id": "mmlu-51",
+      "pass@1": true,
+      "final": true,
+      "tokens": 8696,
+      "latency_s": 79.636,
+      "n": 4
+    },
+    {
+      "id": "mmlu-52",
+      "pass@1": false,
+      "final": false,
+      "tokens": 14200,
+      "latency_s": 164.901,
+      "n": 4
+    },
+    {
+      "id": "mmlu-53",
+      "pass@1": true,
+      "final": true,
+      "tokens": 4368,
+      "latency_s": 38.201,
+      "n": 4
+    },
+    {
+      "id": "mmlu-54",
+      "pass@1": true,
+      "final": true,
+      "tokens": 6608,
+      "latency_s": 71.42,
+      "n": 4
+    },
+    {
+      "id": "mmlu-55",
+      "pass@1": true,
+      "final": true,
+      "tokens": 2472,
+      "latency_s": 18.73,
+      "n": 4
+    },
+    {
+      "id": "mmlu-56",
+      "pass@1": true,
+      "final": true,
+      "tokens": 3572,
+      "latency_s": 32.493,
+      "n": 4
+    },
+    {
+      "id": "mmlu-57",
+      "pass@1": false,
+      "final": false,
+      "tokens": 24632,
+      "latency_s": 195.348,
+      "n": 4
+    },
+    {
+      "id": "mmlu-58",
+      "pass@1": true,
+      "final": true,
+      "tokens": 28968,
+      "latency_s": 195.468,
+      "n": 4
+    },
+    {
+      "id": "mmlu-59",
+      "pass@1": true,
+      "final": true,
+      "tokens": 3628,
+      "latency_s": 22.436,
+      "n": 4
+    },
+    {
+      "id": "mmlu-60",
+      "pass@1": true,
+      "final": true,
+      "tokens": 2004,
+      "latency_s": 13.212,
+      "n": 4
+    },
+    {
+      "id": "mmlu-61",
+      "pass@1": true,
+      "final": true,
+      "tokens": 5504,
+      "latency_s": 36.903,
+      "n": 4
+    },
+    {
+      "id": "mmlu-62",
+      "pass@1": true,
+      "final": true,
+      "tokens": 3040,
+      "latency_s": 21.209,
+      "n": 4
+    },
+    {
+      "id": "mmlu-63",
+      "pass@1": true,
+      "final": true,
+      "tokens": 2892,
+      "latency_s": 19.335,
+      "n": 4
+    },
+    {
+      "id": "mmlu-64",
+      "pass@1": true,
+      "final": true,
+      "tokens": 5712,
+      "latency_s": 38.907,
+      "n": 4
+    },
+    {
+      "id": "mmlu-65",
+      "pass@1": false,
+      "final": false,
+      "tokens": 4300,
+      "latency_s": 31.895,
+      "n": 4
+    },
+    {
+      "id": "mmlu-66",
+      "pass@1": true,
+      "final": true,
+      "tokens": 2024,
+      "latency_s": 13.684,
+      "n": 4
+    },
+    {
+      "id": "mmlu-67",
+      "pass@1": false,
+      "final": false,
+      "tokens": 4728,
+      "latency_s": 45.741,
+      "n": 4
+    },
+    {
+      "id": "mmlu-68",
+      "pass@1": true,
+      "final": true,
+      "tokens": 4420,
+      "latency_s": 27.792,
+      "n": 4
+    },
+    {
+      "id": "mmlu-69",
+      "pass@1": true,
+      "final": true,
+      "tokens": 1408,
+      "latency_s": 9.105,
+      "n": 4
+    },
+    {
+      "id": "mmlu-70",
+      "pass@1": true,
+      "final": true,
+      "tokens": 4380,
+      "latency_s": 54.516,
+      "n": 4
+    },
+    {
+      "id": "mmlu-71",
+      "pass@1": true,
+      "final": true,
+      "tokens": 13576,
+      "latency_s": 121.448,
+      "n": 4
+    },
+    {
+      "id": "mmlu-72",
+      "pass@1": true,
+      "final": true,
+      "tokens": 7636,
+      "latency_s": 88.228,
+      "n": 4
+    },
+    {
+      "id": "mmlu-73",
+      "pass@1": true,
+      "final": true,
+      "tokens": 2576,
+      "latency_s": 16.626,
+      "n": 4
+    },
+    {
+      "id": "mmlu-74",
+      "pass@1": true,
+      "final": true,
+      "tokens": 20412,
+      "latency_s": 166.668,
+      "n": 4
+    },
+    {
+      "id": "mmlu-75",
+      "pass@1": true,
+      "final": true,
+      "tokens": 3088,
+      "latency_s": 18.46,
+      "n": 4
+    },
+    {
+      "id": "mmlu-76",
+      "pass@1": true,
+      "final": true,
+      "tokens": 2556,
+      "latency_s": 17.002,
+      "n": 4
+    },
+    {
+      "id": "mmlu-77",
+      "pass@1": true,
+      "final": true,
+      "tokens": 4856,
+      "latency_s": 32.419,
+      "n": 4
+    },
+    {
+      "id": "mmlu-78",
+      "pass@1": true,
+      "final": true,
+      "tokens": 3304,
+      "latency_s": 32.364,
+      "n": 4
+    },
+    {
+      "id": "mmlu-79",
+      "pass@1": true,
+      "final": true,
+      "tokens": 14112,
+      "latency_s": 103.496,
+      "n": 4
+    },
+    {
+      "id": "mmlu-80",
+      "pass@1": true,
+      "final": true,
+      "tokens": 28880,
+      "latency_s": 201.075,
+      "n": 4
+    },
+    {
+      "id": "mmlu-81",
+      "pass@1": true,
+      "final": true,
+      "tokens": 2996,
+      "latency_s": 40.133,
+      "n": 4
+    },
+    {
+      "id": "mmlu-82",
+      "pass@1": true,
+      "final": true,
+      "tokens": 24344,
+      "latency_s": 200.927,
+      "n": 4
+    },
+    {
+      "id": "mmlu-83",
+      "pass@1": true,
+      "final": true,
+      "tokens": 5096,
+      "latency_s": 36.328,
+      "n": 4
+    },
+    {
+      "id": "mmlu-84",
+      "pass@1": true,
+      "final": true,
+      "tokens": 8600,
+      "latency_s": 66.651,
+      "n": 4
+    },
+    {
+      "id": "mmlu-85",
+      "pass@1": false,
+      "final": false,
+      "tokens": 17888,
+      "latency_s": 193.119,
+      "n": 4
+    },
+    {
+      "id": "mmlu-86",
+      "pass@1": true,
+      "final": true,
+      "tokens": 5772,
+      "latency_s": 50.656,
+      "n": 4
+    },
+    {
+      "id": "mmlu-87",
+      "pass@1": true,
+      "final": true,
+      "tokens": 3572,
+      "latency_s": 23.825,
+      "n": 4
+    },
+    {
+      "id": "mmlu-88",
+      "pass@1": true,
+      "final": true,
+      "tokens": 12124,
+      "latency_s": 168.978,
+      "n": 4
+    },
+    {
+      "id": "mmlu-89",
+      "pass@1": false,
+      "final": false,
+      "tokens": 9300,
+      "latency_s": 97.403,
+      "n": 4
+    },
+    {
+      "id": "mmlu-90",
+      "pass@1": true,
+      "final": true,
+      "tokens": 3480,
+      "latency_s": 22.474,
+      "n": 4
+    },
+    {
+      "id": "mmlu-91",
+      "pass@1": true,
+      "final": true,
+      "tokens": 5608,
+      "latency_s": 51.093,
+      "n": 4
+    },
+    {
+      "id": "mmlu-92",
+      "pass@1": true,
+      "final": true,
+      "tokens": 6740,
+      "latency_s": 84.118,
+      "n": 4
+    },
+    {
+      "id": "mmlu-93",
+      "pass@1": true,
+      "final": true,
+      "tokens": 18188,
+      "latency_s": 152.156,
+      "n": 4
+    },
+    {
+      "id": "mmlu-94",
+      "pass@1": true,
+      "final": true,
+      "tokens": 3324,
+      "latency_s": 19.233,
+      "n": 4
+    },
+    {
+      "id": "mmlu-95",
+      "pass@1": true,
+      "final": true,
+      "tokens": 10008,
+      "latency_s": 65.537,
+      "n": 4
+    },
+    {
+      "id": "mmlu-96",
+      "pass@1": true,
+      "final": true,
+      "tokens": 5444,
+      "latency_s": 41.853,
+      "n": 4
+    },
+    {
+      "id": "mmlu-97",
+      "pass@1": true,
+      "final": true,
+      "tokens": 1908,
+      "latency_s": 11.03,
+      "n": 4
+    },
+    {
+      "id": "mmlu-98",
+      "pass@1": true,
+      "final": true,
+      "tokens": 1352,
+      "latency_s": 12.219,
+      "n": 4
+    },
+    {
+      "id": "mmlu-99",
+      "pass@1": true,
+      "final": true,
+      "tokens": 5076,
+      "latency_s": 46.628,
+      "n": 4
+    },
+    {
+      "id": "mmlu-100",
+      "pass@1": true,
+      "final": true,
+      "tokens": 11284,
+      "latency_s": 129.032,
+      "n": 4
+    },
+    {
+      "id": "mmlu-101",
+      "pass@1": false,
+      "final": true,
+      "tokens": 8068,
+      "latency_s": 53.759,
+      "n": 4
+    },
+    {
+      "id": "mmlu-102",
+      "pass@1": true,
+      "final": false,
+      "tokens": 8156,
+      "latency_s": 105.326,
+      "n": 4
+    },
+    {
+      "id": "mmlu-103",
+      "pass@1": true,
+      "final": true,
+      "tokens": 5188,
+      "latency_s": 53.782,
+      "n": 4
+    },
+    {
+      "id": "mmlu-104",
+      "pass@1": true,
+      "final": true,
+      "tokens": 7968,
+      "latency_s": 66.688,
+      "n": 4
+    },
+    {
+      "id": "mmlu-105",
+      "pass@1": true,
+      "final": true,
+      "tokens": 11444,
+      "latency_s": 96.081,
+      "n": 4
+    },
+    {
+      "id": "mmlu-106",
+      "pass@1": true,
+      "final": true,
+      "tokens": 4648,
+      "latency_s": 33.189,
+      "n": 4
+    },
+    {
+      "id": "mmlu-107",
+      "pass@1": true,
+      "final": true,
+      "tokens": 6180,
+      "latency_s": 61.402,
+      "n": 4
+    },
+    {
+      "id": "mmlu-108",
+      "pass@1": true,
+      "final": true,
+      "tokens": 7244,
+      "latency_s": 53.393,
+      "n": 4
+    },
+    {
+      "id": "mmlu-109",
+      "pass@1": true,
+      "final": true,
+      "tokens": 4816,
+      "latency_s": 29.05,
+      "n": 4
+    },
+    {
+      "id": "mmlu-110",
+      "pass@1": true,
+      "final": true,
+      "tokens": 2772,
+      "latency_s": 16.841,
+      "n": 4
+    },
+    {
+      "id": "mmlu-111",
+      "pass@1": true,
+      "final": true,
+      "tokens": 28412,
+      "latency_s": 199.977,
+      "n": 4
+    },
+    {
+      "id": "mmlu-112",
+      "pass@1": true,
+      "final": true,
+      "tokens": 7636,
+      "latency_s": 44.832,
+      "n": 4
+    },
+    {
+      "id": "mmlu-113",
+      "pass@1": true,
+      "final": true,
+      "tokens": 3588,
+      "latency_s": 20.2,
+      "n": 4
+    },
+    {
+      "id": "mmlu-114",
+      "pass@1": true,
+      "final": true,
+      "tokens": 2784,
+      "latency_s": 17.947,
+      "n": 4
+    },
+    {
+      "id": "mmlu-115",
+      "pass@1": true,
+      "final": true,
+      "tokens": 5064,
+      "latency_s": 60.298,
+      "n": 4
+    },
+    {
+      "id": "mmlu-116",
+      "pass@1": false,
+      "final": false,
+      "tokens": 27556,
+      "latency_s": 201.982,
+      "n": 4
+    },
+    {
+      "id": "mmlu-117",
+      "pass@1": false,
+      "final": false,
+      "tokens": 12344,
+      "latency_s": 131.147,
+      "n": 4
+    },
+    {
+      "id": "mmlu-118",
+      "pass@1": true,
+      "final": true,
+      "tokens": 3712,
+      "latency_s": 23.007,
+      "n": 4
+    },
+    {
+      "id": "mmlu-119",
+      "pass@1": true,
+      "final": true,
+      "tokens": 1948,
+      "latency_s": 18.715,
+      "n": 4
+    },
+    {
+      "id": "mmlu-120",
+      "pass@1": false,
+      "final": false,
+      "tokens": 33740,
+      "latency_s": 205.74,
+      "n": 4
+    },
+    {
+      "id": "mmlu-121",
+      "pass@1": true,
+      "final": false,
+      "tokens": 10216,
+      "latency_s": 187.588,
+      "n": 4
+    },
+    {
+      "id": "mmlu-122",
+      "pass@1": true,
+      "final": true,
+      "tokens": 25044,
+      "latency_s": 243.759,
+      "n": 4
+    },
+    {
+      "id": "mmlu-123",
+      "pass@1": true,
+      "final": true,
+      "tokens": 5036,
+      "latency_s": 99.222,
+      "n": 4
+    },
+    {
+      "id": "mmlu-124",
+      "pass@1": false,
+      "final": true,
+      "tokens": 12640,
+      "latency_s": 145.361,
+      "n": 4
+    },
+    {
+      "id": "mmlu-125",
+      "pass@1": true,
+      "final": true,
+      "tokens": 3512,
+      "latency_s": 46.984,
+      "n": 4
+    },
+    {
+      "id": "mmlu-126",
+      "pass@1": true,
+      "final": false,
+      "tokens": 33052,
+      "latency_s": 212.437,
+      "n": 4
+    },
+    {
+      "id": "mmlu-127",
+      "pass@1": true,
+      "final": true,
+      "tokens": 20700,
+      "latency_s": 207.891,
+      "n": 4
+    },
+    {
+      "id": "mmlu-128",
+      "pass@1": true,
+      "final": true,
+      "tokens": 4608,
+      "latency_s": 33.338,
+      "n": 4
+    },
+    {
+      "id": "mmlu-129",
+      "pass@1": true,
+      "final": true,
+      "tokens": 27816,
+      "latency_s": 207.446,
+      "n": 4
+    },
+    {
+      "id": "mmlu-130",
+      "pass@1": true,
+      "final": true,
+      "tokens": 5068,
+      "latency_s": 46.396,
+      "n": 4
+    },
+    {
+      "id": "mmlu-131",
+      "pass@1": true,
+      "final": true,
+      "tokens": 2112,
+      "latency_s": 11.687,
+      "n": 4
+    },
+    {
+      "id": "mmlu-132",
+      "pass@1": true,
+      "final": true,
+      "tokens": 24408,
+      "latency_s": 221.057,
+      "n": 4
+    },
+    {
+      "id": "mmlu-133",
+      "pass@1": true,
+      "final": true,
+      "tokens": 21272,
+      "latency_s": 279.77,
+      "n": 4
+    },
+    {
+      "id": "mmlu-134",
+      "pass@1": true,
+      "final": true,
+      "tokens": 1172,
+      "latency_s": 5.105,
+      "n": 4
+    },
+    {
+      "id": "mmlu-135",
+      "pass@1": true,
+      "final": true,
+      "tokens": 8580,
+      "latency_s": 193.517,
+      "n": 4
+    },
+    {
+      "id": "mmlu-136",
+      "pass@1": true,
+      "final": true,
+      "tokens": 2744,
+      "latency_s": 14.882,
+      "n": 4
+    },
+    {
+      "id": "mmlu-137",
+      "pass@1": true,
+      "final": true,
+      "tokens": 2156,
+      "latency_s": 12.525,
+      "n": 4
+    },
+    {
+      "id": "mmlu-138",
+      "pass@1": true,
+      "final": true,
+      "tokens": 1720,
+      "latency_s": 8.885,
+      "n": 4
+    },
+    {
+      "id": "mmlu-139",
+      "pass@1": true,
+      "final": true,
+      "tokens": 2324,
+      "latency_s": 36.631,
+      "n": 4
+    },
+    {
+      "id": "mmlu-140",
+      "pass@1": true,
+      "final": true,
+      "tokens": 2172,
+      "latency_s": 11.361,
+      "n": 4
+    },
+    {
+      "id": "mmlu-141",
+      "pass@1": true,
+      "final": true,
+      "tokens": 16288,
+      "latency_s": 180.225,
+      "n": 4
+    },
+    {
+      "id": "mmlu-142",
+      "pass@1": true,
+      "final": true,
+      "tokens": 2168,
+      "latency_s": 13.327,
+      "n": 4
+    },
+    {
+      "id": "mmlu-143",
+      "pass@1": true,
+      "final": true,
+      "tokens": 2988,
+      "latency_s": 19.511,
+      "n": 4
+    },
+    {
+      "id": "mmlu-144",
+      "pass@1": true,
+      "final": true,
+      "tokens": 5436,
+      "latency_s": 39.306,
+      "n": 4
+    },
+    {
+      "id": "mmlu-145",
+      "pass@1": true,
+      "final": true,
+      "tokens": 6960,
+      "latency_s": 47.01,
+      "n": 4
+    },
+    {
+      "id": "mmlu-146",
+      "pass@1": true,
+      "final": true,
+      "tokens": 3888,
+      "latency_s": 25.848,
+      "n": 4
+    },
+    {
+      "id": "mmlu-147",
+      "pass@1": true,
+      "final": true,
+      "tokens": 2348,
+      "latency_s": 13.155,
+      "n": 4
+    },
+    {
+      "id": "mmlu-148",
+      "pass@1": true,
+      "final": true,
+      "tokens": 10572,
+      "latency_s": 75.812,
+      "n": 4
+    },
+    {
+      "id": "mmlu-149",
+      "pass@1": true,
+      "final": true,
+      "tokens": 2956,
+      "latency_s": 15.35,
+      "n": 4
+    }
+  ]
+}

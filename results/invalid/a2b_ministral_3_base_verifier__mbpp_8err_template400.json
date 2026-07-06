@@ -1,0 +1,788 @@
+{
+  "baseline": "3_base_verifier",
+  "benchmark": "mbpp",
+  "n_problems": 100,
+  "n_errors": 8,
+  "quality": {
+    "pass@1": 68.48,
+    "final": 88.04
+  },
+  "system": {
+    "avg_tokens_per_problem": 2948.5,
+    "avg_samples_per_problem": 8.0,
+    "avg_latency_s": 12.192,
+    "wall_time_s": 168.5,
+    "peak_ram_mb": 167.1,
+    "peak_vram_mb": 0.0
+  },
+  "per_problem": [
+    {
+      "id": "mbpp-11",
+      "pass@1": true,
+      "final": true,
+      "tokens": 1824,
+      "latency_s": 12.717,
+      "n": 8
+    },
+    {
+      "id": "mbpp-12",
+      "pass@1": true,
+      "final": true,
+      "tokens": 3064,
+      "latency_s": 13.071,
+      "n": 8
+    },
+    {
+      "id": "mbpp-14",
+      "pass@1": true,
+      "final": true,
+      "tokens": 3824,
+      "latency_s": 15.226,
+      "n": 8
+    },
+    {
+      "id": "mbpp-16",
+      "pass@1": false,
+      "final": false,
+      "tokens": 3320,
+      "latency_s": 13.918,
+      "n": 8
+    },
+    {
+      "id": "mbpp-17",
+      "pass@1": true,
+      "final": true,
+      "tokens": 2064,
+      "latency_s": 10.473,
+      "n": 8
+    },
+    {
+      "id": "mbpp-18",
+      "pass@1": true,
+      "final": true,
+      "tokens": 2304,
+      "latency_s": 13.911,
+      "n": 8
+    },
+    {
+      "id": "mbpp-19",
+      "pass@1": true,
+      "final": true,
+      "tokens": 2680,
+      "latency_s": 15.011,
+      "n": 8
+    },
+    {
+      "id": "mbpp-20",
+      "pass@1": false,
+      "final": false,
+      "tokens": 3712,
+      "latency_s": 14.86,
+      "n": 8
+    },
+    {
+      "id": "mbpp-56",
+      "pass@1": true,
+      "final": true,
+      "tokens": 3264,
+      "latency_s": 12.39,
+      "n": 8
+    },
+    {
+      "id": "mbpp-57",
+      "pass@1": true,
+      "final": true,
+      "tokens": 2640,
+      "latency_s": 15.035,
+      "n": 8
+    },
+    {
+      "id": "mbpp-58",
+      "pass@1": true,
+      "final": true,
+      "tokens": 2416,
+      "latency_s": 9.395,
+      "n": 8
+    },
+    {
+      "id": "mbpp-59",
+      "error": "Generation failed after 4 attempts: Error code: 400 - {'object': 'error', 'message': '', 'type': 'BadRequestError', 'param': None, 'code': 400}"
+    },
+    {
+      "id": "mbpp-61",
+      "pass@1": true,
+      "final": true,
+      "tokens": 2584,
+      "latency_s": 13.345,
+      "n": 8
+    },
+    {
+      "id": "mbpp-62",
+      "pass@1": false,
+      "final": true,
+      "tokens": 2056,
+      "latency_s": 7.331,
+      "n": 8
+    },
+    {
+      "id": "mbpp-63",
+      "pass@1": true,
+      "final": true,
+      "tokens": 4328,
+      "latency_s": 14.402,
+      "n": 8
+    },
+    {
+      "id": "mbpp-64",
+      "pass@1": true,
+      "final": true,
+      "tokens": 3224,
+      "latency_s": 11.523,
+      "n": 8
+    },
+    {
+      "id": "mbpp-65",
+      "pass@1": true,
+      "final": true,
+      "tokens": 2736,
+      "latency_s": 13.202,
+      "n": 8
+    },
+    {
+      "id": "mbpp-66",
+      "pass@1": false,
+      "final": true,
+      "tokens": 2208,
+      "latency_s": 10.95,
+      "n": 8
+    },
+    {
+      "id": "mbpp-67",
+      "pass@1": false,
+      "final": false,
+      "tokens": 4192,
+      "latency_s": 17.343,
+      "n": 8
+    },
+    {
+      "id": "mbpp-68",
+      "pass@1": true,
+      "final": true,
+      "tokens": 2528,
+      "latency_s": 11.051,
+      "n": 8
+    },
+    {
+      "id": "mbpp-69",
+      "pass@1": true,
+      "final": true,
+      "tokens": 3520,
+      "latency_s": 24.556,
+      "n": 8
+    },
+    {
+      "id": "mbpp-70",
+      "pass@1": false,
+      "final": true,
+      "tokens": 2440,
+      "latency_s": 10.572,
+      "n": 8
+    },
+    {
+      "id": "mbpp-71",
+      "pass@1": true,
+      "final": true,
+      "tokens": 3904,
+      "latency_s": 14.794,
+      "n": 8
+    },
+    {
+      "id": "mbpp-72",
+      "pass@1": false,
+      "final": false,
+      "tokens": 3736,
+      "latency_s": 16.063,
+      "n": 8
+    },
+    {
+      "id": "mbpp-74",
+      "pass@1": false,
+      "final": false,
+      "tokens": 3904,
+      "latency_s": 14.876,
+      "n": 8
+    },
+    {
+      "id": "mbpp-75",
+      "pass@1": true,
+      "final": true,
+      "tokens": 3688,
+      "latency_s": 14.821,
+      "n": 8
+    },
+    {
+      "id": "mbpp-77",
+      "pass@1": false,
+      "final": true,
+      "tokens": 3312,
+      "latency_s": 13.015,
+      "n": 8
+    },
+    {
+      "id": "mbpp-79",
+      "pass@1": true,
+      "final": true,
+      "tokens": 1576,
+      "latency_s": 9.342,
+      "n": 8
+    },
+    {
+      "id": "mbpp-80",
+      "pass@1": false,
+      "final": true,
+      "tokens": 1912,
+      "latency_s": 6.055,
+      "n": 8
+    },
+    {
+      "id": "mbpp-82",
+      "pass@1": true,
+      "final": true,
+      "tokens": 2280,
+      "latency_s": 8.551,
+      "n": 8
+    },
+    {
+      "id": "mbpp-83",
+      "error": "Generation failed after 4 attempts: Error code: 400 - {'object': 'error', 'message': '', 'type': 'BadRequestError', 'param': None, 'code': 400}"
+    },
+    {
+      "id": "mbpp-84",
+      "error": "Generation failed after 4 attempts: Error code: 400 - {'object': 'error', 'message': '', 'type': 'BadRequestError', 'param': None, 'code': 400}"
+    },
+    {
+      "id": "mbpp-85",
+      "pass@1": true,
+      "final": true,
+      "tokens": 2840,
+      "latency_s": 10.943,
+      "n": 8
+    },
+    {
+      "id": "mbpp-86",
+      "error": "Generation failed after 4 attempts: Error code: 400 - {'object': 'error', 'message': '', 'type': 'BadRequestError', 'param': None, 'code': 400}"
+    },
+    {
+      "id": "mbpp-87",
+      "pass@1": false,
+      "final": false,
+      "tokens": 3384,
+      "latency_s": 9.409,
+      "n": 8
+    },
+    {
+      "id": "mbpp-88",
+      "pass@1": true,
+      "final": true,
+      "tokens": 3824,
+      "latency_s": 15.3,
+      "n": 8
+    },
+    {
+      "id": "mbpp-89",
+      "pass@1": true,
+      "final": true,
+      "tokens": 3016,
+      "latency_s": 11.965,
+      "n": 8
+    },
+    {
+      "id": "mbpp-90",
+      "pass@1": true,
+      "final": true,
+      "tokens": 1960,
+      "latency_s": 8.298,
+      "n": 8
+    },
+    {
+      "id": "mbpp-91",
+      "pass@1": true,
+      "final": true,
+      "tokens": 1520,
+      "latency_s": 5.583,
+      "n": 8
+    },
+    {
+      "id": "mbpp-92",
+      "pass@1": true,
+      "final": true,
+      "tokens": 3272,
+      "latency_s": 11.393,
+      "n": 8
+    },
+    {
+      "id": "mbpp-93",
+      "pass@1": true,
+      "final": true,
+      "tokens": 1936,
+      "latency_s": 9.59,
+      "n": 8
+    },
+    {
+      "id": "mbpp-94",
+      "pass@1": true,
+      "final": true,
+      "tokens": 2792,
+      "latency_s": 11.777,
+      "n": 8
+    },
+    {
+      "id": "mbpp-95",
+      "pass@1": true,
+      "final": true,
+      "tokens": 1432,
+      "latency_s": 6.504,
+      "n": 8
+    },
+    {
+      "id": "mbpp-96",
+      "pass@1": true,
+      "final": true,
+      "tokens": 2216,
+      "latency_s": 10.248,
+      "n": 8
+    },
+    {
+      "id": "mbpp-97",
+      "pass@1": true,
+      "final": true,
+      "tokens": 3576,
+      "latency_s": 13.554,
+      "n": 8
+    },
+    {
+      "id": "mbpp-98",
+      "pass@1": true,
+      "final": true,
+      "tokens": 2696,
+      "latency_s": 10.025,
+      "n": 8
+    },
+    {
+      "id": "mbpp-99",
+      "pass@1": true,
+      "final": true,
+      "tokens": 3096,
+      "latency_s": 10.942,
+      "n": 8
+    },
+    {
+      "id": "mbpp-100",
+      "pass@1": false,
+      "final": true,
+      "tokens": 3760,
+      "latency_s": 15.514,
+      "n": 8
+    },
+    {
+      "id": "mbpp-101",
+      "pass@1": true,
+      "final": true,
+      "tokens": 2880,
+      "latency_s": 11.514,
+      "n": 8
+    },
+    {
+      "id": "mbpp-102",
+      "pass@1": false,
+      "final": true,
+      "tokens": 2408,
+      "latency_s": 9.775,
+      "n": 8
+    },
+    {
+      "id": "mbpp-103",
+      "pass@1": false,
+      "final": false,
+      "tokens": 5200,
+      "latency_s": 17.884,
+      "n": 8
+    },
+    {
+      "id": "mbpp-104",
+      "pass@1": true,
+      "final": true,
+      "tokens": 2944,
+      "latency_s": 10.287,
+      "n": 8
+    },
+    {
+      "id": "mbpp-105",
+      "pass@1": false,
+      "final": true,
+      "tokens": 1896,
+      "latency_s": 11.266,
+      "n": 8
+    },
+    {
+      "id": "mbpp-106",
+      "pass@1": true,
+      "final": true,
+      "tokens": 2440,
+      "latency_s": 11.686,
+      "n": 8
+    },
+    {
+      "id": "mbpp-108",
+      "pass@1": true,
+      "final": true,
+      "tokens": 4808,
+      "latency_s": 15.567,
+      "n": 8
+    },
+    {
+      "id": "mbpp-109",
+      "pass@1": true,
+      "final": true,
+      "tokens": 3176,
+      "latency_s": 16.172,
+      "n": 8
+    },
+    {
+      "id": "mbpp-111",
+      "pass@1": false,
+      "final": true,
+      "tokens": 3656,
+      "latency_s": 15.333,
+      "n": 8
+    },
+    {
+      "id": "mbpp-113",
+      "pass@1": true,
+      "final": true,
+      "tokens": 2544,
+      "latency_s": 11.671,
+      "n": 8
+    },
+    {
+      "id": "mbpp-115",
+      "pass@1": false,
+      "final": true,
+      "tokens": 2256,
+      "latency_s": 11.693,
+      "n": 8
+    },
+    {
+      "id": "mbpp-116",
+      "pass@1": true,
+      "final": true,
+      "tokens": 2960,
+      "latency_s": 12.758,
+      "n": 8
+    },
+    {
+      "id": "mbpp-117",
+      "pass@1": true,
+      "final": true,
+      "tokens": 3096,
+      "latency_s": 11.879,
+      "n": 8
+    },
+    {
+      "id": "mbpp-118",
+      "pass@1": true,
+      "final": true,
+      "tokens": 1864,
+      "latency_s": 6.842,
+      "n": 8
+    },
+    {
+      "id": "mbpp-119",
+      "pass@1": false,
+      "final": true,
+      "tokens": 3056,
+      "latency_s": 14.254,
+      "n": 8
+    },
+    {
+      "id": "mbpp-120",
+      "pass@1": false,
+      "final": true,
+      "tokens": 3328,
+      "latency_s": 13.275,
+      "n": 8
+    },
+    {
+      "id": "mbpp-123",
+      "pass@1": false,
+      "final": true,
+      "tokens": 3784,
+      "latency_s": 17.898,
+      "n": 8
+    },
+    {
+      "id": "mbpp-124",
+      "error": "Generation failed after 4 attempts: Error code: 400 - {'object': 'error', 'message': '', 'type': 'BadRequestError', 'param': None, 'code': 400}"
+    },
+    {
+      "id": "mbpp-125",
+      "error": "Generation failed after 4 attempts: Error code: 400 - {'object': 'error', 'message': '', 'type': 'BadRequestError', 'param': None, 'code': 400}"
+    },
+    {
+      "id": "mbpp-126",
+      "error": "Generation failed after 4 attempts: Error code: 400 - {'object': 'error', 'message': '', 'type': 'BadRequestError', 'param': None, 'code': 400}"
+    },
+    {
+      "id": "mbpp-127",
+      "pass@1": true,
+      "final": true,
+      "tokens": 1536,
+      "latency_s": 5.581,
+      "n": 8
+    },
+    {
+      "id": "mbpp-128",
+      "pass@1": true,
+      "final": true,
+      "tokens": 2152,
+      "latency_s": 9.593,
+      "n": 8
+    },
+    {
+      "id": "mbpp-129",
+      "pass@1": true,
+      "final": true,
+      "tokens": 4824,
+      "latency_s": 15.841,
+      "n": 8
+    },
+    {
+      "id": "mbpp-130",
+      "pass@1": false,
+      "final": true,
+      "tokens": 2720,
+      "latency_s": 11.977,
+      "n": 8
+    },
+    {
+      "id": "mbpp-131",
+      "pass@1": true,
+      "final": true,
+      "tokens": 3992,
+      "latency_s": 20.56,
+      "n": 8
+    },
+    {
+      "id": "mbpp-132",
+      "pass@1": true,
+      "final": true,
+      "tokens": 2216,
+      "latency_s": 6.668,
+      "n": 8
+    },
+    {
+      "id": "mbpp-133",
+      "pass@1": true,
+      "final": true,
+      "tokens": 2704,
+      "latency_s": 9.451,
+      "n": 8
+    },
+    {
+      "id": "mbpp-135",
+      "pass@1": true,
+      "final": true,
+      "tokens": 2504,
+      "latency_s": 9.466,
+      "n": 8
+    },
+    {
+      "id": "mbpp-137",
+      "pass@1": false,
+      "final": true,
+      "tokens": 3952,
+      "latency_s": 18.316,
+      "n": 8
+    },
+    {
+      "id": "mbpp-138",
+      "pass@1": false,
+      "final": false,
+      "tokens": 3040,
+      "latency_s": 12.408,
+      "n": 8
+    },
+    {
+      "id": "mbpp-139",
+      "pass@1": true,
+      "final": true,
+      "tokens": 2648,
+      "latency_s": 8.513,
+      "n": 8
+    },
+    {
+      "id": "mbpp-140",
+      "pass@1": true,
+      "final": true,
+      "tokens": 3048,
+      "latency_s": 12.869,
+      "n": 8
+    },
+    {
+      "id": "mbpp-141",
+      "pass@1": false,
+      "final": true,
+      "tokens": 4928,
+      "latency_s": 20.305,
+      "n": 8
+    },
+    {
+      "id": "mbpp-142",
+      "pass@1": true,
+      "final": true,
+      "tokens": 3184,
+      "latency_s": 10.334,
+      "n": 8
+    },
+    {
+      "id": "mbpp-143",
+      "pass@1": false,
+      "final": false,
+      "tokens": 3184,
+      "latency_s": 12.076,
+      "n": 8
+    },
+    {
+      "id": "mbpp-145",
+      "pass@1": false,
+      "final": true,
+      "tokens": 2968,
+      "latency_s": 14.445,
+      "n": 8
+    },
+    {
+      "id": "mbpp-160",
+      "error": "Generation failed after 4 attempts: Error code: 400 - {'object': 'error', 'message': '', 'type': 'BadRequestError', 'param': None, 'code': 400}"
+    },
+    {
+      "id": "mbpp-161",
+      "pass@1": true,
+      "final": true,
+      "tokens": 2968,
+      "latency_s": 12.76,
+      "n": 8
+    },
+    {
+      "id": "mbpp-162",
+      "pass@1": true,
+      "final": true,
+      "tokens": 3648,
+      "latency_s": 14.621,
+      "n": 8
+    },
+    {
+      "id": "mbpp-163",
+      "pass@1": true,
+      "final": true,
+      "tokens": 2816,
+      "latency_s": 12.004,
+      "n": 8
+    },
+    {
+      "id": "mbpp-164",
+      "pass@1": true,
+      "final": true,
+      "tokens": 3464,
+      "latency_s": 13.354,
+      "n": 8
+    },
+    {
+      "id": "mbpp-165",
+      "pass@1": false,
+      "final": false,
+      "tokens": 3632,
+      "latency_s": 16.125,
+      "n": 8
+    },
+    {
+      "id": "mbpp-166",
+      "pass@1": false,
+      "final": true,
+      "tokens": 3912,
+      "latency_s": 15.887,
+      "n": 8
+    },
+    {
+      "id": "mbpp-167",
+      "pass@1": false,
+      "final": false,
+      "tokens": 3120,
+      "latency_s": 11.37,
+      "n": 8
+    },
+    {
+      "id": "mbpp-168",
+      "pass@1": true,
+      "final": true,
+      "tokens": 1832,
+      "latency_s": 7.06,
+      "n": 8
+    },
+    {
+      "id": "mbpp-170",
+      "pass@1": true,
+      "final": true,
+      "tokens": 2424,
+      "latency_s": 10.133,
+      "n": 8
+    },
+    {
+      "id": "mbpp-171",
+      "pass@1": true,
+      "final": true,
+      "tokens": 2056,
+      "latency_s": 8.525,
+      "n": 8
+    },
+    {
+      "id": "mbpp-172",
+      "pass@1": true,
+      "final": true,
+      "tokens": 1808,
+      "latency_s": 5.849,
+      "n": 8
+    },
+    {
+      "id": "mbpp-222",
+      "pass@1": true,
+      "final": true,
+      "tokens": 2432,
+      "latency_s": 9.214,
+      "n": 8
+    },
+    {
+      "id": "mbpp-223",
+      "pass@1": true,
+      "final": true,
+      "tokens": 4136,
+      "latency_s": 12.393,
+      "n": 8
+    },
+    {
+      "id": "mbpp-224",
+      "pass@1": true,
+      "final": true,
+      "tokens": 1712,
+      "latency_s": 6.422,
+      "n": 8
+    },
+    {
+      "id": "mbpp-226",
+      "pass@1": true,
+      "final": true,
+      "tokens": 2848,
+      "latency_s": 8.957,
+      "n": 8
+    }
+  ]
+}

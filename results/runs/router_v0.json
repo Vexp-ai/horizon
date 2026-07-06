@@ -1,0 +1,21 @@
+{
+  "accuracy": 0.6733333333333333,
+  "n": 300,
+  "confusion_matrix": {
+    "math": {
+      "math": 73,
+      "code": 17,
+      "science": 10
+    },
+    "code": {
+      "math": 30,
+      "code": 70,
+      "science": 0
+    },
+    "science": {
+      "math": 26,
+      "code": 15,
+      "science": 59
+    }
+  }
+}
