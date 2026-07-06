@@ -1,0 +1,820 @@
+{
+  "baseline": "3_base_verifier",
+  "benchmark": "math500",
+  "n_problems": 100,
+  "n_errors": 0,
+  "quality": {
+    "pass@1": 53.0,
+    "final": 70.0
+  },
+  "system": {
+    "avg_tokens_per_problem": 8068.6,
+    "avg_samples_per_problem": 16.0,
+    "avg_latency_s": 49.704,
+    "wall_time_s": 742.8,
+    "peak_ram_mb": 222.0,
+    "peak_vram_mb": 0.0
+  },
+  "per_problem": [
+    {
+      "id": "math500-0",
+      "pass@1": true,
+      "final": true,
+      "tokens": 5040,
+      "latency_s": 12.643,
+      "n": 16
+    },
+    {
+      "id": "math500-1",
+      "pass@1": true,
+      "final": true,
+      "tokens": 13584,
+      "latency_s": 46.372,
+      "n": 16
+    },
+    {
+      "id": "math500-2",
+      "pass@1": true,
+      "final": true,
+      "tokens": 6272,
+      "latency_s": 17.42,
+      "n": 16
+    },
+    {
+      "id": "math500-3",
+      "pass@1": true,
+      "final": true,
+      "tokens": 4752,
+      "latency_s": 18.958,
+      "n": 16
+    },
+    {
+      "id": "math500-4",
+      "pass@1": true,
+      "final": true,
+      "tokens": 13216,
+      "latency_s": 24.921,
+      "n": 16
+    },
+    {
+      "id": "math500-5",
+      "pass@1": false,
+      "final": false,
+      "tokens": 4192,
+      "latency_s": 13.194,
+      "n": 16
+    },
+    {
+      "id": "math500-6",
+      "pass@1": true,
+      "final": true,
+      "tokens": 6816,
+      "latency_s": 23.053,
+      "n": 16
+    },
+    {
+      "id": "math500-7",
+      "pass@1": false,
+      "final": false,
+      "tokens": 11744,
+      "latency_s": 38.43,
+      "n": 16
+    },
+    {
+      "id": "math500-8",
+      "pass@1": true,
+      "final": true,
+      "tokens": 5184,
+      "latency_s": 10.803,
+      "n": 16
+    },
+    {
+      "id": "math500-9",
+      "pass@1": false,
+      "final": false,
+      "tokens": 16096,
+      "latency_s": 54.122,
+      "n": 16
+    },
+    {
+      "id": "math500-10",
+      "pass@1": false,
+      "final": true,
+      "tokens": 22528,
+      "latency_s": 265.183,
+      "n": 16
+    },
+    {
+      "id": "math500-11",
+      "pass@1": false,
+      "final": false,
+      "tokens": 11792,
+      "latency_s": 47.142,
+      "n": 16
+    },
+    {
+      "id": "math500-12",
+      "pass@1": false,
+      "final": true,
+      "tokens": 5600,
+      "latency_s": 21.111,
+      "n": 16
+    },
+    {
+      "id": "math500-13",
+      "pass@1": true,
+      "final": true,
+      "tokens": 6608,
+      "latency_s": 9.26,
+      "n": 16
+    },
+    {
+      "id": "math500-14",
+      "pass@1": true,
+      "final": false,
+      "tokens": 6048,
+      "latency_s": 15.832,
+      "n": 16
+    },
+    {
+      "id": "math500-15",
+      "pass@1": false,
+      "final": false,
+      "tokens": 36432,
+      "latency_s": 312.507,
+      "n": 16
+    },
+    {
+      "id": "math500-16",
+      "pass@1": true,
+      "final": true,
+      "tokens": 4080,
+      "latency_s": 11.369,
+      "n": 16
+    },
+    {
+      "id": "math500-17",
+      "pass@1": false,
+      "final": false,
+      "tokens": 9248,
+      "latency_s": 17.002,
+      "n": 16
+    },
+    {
+      "id": "math500-18",
+      "pass@1": true,
+      "final": true,
+      "tokens": 7568,
+      "latency_s": 13.106,
+      "n": 16
+    },
+    {
+      "id": "math500-19",
+      "pass@1": true,
+      "final": true,
+      "tokens": 10144,
+      "latency_s": 26.24,
+      "n": 16
+    },
+    {
+      "id": "math500-20",
+      "pass@1": false,
+      "final": true,
+      "tokens": 2816,
+      "latency_s": 6.366,
+      "n": 16
+    },
+    {
+      "id": "math500-21",
+      "pass@1": false,
+      "final": false,
+      "tokens": 10784,
+      "latency_s": 38.538,
+      "n": 16
+    },
+    {
+      "id": "math500-22",
+      "pass@1": true,
+      "final": true,
+      "tokens": 24352,
+      "latency_s": 380.944,
+      "n": 16
+    },
+    {
+      "id": "math500-23",
+      "pass@1": true,
+      "final": true,
+      "tokens": 7536,
+      "latency_s": 25.28,
+      "n": 16
+    },
+    {
+      "id": "math500-24",
+      "pass@1": false,
+      "final": false,
+      "tokens": 10736,
+      "latency_s": 28.513,
+      "n": 16
+    },
+    {
+      "id": "math500-25",
+      "pass@1": false,
+      "final": false,
+      "tokens": 10768,
+      "latency_s": 38.071,
+      "n": 16
+    },
+    {
+      "id": "math500-26",
+      "pass@1": false,
+      "final": false,
+      "tokens": 10384,
+      "latency_s": 43.302,
+      "n": 16
+    },
+    {
+      "id": "math500-27",
+      "pass@1": true,
+      "final": true,
+      "tokens": 6432,
+      "latency_s": 17.186,
+      "n": 16
+    },
+    {
+      "id": "math500-28",
+      "pass@1": true,
+      "final": true,
+      "tokens": 4976,
+      "latency_s": 12.114,
+      "n": 16
+    },
+    {
+      "id": "math500-29",
+      "pass@1": true,
+      "final": true,
+      "tokens": 6000,
+      "latency_s": 11.141,
+      "n": 16
+    },
+    {
+      "id": "math500-30",
+      "pass@1": true,
+      "final": true,
+      "tokens": 4240,
+      "latency_s": 10.694,
+      "n": 16
+    },
+    {
+      "id": "math500-31",
+      "pass@1": true,
+      "final": true,
+      "tokens": 3904,
+      "latency_s": 10.309,
+      "n": 16
+    },
+    {
+      "id": "math500-32",
+      "pass@1": false,
+      "final": true,
+      "tokens": 5760,
+      "latency_s": 12.312,
+      "n": 16
+    },
+    {
+      "id": "math500-33",
+      "pass@1": false,
+      "final": false,
+      "tokens": 8784,
+      "latency_s": 23.347,
+      "n": 16
+    },
+    {
+      "id": "math500-34",
+      "pass@1": false,
+      "final": true,
+      "tokens": 7888,
+      "latency_s": 24.106,
+      "n": 16
+    },
+    {
+      "id": "math500-35",
+      "pass@1": true,
+      "final": true,
+      "tokens": 6256,
+      "latency_s": 17.011,
+      "n": 16
+    },
+    {
+      "id": "math500-36",
+      "pass@1": false,
+      "final": false,
+      "tokens": 8064,
+      "latency_s": 34.915,
+      "n": 16
+    },
+    {
+      "id": "math500-37",
+      "pass@1": true,
+      "final": true,
+      "tokens": 4320,
+      "latency_s": 14.195,
+      "n": 16
+    },
+    {
+      "id": "math500-38",
+      "pass@1": false,
+      "final": true,
+      "tokens": 3248,
+      "latency_s": 6.511,
+      "n": 16
+    },
+    {
+      "id": "math500-39",
+      "pass@1": false,
+      "final": false,
+      "tokens": 6848,
+      "latency_s": 19.438,
+      "n": 16
+    },
+    {
+      "id": "math500-40",
+      "pass@1": true,
+      "final": true,
+      "tokens": 7360,
+      "latency_s": 24.183,
+      "n": 16
+    },
+    {
+      "id": "math500-41",
+      "pass@1": false,
+      "final": false,
+      "tokens": 16448,
+      "latency_s": 405.787,
+      "n": 16
+    },
+    {
+      "id": "math500-42",
+      "pass@1": true,
+      "final": true,
+      "tokens": 4160,
+      "latency_s": 18.32,
+      "n": 16
+    },
+    {
+      "id": "math500-43",
+      "pass@1": false,
+      "final": false,
+      "tokens": 11472,
+      "latency_s": 148.243,
+      "n": 16
+    },
+    {
+      "id": "math500-44",
+      "pass@1": true,
+      "final": true,
+      "tokens": 6800,
+      "latency_s": 155.725,
+      "n": 16
+    },
+    {
+      "id": "math500-45",
+      "pass@1": true,
+      "final": true,
+      "tokens": 4976,
+      "latency_s": 154.631,
+      "n": 16
+    },
+    {
+      "id": "math500-46",
+      "pass@1": false,
+      "final": false,
+      "tokens": 7312,
+      "latency_s": 183.222,
+      "n": 16
+    },
+    {
+      "id": "math500-47",
+      "pass@1": true,
+      "final": true,
+      "tokens": 5568,
+      "latency_s": 34.471,
+      "n": 16
+    },
+    {
+      "id": "math500-48",
+      "pass@1": true,
+      "final": true,
+      "tokens": 3936,
+      "latency_s": 9.933,
+      "n": 16
+    },
+    {
+      "id": "math500-49",
+      "pass@1": true,
+      "final": true,
+      "tokens": 4688,
+      "latency_s": 11.593,
+      "n": 16
+    },
+    {
+      "id": "math500-50",
+      "pass@1": false,
+      "final": false,
+      "tokens": 17552,
+      "latency_s": 291.988,
+      "n": 16
+    },
+    {
+      "id": "math500-51",
+      "pass@1": true,
+      "final": true,
+      "tokens": 8992,
+      "latency_s": 29.07,
+      "n": 16
+    },
+    {
+      "id": "math500-52",
+      "pass@1": true,
+      "final": true,
+      "tokens": 4016,
+      "latency_s": 10.259,
+      "n": 16
+    },
+    {
+      "id": "math500-53",
+      "pass@1": true,
+      "final": true,
+      "tokens": 3632,
+      "latency_s": 11.354,
+      "n": 16
+    },
+    {
+      "id": "math500-54",
+      "pass@1": true,
+      "final": true,
+      "tokens": 2656,
+      "latency_s": 8.134,
+      "n": 16
+    },
+    {
+      "id": "math500-55",
+      "pass@1": true,
+      "final": true,
+      "tokens": 5088,
+      "latency_s": 16.203,
+      "n": 16
+    },
+    {
+      "id": "math500-56",
+      "pass@1": true,
+      "final": true,
+      "tokens": 3504,
+      "latency_s": 11.573,
+      "n": 16
+    },
+    {
+      "id": "math500-57",
+      "pass@1": true,
+      "final": true,
+      "tokens": 6672,
+      "latency_s": 22.795,
+      "n": 16
+    },
+    {
+      "id": "math500-58",
+      "pass@1": false,
+      "final": true,
+      "tokens": 3920,
+      "latency_s": 10.984,
+      "n": 16
+    },
+    {
+      "id": "math500-59",
+      "pass@1": true,
+      "final": true,
+      "tokens": 6640,
+      "latency_s": 17.805,
+      "n": 16
+    },
+    {
+      "id": "math500-60",
+      "pass@1": false,
+      "final": false,
+      "tokens": 11040,
+      "latency_s": 38.547,
+      "n": 16
+    },
+    {
+      "id": "math500-61",
+      "pass@1": true,
+      "final": true,
+      "tokens": 6400,
+      "latency_s": 19.763,
+      "n": 16
+    },
+    {
+      "id": "math500-62",
+      "pass@1": false,
+      "final": false,
+      "tokens": 10896,
+      "latency_s": 37.717,
+      "n": 16
+    },
+    {
+      "id": "math500-63",
+      "pass@1": false,
+      "final": false,
+      "tokens": 10912,
+      "latency_s": 34.247,
+      "n": 16
+    },
+    {
+      "id": "math500-64",
+      "pass@1": false,
+      "final": false,
+      "tokens": 8144,
+      "latency_s": 34.613,
+      "n": 16
+    },
+    {
+      "id": "math500-65",
+      "pass@1": true,
+      "final": true,
+      "tokens": 3184,
+      "latency_s": 24.319,
+      "n": 16
+    },
+    {
+      "id": "math500-66",
+      "pass@1": false,
+      "final": true,
+      "tokens": 4960,
+      "latency_s": 14.663,
+      "n": 16
+    },
+    {
+      "id": "math500-67",
+      "pass@1": true,
+      "final": true,
+      "tokens": 5296,
+      "latency_s": 20.196,
+      "n": 16
+    },
+    {
+      "id": "math500-68",
+      "pass@1": false,
+      "final": true,
+      "tokens": 10960,
+      "latency_s": 39.042,
+      "n": 16
+    },
+    {
+      "id": "math500-69",
+      "pass@1": false,
+      "final": true,
+      "tokens": 17696,
+      "latency_s": 266.964,
+      "n": 16
+    },
+    {
+      "id": "math500-70",
+      "pass@1": true,
+      "final": true,
+      "tokens": 4736,
+      "latency_s": 20.316,
+      "n": 16
+    },
+    {
+      "id": "math500-71",
+      "pass@1": false,
+      "final": false,
+      "tokens": 6736,
+      "latency_s": 32.163,
+      "n": 16
+    },
+    {
+      "id": "math500-72",
+      "pass@1": true,
+      "final": true,
+      "tokens": 5424,
+      "latency_s": 18.262,
+      "n": 16
+    },
+    {
+      "id": "math500-73",
+      "pass@1": false,
+      "final": true,
+      "tokens": 4848,
+      "latency_s": 10.843,
+      "n": 16
+    },
+    {
+      "id": "math500-74",
+      "pass@1": true,
+      "final": true,
+      "tokens": 5344,
+      "latency_s": 24.368,
+      "n": 16
+    },
+    {
+      "id": "math500-75",
+      "pass@1": true,
+      "final": true,
+      "tokens": 6752,
+      "latency_s": 17.758,
+      "n": 16
+    },
+    {
+      "id": "math500-76",
+      "pass@1": true,
+      "final": true,
+      "tokens": 5232,
+      "latency_s": 15.723,
+      "n": 16
+    },
+    {
+      "id": "math500-77",
+      "pass@1": true,
+      "final": true,
+      "tokens": 3824,
+      "latency_s": 8.202,
+      "n": 16
+    },
+    {
+      "id": "math500-78",
+      "pass@1": false,
+      "final": true,
+      "tokens": 18896,
+      "latency_s": 251.926,
+      "n": 16
+    },
+    {
+      "id": "math500-79",
+      "pass@1": false,
+      "final": true,
+      "tokens": 3616,
+      "latency_s": 7.113,
+      "n": 16
+    },
+    {
+      "id": "math500-80",
+      "pass@1": false,
+      "final": false,
+      "tokens": 7168,
+      "latency_s": 24.776,
+      "n": 16
+    },
+    {
+      "id": "math500-81",
+      "pass@1": true,
+      "final": true,
+      "tokens": 6704,
+      "latency_s": 16.69,
+      "n": 16
+    },
+    {
+      "id": "math500-82",
+      "pass@1": false,
+      "final": false,
+      "tokens": 7120,
+      "latency_s": 17.404,
+      "n": 16
+    },
+    {
+      "id": "math500-83",
+      "pass@1": false,
+      "final": false,
+      "tokens": 6672,
+      "latency_s": 26.171,
+      "n": 16
+    },
+    {
+      "id": "math500-84",
+      "pass@1": false,
+      "final": true,
+      "tokens": 8576,
+      "latency_s": 31.176,
+      "n": 16
+    },
+    {
+      "id": "math500-85",
+      "pass@1": false,
+      "final": true,
+      "tokens": 5824,
+      "latency_s": 26.41,
+      "n": 16
+    },
+    {
+      "id": "math500-86",
+      "pass@1": true,
+      "final": true,
+      "tokens": 3168,
+      "latency_s": 6.409,
+      "n": 16
+    },
+    {
+      "id": "math500-87",
+      "pass@1": false,
+      "final": true,
+      "tokens": 5072,
+      "latency_s": 11.578,
+      "n": 16
+    },
+    {
+      "id": "math500-88",
+      "pass@1": true,
+      "final": true,
+      "tokens": 9200,
+      "latency_s": 22.276,
+      "n": 16
+    },
+    {
+      "id": "math500-89",
+      "pass@1": false,
+      "final": true,
+      "tokens": 8880,
+      "latency_s": 26.821,
+      "n": 16
+    },
+    {
+      "id": "math500-90",
+      "pass@1": true,
+      "final": true,
+      "tokens": 3232,
+      "latency_s": 7.326,
+      "n": 16
+    },
+    {
+      "id": "math500-91",
+      "pass@1": false,
+      "final": false,
+      "tokens": 4960,
+      "latency_s": 15.987,
+      "n": 16
+    },
+    {
+      "id": "math500-92",
+      "pass@1": false,
+      "final": true,
+      "tokens": 8272,
+      "latency_s": 24.886,
+      "n": 16
+    },
+    {
+      "id": "math500-93",
+      "pass@1": true,
+      "final": true,
+      "tokens": 6320,
+      "latency_s": 14.38,
+      "n": 16
+    },
+    {
+      "id": "math500-94",
+      "pass@1": false,
+      "final": false,
+      "tokens": 19808,
+      "latency_s": 232.336,
+      "n": 16
+    },
+    {
+      "id": "math500-95",
+      "pass@1": true,
+      "final": true,
+      "tokens": 8224,
+      "latency_s": 21.667,
+      "n": 16
+    },
+    {
+      "id": "math500-96",
+      "pass@1": false,
+      "final": false,
+      "tokens": 17792,
+      "latency_s": 105.188,
+      "n": 16
+    },
+    {
+      "id": "math500-97",
+      "pass@1": true,
+      "final": true,
+      "tokens": 4880,
+      "latency_s": 13.125,
+      "n": 16
+    },
+    {
+      "id": "math500-98",
+      "pass@1": true,
+      "final": true,
+      "tokens": 3136,
+      "latency_s": 9.289,
+      "n": 16
+    },
+    {
+      "id": "math500-99",
+      "pass@1": false,
+      "final": false,
+      "tokens": 10528,
+      "latency_s": 30.522,
+      "n": 16
+    }
+  ]
+}

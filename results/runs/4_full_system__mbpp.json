@@ -1,0 +1,820 @@
+{
+  "baseline": "4_full_system",
+  "benchmark": "mbpp",
+  "n_problems": 100,
+  "n_errors": 0,
+  "quality": {
+    "pass@1": 74.0,
+    "final": 92.0
+  },
+  "system": {
+    "avg_tokens_per_problem": 14661.8,
+    "avg_samples_per_problem": 8.05,
+    "avg_latency_s": 82.28,
+    "wall_time_s": 858.0,
+    "peak_ram_mb": 19687.2,
+    "peak_vram_mb": 0.0
+  },
+  "per_problem": [
+    {
+      "id": "mbpp-11",
+      "pass@1": true,
+      "final": true,
+      "tokens": 23320,
+      "latency_s": 178.518,
+      "n": 8
+    },
+    {
+      "id": "mbpp-12",
+      "pass@1": true,
+      "final": true,
+      "tokens": 9888,
+      "latency_s": 70.902,
+      "n": 8
+    },
+    {
+      "id": "mbpp-14",
+      "pass@1": false,
+      "final": true,
+      "tokens": 6440,
+      "latency_s": 57.731,
+      "n": 8
+    },
+    {
+      "id": "mbpp-16",
+      "pass@1": true,
+      "final": true,
+      "tokens": 23512,
+      "latency_s": 215.163,
+      "n": 8
+    },
+    {
+      "id": "mbpp-17",
+      "pass@1": true,
+      "final": true,
+      "tokens": 3904,
+      "latency_s": 30.114,
+      "n": 8
+    },
+    {
+      "id": "mbpp-18",
+      "pass@1": true,
+      "final": true,
+      "tokens": 11840,
+      "latency_s": 80.417,
+      "n": 8
+    },
+    {
+      "id": "mbpp-19",
+      "pass@1": false,
+      "final": true,
+      "tokens": 5536,
+      "latency_s": 52.469,
+      "n": 8
+    },
+    {
+      "id": "mbpp-20",
+      "pass@1": true,
+      "final": true,
+      "tokens": 18200,
+      "latency_s": 122.32,
+      "n": 8
+    },
+    {
+      "id": "mbpp-56",
+      "pass@1": true,
+      "final": true,
+      "tokens": 13856,
+      "latency_s": 81.18,
+      "n": 8
+    },
+    {
+      "id": "mbpp-57",
+      "pass@1": true,
+      "final": true,
+      "tokens": 10384,
+      "latency_s": 67.243,
+      "n": 8
+    },
+    {
+      "id": "mbpp-58",
+      "pass@1": false,
+      "final": true,
+      "tokens": 8656,
+      "latency_s": 48.25,
+      "n": 8
+    },
+    {
+      "id": "mbpp-59",
+      "pass@1": false,
+      "final": true,
+      "tokens": 6080,
+      "latency_s": 21.527,
+      "n": 8
+    },
+    {
+      "id": "mbpp-61",
+      "pass@1": false,
+      "final": true,
+      "tokens": 30416,
+      "latency_s": 183.262,
+      "n": 8
+    },
+    {
+      "id": "mbpp-62",
+      "pass@1": true,
+      "final": true,
+      "tokens": 6496,
+      "latency_s": 22.683,
+      "n": 8
+    },
+    {
+      "id": "mbpp-63",
+      "pass@1": true,
+      "final": true,
+      "tokens": 13280,
+      "latency_s": 50.126,
+      "n": 8
+    },
+    {
+      "id": "mbpp-64",
+      "pass@1": true,
+      "final": true,
+      "tokens": 7024,
+      "latency_s": 18.446,
+      "n": 8
+    },
+    {
+      "id": "mbpp-65",
+      "pass@1": true,
+      "final": true,
+      "tokens": 9896,
+      "latency_s": 32.688,
+      "n": 8
+    },
+    {
+      "id": "mbpp-66",
+      "pass@1": true,
+      "final": true,
+      "tokens": 6648,
+      "latency_s": 20.314,
+      "n": 8
+    },
+    {
+      "id": "mbpp-67",
+      "pass@1": true,
+      "final": true,
+      "tokens": 25176,
+      "latency_s": 93.514,
+      "n": 8
+    },
+    {
+      "id": "mbpp-68",
+      "pass@1": false,
+      "final": false,
+      "tokens": 14104,
+      "latency_s": 64.852,
+      "n": 8
+    },
+    {
+      "id": "mbpp-69",
+      "pass@1": true,
+      "final": true,
+      "tokens": 15192,
+      "latency_s": 59.221,
+      "n": 8
+    },
+    {
+      "id": "mbpp-70",
+      "pass@1": false,
+      "final": false,
+      "tokens": 9784,
+      "latency_s": 32.79,
+      "n": 8
+    },
+    {
+      "id": "mbpp-71",
+      "pass@1": true,
+      "final": true,
+      "tokens": 31920,
+      "latency_s": 190.184,
+      "n": 8
+    },
+    {
+      "id": "mbpp-72",
+      "pass@1": true,
+      "final": true,
+      "tokens": 21456,
+      "latency_s": 79.294,
+      "n": 8
+    },
+    {
+      "id": "mbpp-74",
+      "pass@1": true,
+      "final": true,
+      "tokens": 17248,
+      "latency_s": 93.058,
+      "n": 8
+    },
+    {
+      "id": "mbpp-75",
+      "pass@1": true,
+      "final": true,
+      "tokens": 9280,
+      "latency_s": 28.511,
+      "n": 8
+    },
+    {
+      "id": "mbpp-77",
+      "pass@1": false,
+      "final": true,
+      "tokens": 16528,
+      "latency_s": 60.727,
+      "n": 8
+    },
+    {
+      "id": "mbpp-79",
+      "pass@1": true,
+      "final": true,
+      "tokens": 5712,
+      "latency_s": 19.586,
+      "n": 8
+    },
+    {
+      "id": "mbpp-80",
+      "pass@1": false,
+      "final": true,
+      "tokens": 7400,
+      "latency_s": 32.051,
+      "n": 8
+    },
+    {
+      "id": "mbpp-82",
+      "pass@1": true,
+      "final": true,
+      "tokens": 6224,
+      "latency_s": 21.818,
+      "n": 8
+    },
+    {
+      "id": "mbpp-83",
+      "pass@1": false,
+      "final": true,
+      "tokens": 44368,
+      "latency_s": 194.977,
+      "n": 8
+    },
+    {
+      "id": "mbpp-84",
+      "pass@1": true,
+      "final": true,
+      "tokens": 31304,
+      "latency_s": 197.224,
+      "n": 8
+    },
+    {
+      "id": "mbpp-85",
+      "pass@1": false,
+      "final": true,
+      "tokens": 6984,
+      "latency_s": 26.907,
+      "n": 8
+    },
+    {
+      "id": "mbpp-86",
+      "pass@1": true,
+      "final": true,
+      "tokens": 5968,
+      "latency_s": 22.967,
+      "n": 8
+    },
+    {
+      "id": "mbpp-87",
+      "pass@1": false,
+      "final": false,
+      "tokens": 10248,
+      "latency_s": 33.697,
+      "n": 8
+    },
+    {
+      "id": "mbpp-88",
+      "pass@1": true,
+      "final": true,
+      "tokens": 9832,
+      "latency_s": 37.696,
+      "n": 8
+    },
+    {
+      "id": "mbpp-89",
+      "pass@1": true,
+      "final": true,
+      "tokens": 13832,
+      "latency_s": 91.9,
+      "n": 8
+    },
+    {
+      "id": "mbpp-90",
+      "pass@1": true,
+      "final": true,
+      "tokens": 15184,
+      "latency_s": 196.563,
+      "n": 8
+    },
+    {
+      "id": "mbpp-91",
+      "pass@1": true,
+      "final": true,
+      "tokens": 8960,
+      "latency_s": 32.463,
+      "n": 8
+    },
+    {
+      "id": "mbpp-92",
+      "pass@1": true,
+      "final": true,
+      "tokens": 25392,
+      "latency_s": 154.942,
+      "n": 8
+    },
+    {
+      "id": "mbpp-93",
+      "pass@1": false,
+      "final": true,
+      "tokens": 4992,
+      "latency_s": 17.206,
+      "n": 8
+    },
+    {
+      "id": "mbpp-94",
+      "pass@1": true,
+      "final": true,
+      "tokens": 12648,
+      "latency_s": 41.505,
+      "n": 8
+    },
+    {
+      "id": "mbpp-95",
+      "pass@1": true,
+      "final": true,
+      "tokens": 8384,
+      "latency_s": 35.069,
+      "n": 8
+    },
+    {
+      "id": "mbpp-96",
+      "pass@1": true,
+      "final": true,
+      "tokens": 14632,
+      "latency_s": 77.295,
+      "n": 8
+    },
+    {
+      "id": "mbpp-97",
+      "pass@1": true,
+      "final": true,
+      "tokens": 10896,
+      "latency_s": 76.523,
+      "n": 8
+    },
+    {
+      "id": "mbpp-98",
+      "pass@1": true,
+      "final": true,
+      "tokens": 9240,
+      "latency_s": 52.308,
+      "n": 8
+    },
+    {
+      "id": "mbpp-99",
+      "pass@1": true,
+      "final": true,
+      "tokens": 11008,
+      "latency_s": 56.685,
+      "n": 8
+    },
+    {
+      "id": "mbpp-100",
+      "pass@1": true,
+      "final": true,
+      "tokens": 16240,
+      "latency_s": 60.595,
+      "n": 8
+    },
+    {
+      "id": "mbpp-101",
+      "pass@1": true,
+      "final": true,
+      "tokens": 6112,
+      "latency_s": 24.909,
+      "n": 8
+    },
+    {
+      "id": "mbpp-102",
+      "pass@1": true,
+      "final": true,
+      "tokens": 14064,
+      "latency_s": 63.911,
+      "n": 8
+    },
+    {
+      "id": "mbpp-103",
+      "pass@1": true,
+      "final": true,
+      "tokens": 23424,
+      "latency_s": 106.929,
+      "n": 8
+    },
+    {
+      "id": "mbpp-104",
+      "pass@1": true,
+      "final": true,
+      "tokens": 11848,
+      "latency_s": 102.611,
+      "n": 8
+    },
+    {
+      "id": "mbpp-105",
+      "pass@1": true,
+      "final": true,
+      "tokens": 5960,
+      "latency_s": 47.102,
+      "n": 8
+    },
+    {
+      "id": "mbpp-106",
+      "pass@1": true,
+      "final": true,
+      "tokens": 8416,
+      "latency_s": 55.661,
+      "n": 8
+    },
+    {
+      "id": "mbpp-108",
+      "pass@1": true,
+      "final": true,
+      "tokens": 17160,
+      "latency_s": 199.015,
+      "n": 8
+    },
+    {
+      "id": "mbpp-109",
+      "pass@1": true,
+      "final": true,
+      "tokens": 46896,
+      "latency_s": 191.41,
+      "n": 8
+    },
+    {
+      "id": "mbpp-111",
+      "pass@1": true,
+      "final": true,
+      "tokens": 11864,
+      "latency_s": 45.481,
+      "n": 8
+    },
+    {
+      "id": "mbpp-113",
+      "pass@1": true,
+      "final": true,
+      "tokens": 9624,
+      "latency_s": 49.744,
+      "n": 8
+    },
+    {
+      "id": "mbpp-115",
+      "pass@1": true,
+      "final": true,
+      "tokens": 8368,
+      "latency_s": 26.183,
+      "n": 8
+    },
+    {
+      "id": "mbpp-116",
+      "pass@1": true,
+      "final": true,
+      "tokens": 10736,
+      "latency_s": 38.823,
+      "n": 8
+    },
+    {
+      "id": "mbpp-117",
+      "pass@1": false,
+      "final": true,
+      "tokens": 15392,
+      "latency_s": 332.07,
+      "n": 9
+    },
+    {
+      "id": "mbpp-118",
+      "pass@1": true,
+      "final": true,
+      "tokens": 5960,
+      "latency_s": 19.206,
+      "n": 8
+    },
+    {
+      "id": "mbpp-119",
+      "pass@1": false,
+      "final": true,
+      "tokens": 29872,
+      "latency_s": 173.014,
+      "n": 8
+    },
+    {
+      "id": "mbpp-120",
+      "pass@1": true,
+      "final": true,
+      "tokens": 28696,
+      "latency_s": 189.473,
+      "n": 8
+    },
+    {
+      "id": "mbpp-123",
+      "pass@1": true,
+      "final": true,
+      "tokens": 41768,
+      "latency_s": 184.206,
+      "n": 8
+    },
+    {
+      "id": "mbpp-124",
+      "pass@1": false,
+      "final": false,
+      "tokens": 15240,
+      "latency_s": 159.37,
+      "n": 10
+    },
+    {
+      "id": "mbpp-125",
+      "pass@1": true,
+      "final": true,
+      "tokens": 34928,
+      "latency_s": 264.445,
+      "n": 8
+    },
+    {
+      "id": "mbpp-126",
+      "pass@1": false,
+      "final": false,
+      "tokens": 17928,
+      "latency_s": 263.309,
+      "n": 10
+    },
+    {
+      "id": "mbpp-127",
+      "pass@1": true,
+      "final": true,
+      "tokens": 5208,
+      "latency_s": 129.913,
+      "n": 8
+    },
+    {
+      "id": "mbpp-128",
+      "pass@1": true,
+      "final": true,
+      "tokens": 7144,
+      "latency_s": 21.151,
+      "n": 8
+    },
+    {
+      "id": "mbpp-129",
+      "pass@1": true,
+      "final": true,
+      "tokens": 16600,
+      "latency_s": 105.112,
+      "n": 8
+    },
+    {
+      "id": "mbpp-130",
+      "pass@1": true,
+      "final": true,
+      "tokens": 15136,
+      "latency_s": 59.72,
+      "n": 8
+    },
+    {
+      "id": "mbpp-131",
+      "pass@1": true,
+      "final": true,
+      "tokens": 27384,
+      "latency_s": 133.588,
+      "n": 8
+    },
+    {
+      "id": "mbpp-132",
+      "pass@1": false,
+      "final": true,
+      "tokens": 6840,
+      "latency_s": 25.699,
+      "n": 8
+    },
+    {
+      "id": "mbpp-133",
+      "pass@1": true,
+      "final": true,
+      "tokens": 8272,
+      "latency_s": 23.81,
+      "n": 8
+    },
+    {
+      "id": "mbpp-135",
+      "pass@1": true,
+      "final": true,
+      "tokens": 6400,
+      "latency_s": 29.859,
+      "n": 8
+    },
+    {
+      "id": "mbpp-137",
+      "pass@1": false,
+      "final": true,
+      "tokens": 11480,
+      "latency_s": 39.97,
+      "n": 8
+    },
+    {
+      "id": "mbpp-138",
+      "pass@1": false,
+      "final": false,
+      "tokens": 33792,
+      "latency_s": 154.63,
+      "n": 8
+    },
+    {
+      "id": "mbpp-139",
+      "pass@1": false,
+      "final": true,
+      "tokens": 5488,
+      "latency_s": 15.106,
+      "n": 8
+    },
+    {
+      "id": "mbpp-140",
+      "pass@1": true,
+      "final": true,
+      "tokens": 9568,
+      "latency_s": 29.798,
+      "n": 8
+    },
+    {
+      "id": "mbpp-141",
+      "pass@1": false,
+      "final": true,
+      "tokens": 27496,
+      "latency_s": 192.648,
+      "n": 8
+    },
+    {
+      "id": "mbpp-142",
+      "pass@1": true,
+      "final": true,
+      "tokens": 12656,
+      "latency_s": 46.714,
+      "n": 8
+    },
+    {
+      "id": "mbpp-143",
+      "pass@1": false,
+      "final": false,
+      "tokens": 8672,
+      "latency_s": 32.855,
+      "n": 8
+    },
+    {
+      "id": "mbpp-145",
+      "pass@1": true,
+      "final": true,
+      "tokens": 9552,
+      "latency_s": 42.897,
+      "n": 8
+    },
+    {
+      "id": "mbpp-160",
+      "pass@1": false,
+      "final": true,
+      "tokens": 54656,
+      "latency_s": 186.978,
+      "n": 8
+    },
+    {
+      "id": "mbpp-161",
+      "pass@1": true,
+      "final": true,
+      "tokens": 11056,
+      "latency_s": 35.606,
+      "n": 8
+    },
+    {
+      "id": "mbpp-162",
+      "pass@1": true,
+      "final": true,
+      "tokens": 12440,
+      "latency_s": 75.517,
+      "n": 8
+    },
+    {
+      "id": "mbpp-163",
+      "pass@1": true,
+      "final": true,
+      "tokens": 15808,
+      "latency_s": 127.875,
+      "n": 8
+    },
+    {
+      "id": "mbpp-164",
+      "pass@1": false,
+      "final": false,
+      "tokens": 19008,
+      "latency_s": 103.196,
+      "n": 8
+    },
+    {
+      "id": "mbpp-165",
+      "pass@1": true,
+      "final": true,
+      "tokens": 15224,
+      "latency_s": 62.406,
+      "n": 8
+    },
+    {
+      "id": "mbpp-166",
+      "pass@1": true,
+      "final": true,
+      "tokens": 10512,
+      "latency_s": 37.009,
+      "n": 8
+    },
+    {
+      "id": "mbpp-167",
+      "pass@1": true,
+      "final": true,
+      "tokens": 24408,
+      "latency_s": 113.41,
+      "n": 8
+    },
+    {
+      "id": "mbpp-168",
+      "pass@1": true,
+      "final": true,
+      "tokens": 6152,
+      "latency_s": 23.718,
+      "n": 8
+    },
+    {
+      "id": "mbpp-170",
+      "pass@1": true,
+      "final": true,
+      "tokens": 8256,
+      "latency_s": 28.488,
+      "n": 8
+    },
+    {
+      "id": "mbpp-171",
+      "pass@1": true,
+      "final": true,
+      "tokens": 4120,
+      "latency_s": 13.889,
+      "n": 8
+    },
+    {
+      "id": "mbpp-172",
+      "pass@1": true,
+      "final": true,
+      "tokens": 6184,
+      "latency_s": 22.467,
+      "n": 8
+    },
+    {
+      "id": "mbpp-222",
+      "pass@1": true,
+      "final": true,
+      "tokens": 9480,
+      "latency_s": 48.508,
+      "n": 8
+    },
+    {
+      "id": "mbpp-223",
+      "pass@1": true,
+      "final": true,
+      "tokens": 19800,
+      "latency_s": 92.489,
+      "n": 8
+    },
+    {
+      "id": "mbpp-224",
+      "pass@1": false,
+      "final": true,
+      "tokens": 8496,
+      "latency_s": 57.375,
+      "n": 8
+    },
+    {
+      "id": "mbpp-226",
+      "pass@1": true,
+      "final": true,
+      "tokens": 9120,
+      "latency_s": 43.208,
+      "n": 8
+    }
+  ]
+}

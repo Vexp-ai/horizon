@@ -1,0 +1,18 @@
+=== SPEC MATRIX 12:28 — baseline autoregressive 8.05-8.16 t/s ===
+drafter/g8/C rep1 :: n_drafted = 1064 n_accept  = 385 accept    = 36.184% 
+drafter/g8/C rep2 :: n_drafted = 1064 n_accept  = 385 accept    = 36.184% 
+drafter/g12/C rep1 :: n_drafted = 1392 n_accept  = 398 accept    = 28.592% 
+drafter/g12/C rep2 :: n_drafted = 1392 n_accept  = 398 accept    = 28.592% 
+drafter/g8/T rep1 :: n_drafted = 1432 n_accept  = 334 accept    = 23.324% 
+drafter/g8/T rep2 :: n_drafted = 1432 n_accept  = 334 accept    = 23.324% 
+drafter/g12/T rep1 :: n_drafted = 2256 n_accept  = 326 accept    = 14.450% 
+drafter/g12/T rep2 :: n_drafted = 2256 n_accept  = 326 accept    = 14.450% 
+family-1.5B/g12/C rep1 :: n_drafted = 1308 n_accept  = 413 accept    = 31.575% 
+family-1.5B/g12/C rep2 :: n_drafted = 1308 n_accept  = 413 accept    = 31.575% 
+family-1.5B/g12/T rep1 :: n_drafted = 1728 n_accept  = 377 accept    = 21.817% 
+family-1.5B/g12/T rep2 :: n_drafted = 1728 n_accept  = 377 accept    = 21.817% 
+stock-0.5B/g8/C rep1 ::  
+stock-0.5B/g8/C rep2 ::  
+stock-0.5B/g8/T rep1 ::  
+stock-0.5B/g8/T rep2 ::  
+MATRIX_DONE 12:44

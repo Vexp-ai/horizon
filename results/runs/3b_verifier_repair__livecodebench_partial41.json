@@ -1,0 +1,584 @@
+{
+  "baseline": "3b_verifier_repair",
+  "benchmark": "livecodebench",
+  "n_problems": 100,
+  "n_errors": 59,
+  "quality": {
+    "pass@1": 29.27,
+    "final": 48.78
+  },
+  "system": {
+    "avg_tokens_per_problem": 32577.9,
+    "avg_samples_per_problem": 3.8,
+    "avg_latency_s": 977.791,
+    "wall_time_s": 7166.7,
+    "peak_ram_mb": 3774.4,
+    "peak_vram_mb": 0.0
+  },
+  "per_problem": [
+    {
+      "id": "lcb-3517",
+      "pass@1": false,
+      "final": true,
+      "tokens": 11087,
+      "latency_s": 1134.424,
+      "n": 3
+    },
+    {
+      "id": "lcb-3519",
+      "pass@1": false,
+      "final": true,
+      "tokens": 7089,
+      "latency_s": 694.948,
+      "n": 2
+    },
+    {
+      "id": "lcb-3526",
+      "pass@1": false,
+      "final": true,
+      "tokens": 10959,
+      "latency_s": 1141.265,
+      "n": 3
+    },
+    {
+      "id": "lcb-3527",
+      "pass@1": false,
+      "final": false,
+      "tokens": 59796,
+      "latency_s": 3722.91,
+      "n": 6
+    },
+    {
+      "id": "lcb-3532",
+      "pass@1": false,
+      "final": false,
+      "tokens": 59818,
+      "latency_s": 3582.094,
+      "n": 6
+    },
+    {
+      "id": "lcb-abc365_a",
+      "pass@1": false,
+      "final": true,
+      "tokens": 2588,
+      "latency_s": 344.961,
+      "n": 2
+    },
+    {
+      "id": "lcb-abc365_b",
+      "pass@1": true,
+      "final": true,
+      "tokens": 2160,
+      "latency_s": 296.641,
+      "n": 1
+    },
+    {
+      "id": "lcb-abc365_c",
+      "pass@1": true,
+      "final": true,
+      "tokens": 4743,
+      "latency_s": 541.289,
+      "n": 1
+    },
+    {
+      "id": "lcb-abc365_d",
+      "pass@1": false,
+      "final": false,
+      "tokens": 51055,
+      "latency_s": 3081.046,
+      "n": 6
+    },
+    {
+      "id": "lcb-abc365_e",
+      "pass@1": false,
+      "final": false,
+      "tokens": 58280,
+      "latency_s": 2583.813,
+      "n": 6
+    },
+    {
+      "id": "lcb-arc181_a",
+      "pass@1": false,
+      "final": false,
+      "tokens": 60118,
+      "latency_s": 2618.163,
+      "n": 6
+    },
+    {
+      "id": "lcb-arc181_b",
+      "pass@1": false,
+      "final": false,
+      "tokens": 59646,
+      "latency_s": 2619.248,
+      "n": 6
+    },
+    {
+      "id": "lcb-arc181_c",
+      "pass@1": false,
+      "final": false,
+      "tokens": 63112,
+      "latency_s": 989.324,
+      "n": 6
+    },
+    {
+      "id": "lcb-arc181_d",
+      "pass@1": false,
+      "final": false,
+      "tokens": 59722,
+      "latency_s": 1028.916,
+      "n": 6
+    },
+    {
+      "id": "lcb-3533",
+      "pass@1": true,
+      "final": true,
+      "tokens": 2113,
+      "latency_s": 33.673,
+      "n": 1
+    },
+    {
+      "id": "lcb-3535",
+      "pass@1": false,
+      "final": true,
+      "tokens": 31123,
+      "latency_s": 548.279,
+      "n": 4
+    },
+    {
+      "id": "lcb-abc366_a",
+      "pass@1": false,
+      "final": false,
+      "tokens": 1546,
+      "latency_s": 22.841,
+      "n": 1
+    },
+    {
+      "id": "lcb-abc366_b",
+      "pass@1": false,
+      "final": false,
+      "tokens": 60408,
+      "latency_s": 1034.396,
+      "n": 6
+    },
+    {
+      "id": "lcb-abc366_c",
+      "pass@1": true,
+      "final": true,
+      "tokens": 2749,
+      "latency_s": 39.919,
+      "n": 1
+    },
+    {
+      "id": "lcb-abc366_d",
+      "pass@1": true,
+      "final": true,
+      "tokens": 7130,
+      "latency_s": 113.723,
+      "n": 1
+    },
+    {
+      "id": "lcb-abc366_e",
+      "pass@1": false,
+      "final": false,
+      "tokens": 50931,
+      "latency_s": 881.199,
+      "n": 6
+    },
+    {
+      "id": "lcb-abc366_f",
+      "pass@1": false,
+      "final": false,
+      "tokens": 58802,
+      "latency_s": 1081.644,
+      "n": 6
+    },
+    {
+      "id": "lcb-abc366_g",
+      "pass@1": false,
+      "final": false,
+      "tokens": 60398,
+      "latency_s": 1169.589,
+      "n": 6
+    },
+    {
+      "id": "lcb-arc182_a",
+      "pass@1": false,
+      "final": false,
+      "tokens": 65706,
+      "latency_s": 1180.21,
+      "n": 6
+    },
+    {
+      "id": "lcb-arc182_c",
+      "pass@1": false,
+      "final": false,
+      "tokens": 59360,
+      "latency_s": 1278.904,
+      "n": 6
+    },
+    {
+      "id": "lcb-arc182_d",
+      "pass@1": false,
+      "final": false,
+      "tokens": 56122,
+      "latency_s": 1254.105,
+      "n": 6
+    },
+    {
+      "id": "lcb-arc182_e",
+      "pass@1": false,
+      "final": false,
+      "tokens": 52997,
+      "latency_s": 1054.352,
+      "n": 6
+    },
+    {
+      "id": "lcb-abc367_a",
+      "pass@1": true,
+      "final": true,
+      "tokens": 4939,
+      "latency_s": 109.614,
+      "n": 1
+    },
+    {
+      "id": "lcb-abc367_b",
+      "pass@1": true,
+      "final": true,
+      "tokens": 3870,
+      "latency_s": 82.721,
+      "n": 1
+    },
+    {
+      "id": "lcb-abc367_c",
+      "pass@1": true,
+      "final": true,
+      "tokens": 3057,
+      "latency_s": 62.407,
+      "n": 1
+    },
+    {
+      "id": "lcb-abc367_d",
+      "pass@1": false,
+      "final": false,
+      "tokens": 60904,
+      "latency_s": 1163.486,
+      "n": 6
+    },
+    {
+      "id": "lcb-abc367_e",
+      "pass@1": false,
+      "final": false,
+      "tokens": 53347,
+      "latency_s": 1133.727,
+      "n": 6
+    },
+    {
+      "id": "lcb-abc367_f",
+      "pass@1": false,
+      "final": true,
+      "tokens": 20231,
+      "latency_s": 528.852,
+      "n": 3
+    },
+    {
+      "id": "lcb-abc367_g",
+      "pass@1": false,
+      "final": false,
+      "tokens": 60596,
+      "latency_s": 1013.584,
+      "n": 6
+    },
+    {
+      "id": "lcb-3522",
+      "pass@1": false,
+      "final": true,
+      "tokens": 13212,
+      "latency_s": 306.318,
+      "n": 3
+    },
+    {
+      "id": "lcb-3550",
+      "pass@1": false,
+      "final": false,
+      "tokens": 51739,
+      "latency_s": 874.274,
+      "n": 6
+    },
+    {
+      "id": "lcb-3525",
+      "error": "Generazione fallita dopo 4 tentativi: Connection error."
+    },
+    {
+      "id": "lcb-3543",
+      "pass@1": true,
+      "final": true,
+      "tokens": 4162,
+      "latency_s": 71.35,
+      "n": 1
+    },
+    {
+      "id": "lcb-3552",
+      "error": "Generazione fallita dopo 4 tentativi: Connection error."
+    },
+    {
+      "id": "lcb-abc368_a",
+      "pass@1": true,
+      "final": true,
+      "tokens": 1574,
+      "latency_s": 22.804,
+      "n": 1
+    },
+    {
+      "id": "lcb-abc368_b",
+      "pass@1": true,
+      "final": true,
+      "tokens": 3928,
+      "latency_s": 66.855,
+      "n": 1
+    },
+    {
+      "id": "lcb-abc368_c",
+      "pass@1": false,
+      "final": true,
+      "tokens": 27409,
+      "latency_s": 455.675,
+      "n": 3
+    },
+    {
+      "id": "lcb-abc368_d",
+      "error": "Generazione fallita dopo 4 tentativi: Connection error."
+    },
+    {
+      "id": "lcb-abc368_e",
+      "error": "Generazione fallita dopo 4 tentativi: Connection error."
+    },
+    {
+      "id": "lcb-abc368_f",
+      "pass@1": true,
+      "final": true,
+      "tokens": 7167,
+      "latency_s": 125.897,
+      "n": 1
+    },
+    {
+      "id": "lcb-abc368_g",
+      "error": "Generazione fallita dopo 4 tentativi: Connection error."
+    },
+    {
+      "id": "lcb-3534",
+      "error": "Generazione fallita dopo 4 tentativi: Connection error."
+    },
+    {
+      "id": "lcb-3555",
+      "error": "Generazione fallita dopo 4 tentativi: Connection error."
+    },
+    {
+      "id": "lcb-arc183_a",
+      "error": "Generazione fallita dopo 4 tentativi: Connection error."
+    },
+    {
+      "id": "lcb-arc183_b",
+      "error": "Generazione fallita dopo 4 tentativi: Connection error."
+    },
+    {
+      "id": "lcb-arc183_c",
+      "error": "Generazione fallita dopo 4 tentativi: Connection error."
+    },
+    {
+      "id": "lcb-arc183_d",
+      "error": "Generazione fallita dopo 4 tentativi: Connection error."
+    },
+    {
+      "id": "lcb-abc369_a",
+      "error": "Generazione fallita dopo 4 tentativi: Connection error."
+    },
+    {
+      "id": "lcb-abc369_b",
+      "error": "Generazione fallita dopo 4 tentativi: Connection error."
+    },
+    {
+      "id": "lcb-abc369_c",
+      "error": "Generazione fallita dopo 4 tentativi: Connection error."
+    },
+    {
+      "id": "lcb-abc369_d",
+      "error": "Generazione fallita dopo 4 tentativi: Connection error."
+    },
+    {
+      "id": "lcb-abc369_e",
+      "error": "Generazione fallita dopo 4 tentativi: Connection error."
+    },
+    {
+      "id": "lcb-abc369_g",
+      "error": "Generazione fallita dopo 4 tentativi: Connection error."
+    },
+    {
+      "id": "lcb-3531",
+      "error": "Generazione fallita dopo 4 tentativi: Connection error."
+    },
+    {
+      "id": "lcb-3540",
+      "error": "Generazione fallita dopo 4 tentativi: Connection error."
+    },
+    {
+      "id": "lcb-3548",
+      "error": "Generazione fallita dopo 4 tentativi: Connection error."
+    },
+    {
+      "id": "lcb-3568",
+      "error": "Generazione fallita dopo 4 tentativi: Connection error."
+    },
+    {
+      "id": "lcb-3495",
+      "error": "Generazione fallita dopo 4 tentativi: Connection error."
+    },
+    {
+      "id": "lcb-3551",
+      "error": "Generazione fallita dopo 4 tentativi: Connection error."
+    },
+    {
+      "id": "lcb-3553",
+      "error": "Generazione fallita dopo 4 tentativi: Connection error."
+    },
+    {
+      "id": "lcb-3563",
+      "error": "Generazione fallita dopo 4 tentativi: Connection error."
+    },
+    {
+      "id": "lcb-abc370_a",
+      "error": "Generazione fallita dopo 4 tentativi: Connection error."
+    },
+    {
+      "id": "lcb-abc370_b",
+      "error": "Generazione fallita dopo 4 tentativi: Connection error."
+    },
+    {
+      "id": "lcb-abc370_c",
+      "error": "Generazione fallita dopo 4 tentativi: Connection error."
+    },
+    {
+      "id": "lcb-abc370_d",
+      "error": "Generazione fallita dopo 4 tentativi: Connection error."
+    },
+    {
+      "id": "lcb-abc370_e",
+      "error": "Generazione fallita dopo 4 tentativi: Connection error."
+    },
+    {
+      "id": "lcb-abc370_f",
+      "error": "Generazione fallita dopo 4 tentativi: Connection error."
+    },
+    {
+      "id": "lcb-abc370_g",
+      "error": "Generazione fallita dopo 4 tentativi: Connection error."
+    },
+    {
+      "id": "lcb-3485",
+      "error": "Generazione fallita dopo 4 tentativi: Connection error."
+    },
+    {
+      "id": "lcb-3528",
+      "error": "Generazione fallita dopo 4 tentativi: Connection error."
+    },
+    {
+      "id": "lcb-3560",
+      "error": "Generazione fallita dopo 4 tentativi: Connection error."
+    },
+    {
+      "id": "lcb-3567",
+      "error": "Generazione fallita dopo 4 tentativi: Connection error."
+    },
+    {
+      "id": "lcb-abc371_a",
+      "error": "Generazione fallita dopo 4 tentativi: Connection error."
+    },
+    {
+      "id": "lcb-abc371_b",
+      "error": "Generazione fallita dopo 4 tentativi: Connection error."
+    },
+    {
+      "id": "lcb-abc371_c",
+      "error": "Generazione fallita dopo 4 tentativi: Connection error."
+    },
+    {
+      "id": "lcb-abc371_d",
+      "error": "Generazione fallita dopo 4 tentativi: Connection error."
+    },
+    {
+      "id": "lcb-abc371_e",
+      "error": "Generazione fallita dopo 4 tentativi: Connection error."
+    },
+    {
+      "id": "lcb-abc371_f",
+      "error": "Generazione fallita dopo 4 tentativi: Connection error."
+    },
+    {
+      "id": "lcb-abc371_g",
+      "error": "Generazione fallita dopo 4 tentativi: Connection error."
+    },
+    {
+      "id": "lcb-3558",
+      "error": "Generazione fallita dopo 4 tentativi: Connection error."
+    },
+    {
+      "id": "lcb-3571",
+      "error": "Generazione fallita dopo 4 tentativi: Connection error."
+    },
+    {
+      "id": "lcb-3575",
+      "error": "Generazione fallita dopo 4 tentativi: Connection error."
+    },
+    {
+      "id": "lcb-3518",
+      "error": "Generazione fallita dopo 4 tentativi: Connection error."
+    },
+    {
+      "id": "lcb-3559",
+      "error": "Generazione fallita dopo 4 tentativi: Connection error."
+    },
+    {
+      "id": "lcb-abc372_a",
+      "error": "Generazione fallita dopo 4 tentativi: Connection error."
+    },
+    {
+      "id": "lcb-abc372_c",
+      "error": "Generazione fallita dopo 4 tentativi: Connection error."
+    },
+    {
+      "id": "lcb-abc372_d",
+      "error": "Generazione fallita dopo 4 tentativi: Connection error."
+    },
+    {
+      "id": "lcb-abc372_e",
+      "error": "Generazione fallita dopo 4 tentativi: Connection error."
+    },
+    {
+      "id": "lcb-abc372_f",
+      "error": "Generazione fallita dopo 4 tentativi: Connection error."
+    },
+    {
+      "id": "lcb-abc372_g",
+      "error": "Generazione fallita dopo 4 tentativi: Connection error."
+    },
+    {
+      "id": "lcb-3496",
+      "error": "Generazione fallita dopo 4 tentativi: Connection error."
+    },
+    {
+      "id": "lcb-3541",
+      "error": "Generazione fallita dopo 4 tentativi: Connection error."
+    },
+    {
+      "id": "lcb-3573",
+      "error": "Generazione fallita dopo 4 tentativi: Connection error."
+    },
+    {
+      "id": "lcb-arc184_c",
+      "error": "Generazione fallita dopo 4 tentativi: Connection error."
+    },
+    {
+      "id": "lcb-arc184_d",
+      "error": "Generazione fallita dopo 4 tentativi: Connection error."
+    }
+  ]
+}

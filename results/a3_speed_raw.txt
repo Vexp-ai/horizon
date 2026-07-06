@@ -1,0 +1,81 @@
+=== A3 speed suite 18:02 — THROTTLED STATE (banda misurata 3-5 GB/s) ===
+model name	: 11th Gen Intel(R) Core(TM) i7-11850H @ 2.50GHz
+--- 1) llama-bench 7B Q4 baseline (no fa, kv f16) ---
+| model                          |       size |     params | backend    | threads |  fa |            test |                  t/s |
+| ------------------------------ | ---------: | ---------: | ---------- | ------: | --: | --------------: | -------------------: |
+| qwen2 7B Q4_K - Medium         |   4.36 GiB |     7.62 B | CPU        |      16 |   0 |           pp512 |         28.69 ± 3.83 |
+| qwen2 7B Q4_K - Medium         |   4.36 GiB |     7.62 B | CPU        |      16 |   0 |            tg64 |          0.61 ± 0.02 |
+
+build: fdb1db8 (1)
+--- 2) llama-bench 7B Q4 + flash-attn + KV q8_0 (dieta RAM) ---
+| model                          |       size |     params | backend    | threads | type_k | type_v |  fa |            test |                  t/s |
+| ------------------------------ | ---------: | ---------: | ---------- | ------: | -----: | -----: | --: | --------------: | -------------------: |
+| qwen2 7B Q4_K - Medium         |   4.36 GiB |     7.62 B | CPU        |      16 |   q8_0 |   q8_0 |   1 |           pp512 |         40.32 ± 6.78 |
+| qwen2 7B Q4_K - Medium         |   4.36 GiB |     7.62 B | CPU        |      16 |   q8_0 |   q8_0 |   1 |            tg64 |          0.62 ± 0.02 |
+
+build: fdb1db8 (1)
+--- 3) speculative: server 7B + draft 1.5B, gamma 8 e 12 (dominio code) ---
+gamma=0 rss_MB=7704.73
+3.02.893.088 I slot print_timing: id  3 | task 0 | prompt eval time =    1984.33 ms /    39 tokens (   50.88 ms per token,    19.65 tokens per second)
+3.02.893.163 I slot print_timing: id  3 | task 0 |        eval time =  158959.75 ms /    96 tokens ( 1655.83 ms per token,     0.60 tokens per second)
+3.02.893.164 I slot print_timing: id  3 | task 0 |       total time =  160944.07 ms /   135 tokens
+3.02.893.165 I slot print_timing: id  3 | task 0 |    graphs reused =         95
+---
+gamma=8 rss_MB=
+error while handling argument "--draft-max": the argument has been removed. use --spec-draft-n-max or --spec-ngram-mod-n-max
+--draft, --draft-n, --draft-max N       the argument has been removed. use --spec-draft-n-max or
+---
+gamma=12 rss_MB=
+error while handling argument "--draft-max": the argument has been removed. use --spec-draft-n-max or --spec-ngram-mod-n-max
+--draft, --draft-n, --draft-max N       the argument has been removed. use --spec-draft-n-max or
+---
+A3_SUITE_DONE 18:29
+--- speculative RETRY gamma=8 rss_MB=9400.07 ---
+3.01.267.533 I slot print_timing: id  3 | task 0 | prompt eval time =    2458.17 ms /    39 tokens (   63.03 ms per token,    15.87 tokens per second)
+3.01.267.581 I slot print_timing: id  3 | task 0 |        eval time =  148441.93 ms /    96 tokens ( 1546.27 ms per token,     0.65 tokens per second)
+3.01.267.591 I slot print_timing: id  3 | task 0 |       total time =  150900.10 ms /   135 tokens
+3.01.267.601 I slot print_timing: id  3 | task 0 |    graphs reused =         95
+--- speculative RETRY gamma=12 rss_MB=9401.23 ---
+2.39.682.743 I slot print_timing: id  3 | task 0 | prompt eval time =    1827.10 ms /    39 tokens (   46.85 ms per token,    21.35 tokens per second)
+2.39.682.792 I slot print_timing: id  3 | task 0 |        eval time =  133712.64 ms /    96 tokens ( 1392.84 ms per token,     0.72 tokens per second)
+2.39.682.802 I slot print_timing: id  3 | task 0 |       total time =  135539.73 ms /   135 tokens
+2.39.682.812 I slot print_timing: id  3 | task 0 |    graphs reused =         95
+A3_SPEC_DONE 18:36
+--- TRAINED drafter 0.5B A/B 13:08 ---
+drafter gamma=8 rss_MB=8252.77
+timings g=8: {'predicted_n': 96, 'predicted_ms': 172320.96, 'predicted_per_token_ms': 1795.01, 'predicted_per_second': 0.56}
+3.05.273.239 I slot print_timing: id  3 | task 0 | prompt eval time =    1884.77 ms /    39 tokens (   48.33 ms per token,    20.69 tokens per second)
+3.05.273.385 I slot print_timing: id  3 | task 0 |        eval time =  172320.96 ms /    96 tokens ( 1795.01 ms per token,     0.56 tokens per second)
+3.05.273.388 I slot print_timing: id  3 | task 0 |       total time =  174205.73 ms /   135 tokens
+3.05.273.389 I slot print_timing: id  3 | task 0 |    graphs reused =         95
+---
+drafter gamma=12 rss_MB=8252.84
+timings g=12: {'predicted_n': 96, 'predicted_ms': 164075.28, 'predicted_per_token_ms': 1709.12, 'predicted_per_second': 0.59}
+2.55.568.757 I slot print_timing: id  3 | task 0 | prompt eval time =    3489.52 ms /    39 tokens (   89.47 ms per token,    11.18 tokens per second)
+2.55.568.838 I slot print_timing: id  3 | task 0 |        eval time =  164075.28 ms /    96 tokens ( 1709.12 ms per token,     0.59 tokens per second)
+2.55.568.850 I slot print_timing: id  3 | task 0 |       total time =  167564.80 ms /   135 tokens
+2.55.568.861 I slot print_timing: id  3 | task 0 |    graphs reused =         95
+---
+AB_DRAFTER_DONE 13:14
+=== A/B v2 CHAT-TEMPLATED 13:15 ===
+--- v2 no-draft rss_MB=7704.53
+2.42.913.344 I slot print_timing: id  3 | task 0 | prompt eval time =    3691.88 ms /    41 tokens (   90.05 ms per token,    11.11 tokens per second)
+2.42.913.409 I slot print_timing: id  3 | task 0 |        eval time =  152322.89 ms /    96 tokens ( 1586.70 ms per token,     0.63 tokens per second)
+2.42.913.420 I slot print_timing: id  3 | task 0 |       total time =  156014.76 ms /   137 tokens
+2.42.913.430 I slot print_timing: id  3 | task 0 |    graphs reused =         95
+--- v2 draft-1.5B g12 rss_MB=8325.59
+2.54.405.578 I slot print_timing: id  3 | task 0 | prompt eval time =    3774.97 ms /    41 tokens (   92.07 ms per token,    10.86 tokens per second)
+2.54.405.684 I slot print_timing: id  3 | task 0 |        eval time =  161699.27 ms /    96 tokens ( 1684.37 ms per token,     0.59 tokens per second)
+2.54.405.695 I slot print_timing: id  3 | task 0 |       total time =  165474.24 ms /   137 tokens
+2.54.405.712 I slot print_timing: id  3 | task 0 |    graphs reused =         95
+--- v2 drafter g8 rss_MB=8048.22
+2.56.527.306 I slot print_timing: id  3 | task 0 | prompt eval time =    4647.68 ms /    41 tokens (  113.36 ms per token,     8.82 tokens per second)
+2.56.527.404 I slot print_timing: id  3 | task 0 |        eval time =  165831.18 ms /    96 tokens ( 1727.41 ms per token,     0.58 tokens per second)
+2.56.527.416 I slot print_timing: id  3 | task 0 |       total time =  170478.86 ms /   137 tokens
+2.56.527.426 I slot print_timing: id  3 | task 0 |    graphs reused =         95
+--- v2 drafter g12 rss_MB=8182.08
+2.41.977.873 I slot print_timing: id  3 | task 0 | prompt eval time =    3877.99 ms /    41 tokens (   94.59 ms per token,    10.57 tokens per second)
+2.41.977.929 I slot print_timing: id  3 | task 0 |        eval time =  153152.23 ms /    96 tokens ( 1595.34 ms per token,     0.63 tokens per second)
+2.41.977.940 I slot print_timing: id  3 | task 0 |       total time =  157030.22 ms /   137 tokens
+2.41.977.951 I slot print_timing: id  3 | task 0 |    graphs reused =         95
+AB_V2_DONE 13:26

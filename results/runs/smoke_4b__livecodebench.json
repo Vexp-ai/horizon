@@ -1,0 +1,44 @@
+{
+  "baseline": "4b_full_system_repair",
+  "benchmark": "livecodebench",
+  "n_problems": 3,
+  "n_errors": 0,
+  "quality": {
+    "pass@1": 33.33,
+    "final": 100.0
+  },
+  "system": {
+    "avg_tokens_per_problem": 10768.7,
+    "avg_samples_per_problem": 2.33,
+    "avg_latency_s": 217.462,
+    "wall_time_s": 311.7,
+    "peak_ram_mb": 5790.5,
+    "peak_vram_mb": 0.0
+  },
+  "per_problem": [
+    {
+      "id": "lcb-3517",
+      "pass@1": false,
+      "final": true,
+      "tokens": 16872,
+      "latency_s": 304.308,
+      "n": 3
+    },
+    {
+      "id": "lcb-3519",
+      "pass@1": true,
+      "final": true,
+      "tokens": 3688,
+      "latency_s": 115.519,
+      "n": 1
+    },
+    {
+      "id": "lcb-3526",
+      "pass@1": false,
+      "final": true,
+      "tokens": 11746,
+      "latency_s": 232.559,
+      "n": 3
+    }
+  ]
+}

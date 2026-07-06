@@ -1,0 +1,820 @@
+{
+  "baseline": "3_base_verifier",
+  "benchmark": "humaneval",
+  "n_problems": 100,
+  "n_errors": 0,
+  "quality": {
+    "pass@1": 70.0,
+    "final": 99.0
+  },
+  "system": {
+    "avg_tokens_per_problem": 24151.4,
+    "avg_samples_per_problem": 8.0,
+    "avg_latency_s": 335.482,
+    "wall_time_s": 4433.2,
+    "peak_ram_mb": 161.0,
+    "peak_vram_mb": 0.0
+  },
+  "per_problem": [
+    {
+      "id": "HumanEval/0",
+      "pass@1": true,
+      "final": true,
+      "tokens": 29504,
+      "latency_s": 259.336,
+      "n": 8
+    },
+    {
+      "id": "HumanEval/1",
+      "pass@1": true,
+      "final": true,
+      "tokens": 35816,
+      "latency_s": 256.253,
+      "n": 8
+    },
+    {
+      "id": "HumanEval/2",
+      "pass@1": false,
+      "final": true,
+      "tokens": 21552,
+      "latency_s": 235.064,
+      "n": 8
+    },
+    {
+      "id": "HumanEval/3",
+      "pass@1": true,
+      "final": true,
+      "tokens": 13008,
+      "latency_s": 245.1,
+      "n": 8
+    },
+    {
+      "id": "HumanEval/4",
+      "pass@1": false,
+      "final": true,
+      "tokens": 13392,
+      "latency_s": 216.831,
+      "n": 8
+    },
+    {
+      "id": "HumanEval/5",
+      "pass@1": true,
+      "final": true,
+      "tokens": 14776,
+      "latency_s": 223.405,
+      "n": 8
+    },
+    {
+      "id": "HumanEval/6",
+      "pass@1": false,
+      "final": true,
+      "tokens": 19352,
+      "latency_s": 263.549,
+      "n": 8
+    },
+    {
+      "id": "HumanEval/7",
+      "pass@1": true,
+      "final": true,
+      "tokens": 11560,
+      "latency_s": 239.645,
+      "n": 8
+    },
+    {
+      "id": "HumanEval/8",
+      "pass@1": true,
+      "final": true,
+      "tokens": 12336,
+      "latency_s": 224.081,
+      "n": 8
+    },
+    {
+      "id": "HumanEval/9",
+      "pass@1": false,
+      "final": true,
+      "tokens": 17632,
+      "latency_s": 233.578,
+      "n": 8
+    },
+    {
+      "id": "HumanEval/10",
+      "pass@1": true,
+      "final": true,
+      "tokens": 42696,
+      "latency_s": 234.601,
+      "n": 8
+    },
+    {
+      "id": "HumanEval/11",
+      "pass@1": true,
+      "final": true,
+      "tokens": 24432,
+      "latency_s": 220.93,
+      "n": 8
+    },
+    {
+      "id": "HumanEval/12",
+      "pass@1": true,
+      "final": true,
+      "tokens": 12568,
+      "latency_s": 213.95,
+      "n": 8
+    },
+    {
+      "id": "HumanEval/13",
+      "pass@1": true,
+      "final": true,
+      "tokens": 23808,
+      "latency_s": 332.386,
+      "n": 8
+    },
+    {
+      "id": "HumanEval/14",
+      "pass@1": true,
+      "final": true,
+      "tokens": 11304,
+      "latency_s": 215.321,
+      "n": 8
+    },
+    {
+      "id": "HumanEval/15",
+      "pass@1": true,
+      "final": true,
+      "tokens": 10320,
+      "latency_s": 228.829,
+      "n": 8
+    },
+    {
+      "id": "HumanEval/16",
+      "pass@1": true,
+      "final": true,
+      "tokens": 10240,
+      "latency_s": 141.316,
+      "n": 8
+    },
+    {
+      "id": "HumanEval/17",
+      "pass@1": true,
+      "final": true,
+      "tokens": 14000,
+      "latency_s": 155.421,
+      "n": 8
+    },
+    {
+      "id": "HumanEval/18",
+      "pass@1": true,
+      "final": true,
+      "tokens": 22840,
+      "latency_s": 157.988,
+      "n": 8
+    },
+    {
+      "id": "HumanEval/19",
+      "pass@1": false,
+      "final": true,
+      "tokens": 17632,
+      "latency_s": 155.522,
+      "n": 8
+    },
+    {
+      "id": "HumanEval/20",
+      "pass@1": false,
+      "final": true,
+      "tokens": 33256,
+      "latency_s": 302.366,
+      "n": 8
+    },
+    {
+      "id": "HumanEval/21",
+      "pass@1": true,
+      "final": true,
+      "tokens": 18552,
+      "latency_s": 201.321,
+      "n": 8
+    },
+    {
+      "id": "HumanEval/22",
+      "pass@1": true,
+      "final": true,
+      "tokens": 25608,
+      "latency_s": 290.871,
+      "n": 8
+    },
+    {
+      "id": "HumanEval/23",
+      "pass@1": true,
+      "final": true,
+      "tokens": 8080,
+      "latency_s": 185.482,
+      "n": 8
+    },
+    {
+      "id": "HumanEval/24",
+      "pass@1": false,
+      "final": true,
+      "tokens": 25104,
+      "latency_s": 199.679,
+      "n": 8
+    },
+    {
+      "id": "HumanEval/25",
+      "pass@1": true,
+      "final": true,
+      "tokens": 30008,
+      "latency_s": 213.501,
+      "n": 8
+    },
+    {
+      "id": "HumanEval/26",
+      "pass@1": true,
+      "final": true,
+      "tokens": 20616,
+      "latency_s": 174.034,
+      "n": 8
+    },
+    {
+      "id": "HumanEval/27",
+      "pass@1": true,
+      "final": true,
+      "tokens": 20648,
+      "latency_s": 486.888,
+      "n": 8
+    },
+    {
+      "id": "HumanEval/28",
+      "pass@1": true,
+      "final": true,
+      "tokens": 7336,
+      "latency_s": 139.285,
+      "n": 8
+    },
+    {
+      "id": "HumanEval/29",
+      "pass@1": true,
+      "final": true,
+      "tokens": 11176,
+      "latency_s": 313.169,
+      "n": 8
+    },
+    {
+      "id": "HumanEval/30",
+      "pass@1": true,
+      "final": true,
+      "tokens": 9704,
+      "latency_s": 300.569,
+      "n": 8
+    },
+    {
+      "id": "HumanEval/31",
+      "pass@1": false,
+      "final": true,
+      "tokens": 30816,
+      "latency_s": 364.338,
+      "n": 8
+    },
+    {
+      "id": "HumanEval/32",
+      "pass@1": false,
+      "final": false,
+      "tokens": 66808,
+      "latency_s": 455.763,
+      "n": 8
+    },
+    {
+      "id": "HumanEval/33",
+      "pass@1": true,
+      "final": true,
+      "tokens": 25272,
+      "latency_s": 400.55,
+      "n": 8
+    },
+    {
+      "id": "HumanEval/34",
+      "pass@1": true,
+      "final": true,
+      "tokens": 19728,
+      "latency_s": 425.434,
+      "n": 8
+    },
+    {
+      "id": "HumanEval/35",
+      "pass@1": true,
+      "final": true,
+      "tokens": 14864,
+      "latency_s": 426.869,
+      "n": 8
+    },
+    {
+      "id": "HumanEval/36",
+      "pass@1": false,
+      "final": true,
+      "tokens": 19872,
+      "latency_s": 177.214,
+      "n": 8
+    },
+    {
+      "id": "HumanEval/37",
+      "pass@1": false,
+      "final": true,
+      "tokens": 21080,
+      "latency_s": 274.373,
+      "n": 8
+    },
+    {
+      "id": "HumanEval/38",
+      "pass@1": false,
+      "final": true,
+      "tokens": 18640,
+      "latency_s": 432.463,
+      "n": 8
+    },
+    {
+      "id": "HumanEval/39",
+      "pass@1": true,
+      "final": true,
+      "tokens": 43752,
+      "latency_s": 408.907,
+      "n": 8
+    },
+    {
+      "id": "HumanEval/40",
+      "pass@1": true,
+      "final": true,
+      "tokens": 48120,
+      "latency_s": 371.788,
+      "n": 8
+    },
+    {
+      "id": "HumanEval/41",
+      "pass@1": true,
+      "final": true,
+      "tokens": 14488,
+      "latency_s": 320.879,
+      "n": 8
+    },
+    {
+      "id": "HumanEval/42",
+      "pass@1": true,
+      "final": true,
+      "tokens": 8792,
+      "latency_s": 318.862,
+      "n": 8
+    },
+    {
+      "id": "HumanEval/43",
+      "pass@1": true,
+      "final": true,
+      "tokens": 32272,
+      "latency_s": 631.48,
+      "n": 8
+    },
+    {
+      "id": "HumanEval/44",
+      "pass@1": true,
+      "final": true,
+      "tokens": 24008,
+      "latency_s": 626.92,
+      "n": 8
+    },
+    {
+      "id": "HumanEval/45",
+      "pass@1": true,
+      "final": true,
+      "tokens": 7424,
+      "latency_s": 521.093,
+      "n": 8
+    },
+    {
+      "id": "HumanEval/46",
+      "pass@1": false,
+      "final": true,
+      "tokens": 31232,
+      "latency_s": 345.54,
+      "n": 8
+    },
+    {
+      "id": "HumanEval/47",
+      "pass@1": false,
+      "final": true,
+      "tokens": 59616,
+      "latency_s": 350.369,
+      "n": 8
+    },
+    {
+      "id": "HumanEval/48",
+      "pass@1": true,
+      "final": true,
+      "tokens": 10960,
+      "latency_s": 320.575,
+      "n": 8
+    },
+    {
+      "id": "HumanEval/49",
+      "pass@1": true,
+      "final": true,
+      "tokens": 21240,
+      "latency_s": 335.8,
+      "n": 8
+    },
+    {
+      "id": "HumanEval/50",
+      "pass@1": false,
+      "final": true,
+      "tokens": 16624,
+      "latency_s": 412.883,
+      "n": 8
+    },
+    {
+      "id": "HumanEval/51",
+      "pass@1": true,
+      "final": true,
+      "tokens": 15120,
+      "latency_s": 103.03,
+      "n": 8
+    },
+    {
+      "id": "HumanEval/52",
+      "pass@1": true,
+      "final": true,
+      "tokens": 10280,
+      "latency_s": 100.457,
+      "n": 8
+    },
+    {
+      "id": "HumanEval/53",
+      "pass@1": true,
+      "final": true,
+      "tokens": 5624,
+      "latency_s": 88.349,
+      "n": 8
+    },
+    {
+      "id": "HumanEval/54",
+      "pass@1": true,
+      "final": true,
+      "tokens": 25592,
+      "latency_s": 213.552,
+      "n": 8
+    },
+    {
+      "id": "HumanEval/55",
+      "pass@1": true,
+      "final": true,
+      "tokens": 18208,
+      "latency_s": 112.083,
+      "n": 8
+    },
+    {
+      "id": "HumanEval/56",
+      "pass@1": true,
+      "final": true,
+      "tokens": 12584,
+      "latency_s": 181.455,
+      "n": 8
+    },
+    {
+      "id": "HumanEval/57",
+      "pass@1": false,
+      "final": true,
+      "tokens": 22352,
+      "latency_s": 197.65,
+      "n": 8
+    },
+    {
+      "id": "HumanEval/58",
+      "pass@1": true,
+      "final": true,
+      "tokens": 12800,
+      "latency_s": 132.593,
+      "n": 8
+    },
+    {
+      "id": "HumanEval/59",
+      "pass@1": true,
+      "final": true,
+      "tokens": 30592,
+      "latency_s": 148.033,
+      "n": 8
+    },
+    {
+      "id": "HumanEval/60",
+      "pass@1": true,
+      "final": true,
+      "tokens": 10968,
+      "latency_s": 124.953,
+      "n": 8
+    },
+    {
+      "id": "HumanEval/61",
+      "pass@1": true,
+      "final": true,
+      "tokens": 12856,
+      "latency_s": 139.949,
+      "n": 8
+    },
+    {
+      "id": "HumanEval/62",
+      "pass@1": true,
+      "final": true,
+      "tokens": 36080,
+      "latency_s": 390.08,
+      "n": 8
+    },
+    {
+      "id": "HumanEval/63",
+      "pass@1": false,
+      "final": true,
+      "tokens": 26496,
+      "latency_s": 300.904,
+      "n": 8
+    },
+    {
+      "id": "HumanEval/64",
+      "pass@1": true,
+      "final": true,
+      "tokens": 38184,
+      "latency_s": 313.688,
+      "n": 8
+    },
+    {
+      "id": "HumanEval/65",
+      "pass@1": true,
+      "final": true,
+      "tokens": 24552,
+      "latency_s": 289.842,
+      "n": 8
+    },
+    {
+      "id": "HumanEval/66",
+      "pass@1": true,
+      "final": true,
+      "tokens": 10952,
+      "latency_s": 296.426,
+      "n": 8
+    },
+    {
+      "id": "HumanEval/67",
+      "pass@1": false,
+      "final": true,
+      "tokens": 15168,
+      "latency_s": 301.496,
+      "n": 8
+    },
+    {
+      "id": "HumanEval/68",
+      "pass@1": true,
+      "final": true,
+      "tokens": 26240,
+      "latency_s": 402.358,
+      "n": 8
+    },
+    {
+      "id": "HumanEval/69",
+      "pass@1": true,
+      "final": true,
+      "tokens": 21616,
+      "latency_s": 415.084,
+      "n": 8
+    },
+    {
+      "id": "HumanEval/70",
+      "pass@1": true,
+      "final": true,
+      "tokens": 22792,
+      "latency_s": 159.748,
+      "n": 8
+    },
+    {
+      "id": "HumanEval/71",
+      "pass@1": false,
+      "final": true,
+      "tokens": 34392,
+      "latency_s": 169.715,
+      "n": 8
+    },
+    {
+      "id": "HumanEval/72",
+      "pass@1": false,
+      "final": true,
+      "tokens": 14136,
+      "latency_s": 151.356,
+      "n": 8
+    },
+    {
+      "id": "HumanEval/73",
+      "pass@1": true,
+      "final": true,
+      "tokens": 15928,
+      "latency_s": 547.824,
+      "n": 8
+    },
+    {
+      "id": "HumanEval/74",
+      "pass@1": true,
+      "final": true,
+      "tokens": 14216,
+      "latency_s": 604.938,
+      "n": 8
+    },
+    {
+      "id": "HumanEval/75",
+      "pass@1": false,
+      "final": true,
+      "tokens": 42440,
+      "latency_s": 640.032,
+      "n": 8
+    },
+    {
+      "id": "HumanEval/76",
+      "pass@1": false,
+      "final": true,
+      "tokens": 61680,
+      "latency_s": 530.972,
+      "n": 8
+    },
+    {
+      "id": "HumanEval/77",
+      "pass@1": false,
+      "final": true,
+      "tokens": 62680,
+      "latency_s": 838.172,
+      "n": 8
+    },
+    {
+      "id": "HumanEval/78",
+      "pass@1": true,
+      "final": true,
+      "tokens": 14336,
+      "latency_s": 717.501,
+      "n": 8
+    },
+    {
+      "id": "HumanEval/79",
+      "pass@1": false,
+      "final": true,
+      "tokens": 13648,
+      "latency_s": 719.192,
+      "n": 8
+    },
+    {
+      "id": "HumanEval/80",
+      "pass@1": true,
+      "final": true,
+      "tokens": 14872,
+      "latency_s": 813.69,
+      "n": 8
+    },
+    {
+      "id": "HumanEval/81",
+      "pass@1": false,
+      "final": true,
+      "tokens": 60704,
+      "latency_s": 468.371,
+      "n": 8
+    },
+    {
+      "id": "HumanEval/82",
+      "pass@1": false,
+      "final": true,
+      "tokens": 17456,
+      "latency_s": 398.744,
+      "n": 8
+    },
+    {
+      "id": "HumanEval/83",
+      "pass@1": true,
+      "final": true,
+      "tokens": 39768,
+      "latency_s": 617.125,
+      "n": 8
+    },
+    {
+      "id": "HumanEval/84",
+      "pass@1": false,
+      "final": true,
+      "tokens": 13616,
+      "latency_s": 359.867,
+      "n": 8
+    },
+    {
+      "id": "HumanEval/85",
+      "pass@1": true,
+      "final": true,
+      "tokens": 10424,
+      "latency_s": 268.463,
+      "n": 8
+    },
+    {
+      "id": "HumanEval/86",
+      "pass@1": false,
+      "final": true,
+      "tokens": 40864,
+      "latency_s": 511.746,
+      "n": 8
+    },
+    {
+      "id": "HumanEval/87",
+      "pass@1": true,
+      "final": true,
+      "tokens": 26760,
+      "latency_s": 413.008,
+      "n": 8
+    },
+    {
+      "id": "HumanEval/88",
+      "pass@1": true,
+      "final": true,
+      "tokens": 24424,
+      "latency_s": 412.786,
+      "n": 8
+    },
+    {
+      "id": "HumanEval/89",
+      "pass@1": false,
+      "final": true,
+      "tokens": 22200,
+      "latency_s": 385.005,
+      "n": 8
+    },
+    {
+      "id": "HumanEval/90",
+      "pass@1": true,
+      "final": true,
+      "tokens": 35944,
+      "latency_s": 466.271,
+      "n": 8
+    },
+    {
+      "id": "HumanEval/91",
+      "pass@1": true,
+      "final": true,
+      "tokens": 40416,
+      "latency_s": 714.989,
+      "n": 8
+    },
+    {
+      "id": "HumanEval/92",
+      "pass@1": true,
+      "final": true,
+      "tokens": 38592,
+      "latency_s": 608.584,
+      "n": 8
+    },
+    {
+      "id": "HumanEval/93",
+      "pass@1": false,
+      "final": true,
+      "tokens": 45424,
+      "latency_s": 472.464,
+      "n": 8
+    },
+    {
+      "id": "HumanEval/94",
+      "pass@1": true,
+      "final": true,
+      "tokens": 33088,
+      "latency_s": 368.983,
+      "n": 8
+    },
+    {
+      "id": "HumanEval/95",
+      "pass@1": true,
+      "final": true,
+      "tokens": 37128,
+      "latency_s": 369.02,
+      "n": 8
+    },
+    {
+      "id": "HumanEval/96",
+      "pass@1": true,
+      "final": true,
+      "tokens": 31560,
+      "latency_s": 412.389,
+      "n": 8
+    },
+    {
+      "id": "HumanEval/97",
+      "pass@1": true,
+      "final": true,
+      "tokens": 9992,
+      "latency_s": 371.356,
+      "n": 8
+    },
+    {
+      "id": "HumanEval/98",
+      "pass@1": true,
+      "final": true,
+      "tokens": 13488,
+      "latency_s": 300.352,
+      "n": 8
+    },
+    {
+      "id": "HumanEval/99",
+      "pass@1": true,
+      "final": true,
+      "tokens": 61440,
+      "latency_s": 301.162,
+      "n": 8
+    }
+  ]
+}

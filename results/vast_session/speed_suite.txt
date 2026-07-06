@@ -1,0 +1,35 @@
+=== SPEED SUITE 12:01 —  AMD Ryzen 9 3900X 12-Core Processor ===
+--- 0) declared RAM bandwidth (sysbench, MiB/s) ---
+sysbench read threads=12: 256809.18 MiB/sec
+sysbench write threads=12: 32141.27 MiB/sec
+--- 1) llama-bench 7B Q4 (r=3) ---
+| model                          |       size |     params | backend    | threads |  fa |            test |                  t/s |
+| ------------------------------ | ---------: | ---------: | ---------- | ------: | --: | --------------: | -------------------: |
+| qwen2 7B Q4_K - Medium         |   4.36 GiB |     7.62 B | CPU        |      12 |   0 |           pp512 |         73.43 ± 0.28 |
+| qwen2 7B Q4_K - Medium         |   4.36 GiB |     7.62 B | CPU        |      12 |   0 |           tg128 |          8.16 ± 0.00 |
+
+build: a410713 (1)
+| model                          |       size |     params | backend    | threads | type_k | type_v |  fa |            test |                  t/s |
+| ------------------------------ | ---------: | ---------: | ---------- | ------: | -----: | -----: | --: | --------------: | -------------------: |
+| qwen2 7B Q4_K - Medium         |   4.36 GiB |     7.62 B | CPU        |      12 |   q8_0 |   q8_0 |   1 |           pp512 |         71.36 ± 0.04 |
+| qwen2 7B Q4_K - Medium         |   4.36 GiB |     7.62 B | CPU        |      12 |   q8_0 |   q8_0 |   1 |           tg128 |          8.23 ± 0.00 |
+
+build: a410713 (1)
+--- 2) speculative matrix (512 tok, 2 reps) ---
+no-draft/T rep1 rss_MB=7710.84 tg=7.86 tokens per second
+no-draft/T rep2 rss_MB=7710.84 tg=8.05 tokens per second
+draft-1.5B-g12/T rep1 rss_MB=9407.12 tg=8.00 tokens per second
+draft-1.5B-g12/T rep2 rss_MB=9407.12 tg=8.06 tokens per second
+drafter-g8/T rep1 rss_MB=8260.94 tg=7.98 tokens per second
+drafter-g8/T rep2 rss_MB=8260.94 tg=8.05 tokens per second
+drafter-g12/T rep1 rss_MB=8260.59 tg=8.05 tokens per second
+drafter-g12/T rep2 rss_MB=8260.59 tg=8.05 tokens per second
+no-draft/C rep1 rss_MB=7710.84 tg=8.06 tokens per second
+no-draft/C rep2 rss_MB=7710.84 tg=8.05 tokens per second
+draft-1.5B-g12/C rep1 rss_MB=9407.27 tg=8.06 tokens per second
+draft-1.5B-g12/C rep2 rss_MB=9407.27 tg=8.06 tokens per second
+drafter-g8/C rep1 rss_MB=8260.62 tg=8.05 tokens per second
+drafter-g8/C rep2 rss_MB=8260.62 tg=8.03 tokens per second
+drafter-g12/C rep1 rss_MB=8260.6 tg=8.05 tokens per second
+drafter-g12/C rep2 rss_MB=8260.6 tg=8.05 tokens per second
+SUITE_DONE 12:22

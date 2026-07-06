@@ -1,0 +1,820 @@
+{
+  "baseline": "3b_verifier_repair",
+  "benchmark": "livecodebench",
+  "n_problems": 100,
+  "n_errors": 0,
+  "quality": {
+    "pass@1": 27.0,
+    "final": 44.0
+  },
+  "system": {
+    "avg_tokens_per_problem": 34820.9,
+    "avg_samples_per_problem": 4.06,
+    "avg_latency_s": 712.302,
+    "wall_time_s": 4931.8,
+    "peak_ram_mb": 3771.3,
+    "peak_vram_mb": 0.0
+  },
+  "per_problem": [
+    {
+      "id": "lcb-3517",
+      "pass@1": true,
+      "final": true,
+      "tokens": 5569,
+      "latency_s": 97.393,
+      "n": 1
+    },
+    {
+      "id": "lcb-3519",
+      "pass@1": true,
+      "final": true,
+      "tokens": 3839,
+      "latency_s": 64.774,
+      "n": 1
+    },
+    {
+      "id": "lcb-3526",
+      "pass@1": false,
+      "final": true,
+      "tokens": 12185,
+      "latency_s": 249.892,
+      "n": 3
+    },
+    {
+      "id": "lcb-3527",
+      "pass@1": false,
+      "final": false,
+      "tokens": 52481,
+      "latency_s": 1083.682,
+      "n": 6
+    },
+    {
+      "id": "lcb-3532",
+      "pass@1": false,
+      "final": false,
+      "tokens": 59450,
+      "latency_s": 1231.18,
+      "n": 6
+    },
+    {
+      "id": "lcb-abc365_a",
+      "pass@1": false,
+      "final": true,
+      "tokens": 3458,
+      "latency_s": 32.725,
+      "n": 3
+    },
+    {
+      "id": "lcb-abc365_b",
+      "pass@1": true,
+      "final": true,
+      "tokens": 1862,
+      "latency_s": 30.375,
+      "n": 1
+    },
+    {
+      "id": "lcb-abc365_c",
+      "pass@1": true,
+      "final": true,
+      "tokens": 4204,
+      "latency_s": 69.695,
+      "n": 1
+    },
+    {
+      "id": "lcb-abc365_d",
+      "pass@1": false,
+      "final": false,
+      "tokens": 51087,
+      "latency_s": 1199.851,
+      "n": 6
+    },
+    {
+      "id": "lcb-abc365_e",
+      "pass@1": false,
+      "final": false,
+      "tokens": 58732,
+      "latency_s": 1080.948,
+      "n": 6
+    },
+    {
+      "id": "lcb-arc181_a",
+      "pass@1": false,
+      "final": false,
+      "tokens": 59918,
+      "latency_s": 1206.587,
+      "n": 6
+    },
+    {
+      "id": "lcb-arc181_b",
+      "pass@1": false,
+      "final": false,
+      "tokens": 56605,
+      "latency_s": 1215.569,
+      "n": 6
+    },
+    {
+      "id": "lcb-arc181_c",
+      "pass@1": false,
+      "final": false,
+      "tokens": 62828,
+      "latency_s": 1220.962,
+      "n": 6
+    },
+    {
+      "id": "lcb-arc181_d",
+      "pass@1": false,
+      "final": false,
+      "tokens": 53753,
+      "latency_s": 1046.449,
+      "n": 6
+    },
+    {
+      "id": "lcb-3533",
+      "pass@1": false,
+      "final": true,
+      "tokens": 9251,
+      "latency_s": 178.125,
+      "n": 4
+    },
+    {
+      "id": "lcb-3535",
+      "pass@1": false,
+      "final": false,
+      "tokens": 49644,
+      "latency_s": 994.678,
+      "n": 6
+    },
+    {
+      "id": "lcb-abc366_a",
+      "pass@1": true,
+      "final": true,
+      "tokens": 7153,
+      "latency_s": 146.291,
+      "n": 1
+    },
+    {
+      "id": "lcb-abc366_b",
+      "pass@1": false,
+      "final": false,
+      "tokens": 60252,
+      "latency_s": 1283.319,
+      "n": 6
+    },
+    {
+      "id": "lcb-abc366_c",
+      "pass@1": true,
+      "final": true,
+      "tokens": 3105,
+      "latency_s": 49.977,
+      "n": 1
+    },
+    {
+      "id": "lcb-abc366_d",
+      "pass@1": false,
+      "final": true,
+      "tokens": 24700,
+      "latency_s": 494.98,
+      "n": 3
+    },
+    {
+      "id": "lcb-abc366_e",
+      "pass@1": false,
+      "final": false,
+      "tokens": 51615,
+      "latency_s": 1146.919,
+      "n": 6
+    },
+    {
+      "id": "lcb-abc366_f",
+      "pass@1": false,
+      "final": false,
+      "tokens": 60602,
+      "latency_s": 1275.775,
+      "n": 6
+    },
+    {
+      "id": "lcb-abc366_g",
+      "pass@1": false,
+      "final": false,
+      "tokens": 60650,
+      "latency_s": 1290.327,
+      "n": 6
+    },
+    {
+      "id": "lcb-arc182_a",
+      "pass@1": false,
+      "final": false,
+      "tokens": 65906,
+      "latency_s": 1346.484,
+      "n": 6
+    },
+    {
+      "id": "lcb-arc182_c",
+      "pass@1": false,
+      "final": false,
+      "tokens": 58668,
+      "latency_s": 1314.227,
+      "n": 6
+    },
+    {
+      "id": "lcb-arc182_d",
+      "pass@1": false,
+      "final": false,
+      "tokens": 56817,
+      "latency_s": 1186.014,
+      "n": 6
+    },
+    {
+      "id": "lcb-arc182_e",
+      "pass@1": false,
+      "final": false,
+      "tokens": 60010,
+      "latency_s": 1177.831,
+      "n": 6
+    },
+    {
+      "id": "lcb-abc367_a",
+      "pass@1": false,
+      "final": true,
+      "tokens": 26082,
+      "latency_s": 495.32,
+      "n": 3
+    },
+    {
+      "id": "lcb-abc367_b",
+      "pass@1": true,
+      "final": true,
+      "tokens": 2172,
+      "latency_s": 50.343,
+      "n": 1
+    },
+    {
+      "id": "lcb-abc367_c",
+      "pass@1": false,
+      "final": true,
+      "tokens": 10852,
+      "latency_s": 331.078,
+      "n": 2
+    },
+    {
+      "id": "lcb-abc367_d",
+      "pass@1": false,
+      "final": false,
+      "tokens": 60940,
+      "latency_s": 1214.448,
+      "n": 6
+    },
+    {
+      "id": "lcb-abc367_e",
+      "pass@1": false,
+      "final": false,
+      "tokens": 59434,
+      "latency_s": 1112.415,
+      "n": 6
+    },
+    {
+      "id": "lcb-abc367_f",
+      "pass@1": true,
+      "final": true,
+      "tokens": 6191,
+      "latency_s": 123.521,
+      "n": 1
+    },
+    {
+      "id": "lcb-abc367_g",
+      "pass@1": false,
+      "final": false,
+      "tokens": 60488,
+      "latency_s": 1182.999,
+      "n": 6
+    },
+    {
+      "id": "lcb-3522",
+      "pass@1": false,
+      "final": true,
+      "tokens": 6935,
+      "latency_s": 183.852,
+      "n": 3
+    },
+    {
+      "id": "lcb-3550",
+      "pass@1": false,
+      "final": false,
+      "tokens": 47156,
+      "latency_s": 982.02,
+      "n": 6
+    },
+    {
+      "id": "lcb-3525",
+      "pass@1": false,
+      "final": true,
+      "tokens": 35348,
+      "latency_s": 738.57,
+      "n": 5
+    },
+    {
+      "id": "lcb-3543",
+      "pass@1": false,
+      "final": true,
+      "tokens": 12373,
+      "latency_s": 315.672,
+      "n": 2
+    },
+    {
+      "id": "lcb-3552",
+      "pass@1": false,
+      "final": false,
+      "tokens": 24690,
+      "latency_s": 524.011,
+      "n": 3
+    },
+    {
+      "id": "lcb-abc368_a",
+      "pass@1": true,
+      "final": true,
+      "tokens": 1791,
+      "latency_s": 27.96,
+      "n": 1
+    },
+    {
+      "id": "lcb-abc368_b",
+      "pass@1": true,
+      "final": true,
+      "tokens": 4783,
+      "latency_s": 90.229,
+      "n": 1
+    },
+    {
+      "id": "lcb-abc368_c",
+      "pass@1": false,
+      "final": false,
+      "tokens": 37483,
+      "latency_s": 814.99,
+      "n": 4
+    },
+    {
+      "id": "lcb-abc368_d",
+      "pass@1": false,
+      "final": false,
+      "tokens": 57406,
+      "latency_s": 1250.456,
+      "n": 6
+    },
+    {
+      "id": "lcb-abc368_e",
+      "pass@1": false,
+      "final": false,
+      "tokens": 61752,
+      "latency_s": 1310.34,
+      "n": 6
+    },
+    {
+      "id": "lcb-abc368_f",
+      "pass@1": true,
+      "final": true,
+      "tokens": 3563,
+      "latency_s": 126.34,
+      "n": 1
+    },
+    {
+      "id": "lcb-abc368_g",
+      "pass@1": false,
+      "final": false,
+      "tokens": 59262,
+      "latency_s": 1181.869,
+      "n": 6
+    },
+    {
+      "id": "lcb-3534",
+      "pass@1": false,
+      "final": true,
+      "tokens": 20682,
+      "latency_s": 443.156,
+      "n": 3
+    },
+    {
+      "id": "lcb-3555",
+      "pass@1": false,
+      "final": true,
+      "tokens": 6447,
+      "latency_s": 98.966,
+      "n": 3
+    },
+    {
+      "id": "lcb-arc183_a",
+      "pass@1": false,
+      "final": false,
+      "tokens": 55975,
+      "latency_s": 1228.597,
+      "n": 6
+    },
+    {
+      "id": "lcb-arc183_b",
+      "pass@1": false,
+      "final": false,
+      "tokens": 60460,
+      "latency_s": 1206.073,
+      "n": 6
+    },
+    {
+      "id": "lcb-arc183_c",
+      "pass@1": false,
+      "final": false,
+      "tokens": 58742,
+      "latency_s": 1299.154,
+      "n": 6
+    },
+    {
+      "id": "lcb-arc183_d",
+      "pass@1": false,
+      "final": false,
+      "tokens": 60587,
+      "latency_s": 1204.796,
+      "n": 6
+    },
+    {
+      "id": "lcb-abc369_a",
+      "pass@1": true,
+      "final": true,
+      "tokens": 5099,
+      "latency_s": 152.127,
+      "n": 1
+    },
+    {
+      "id": "lcb-abc369_b",
+      "pass@1": true,
+      "final": true,
+      "tokens": 5986,
+      "latency_s": 199.387,
+      "n": 1
+    },
+    {
+      "id": "lcb-abc369_c",
+      "pass@1": false,
+      "final": true,
+      "tokens": 32716,
+      "latency_s": 683.888,
+      "n": 4
+    },
+    {
+      "id": "lcb-abc369_d",
+      "pass@1": true,
+      "final": true,
+      "tokens": 6423,
+      "latency_s": 198.692,
+      "n": 1
+    },
+    {
+      "id": "lcb-abc369_e",
+      "pass@1": false,
+      "final": false,
+      "tokens": 60778,
+      "latency_s": 1217.917,
+      "n": 6
+    },
+    {
+      "id": "lcb-abc369_g",
+      "pass@1": false,
+      "final": false,
+      "tokens": 61608,
+      "latency_s": 1135.194,
+      "n": 6
+    },
+    {
+      "id": "lcb-3531",
+      "pass@1": false,
+      "final": false,
+      "tokens": 59862,
+      "latency_s": 1250.587,
+      "n": 6
+    },
+    {
+      "id": "lcb-3540",
+      "pass@1": true,
+      "final": true,
+      "tokens": 2214,
+      "latency_s": 73.076,
+      "n": 1
+    },
+    {
+      "id": "lcb-3548",
+      "pass@1": false,
+      "final": false,
+      "tokens": 57568,
+      "latency_s": 1260.895,
+      "n": 6
+    },
+    {
+      "id": "lcb-3568",
+      "pass@1": true,
+      "final": true,
+      "tokens": 2921,
+      "latency_s": 141.739,
+      "n": 1
+    },
+    {
+      "id": "lcb-3495",
+      "pass@1": false,
+      "final": true,
+      "tokens": 30923,
+      "latency_s": 735.981,
+      "n": 4
+    },
+    {
+      "id": "lcb-3551",
+      "pass@1": false,
+      "final": false,
+      "tokens": 60964,
+      "latency_s": 1265.921,
+      "n": 6
+    },
+    {
+      "id": "lcb-3553",
+      "pass@1": true,
+      "final": true,
+      "tokens": 2446,
+      "latency_s": 75.888,
+      "n": 1
+    },
+    {
+      "id": "lcb-3563",
+      "pass@1": false,
+      "final": false,
+      "tokens": 43888,
+      "latency_s": 943.727,
+      "n": 6
+    },
+    {
+      "id": "lcb-abc370_a",
+      "pass@1": true,
+      "final": true,
+      "tokens": 1395,
+      "latency_s": 21.383,
+      "n": 1
+    },
+    {
+      "id": "lcb-abc370_b",
+      "pass@1": true,
+      "final": true,
+      "tokens": 3238,
+      "latency_s": 142.021,
+      "n": 1
+    },
+    {
+      "id": "lcb-abc370_c",
+      "pass@1": false,
+      "final": false,
+      "tokens": 60166,
+      "latency_s": 1250.013,
+      "n": 6
+    },
+    {
+      "id": "lcb-abc370_d",
+      "pass@1": false,
+      "final": false,
+      "tokens": 53819,
+      "latency_s": 1154.412,
+      "n": 6
+    },
+    {
+      "id": "lcb-abc370_e",
+      "pass@1": true,
+      "final": true,
+      "tokens": 6910,
+      "latency_s": 233.154,
+      "n": 1
+    },
+    {
+      "id": "lcb-abc370_f",
+      "pass@1": false,
+      "final": false,
+      "tokens": 59956,
+      "latency_s": 1289.223,
+      "n": 6
+    },
+    {
+      "id": "lcb-abc370_g",
+      "pass@1": false,
+      "final": false,
+      "tokens": 61905,
+      "latency_s": 1219.68,
+      "n": 6
+    },
+    {
+      "id": "lcb-3485",
+      "pass@1": false,
+      "final": false,
+      "tokens": 41086,
+      "latency_s": 838.633,
+      "n": 6
+    },
+    {
+      "id": "lcb-3528",
+      "pass@1": false,
+      "final": false,
+      "tokens": 59162,
+      "latency_s": 1215.15,
+      "n": 6
+    },
+    {
+      "id": "lcb-3560",
+      "pass@1": false,
+      "final": false,
+      "tokens": 54248,
+      "latency_s": 1041.654,
+      "n": 6
+    },
+    {
+      "id": "lcb-3567",
+      "pass@1": true,
+      "final": true,
+      "tokens": 2459,
+      "latency_s": 47.665,
+      "n": 1
+    },
+    {
+      "id": "lcb-abc371_a",
+      "pass@1": true,
+      "final": true,
+      "tokens": 7653,
+      "latency_s": 150.942,
+      "n": 1
+    },
+    {
+      "id": "lcb-abc371_b",
+      "pass@1": true,
+      "final": true,
+      "tokens": 2522,
+      "latency_s": 41.914,
+      "n": 1
+    },
+    {
+      "id": "lcb-abc371_c",
+      "pass@1": false,
+      "final": false,
+      "tokens": 57929,
+      "latency_s": 1194.865,
+      "n": 6
+    },
+    {
+      "id": "lcb-abc371_d",
+      "pass@1": true,
+      "final": true,
+      "tokens": 3158,
+      "latency_s": 132.633,
+      "n": 1
+    },
+    {
+      "id": "lcb-abc371_e",
+      "pass@1": false,
+      "final": true,
+      "tokens": 16166,
+      "latency_s": 355.244,
+      "n": 2
+    },
+    {
+      "id": "lcb-abc371_f",
+      "pass@1": false,
+      "final": false,
+      "tokens": 55297,
+      "latency_s": 1162.453,
+      "n": 6
+    },
+    {
+      "id": "lcb-abc371_g",
+      "pass@1": false,
+      "final": false,
+      "tokens": 8307,
+      "latency_s": 158.148,
+      "n": 1
+    },
+    {
+      "id": "lcb-3558",
+      "pass@1": false,
+      "final": true,
+      "tokens": 17284,
+      "latency_s": 499.921,
+      "n": 3
+    },
+    {
+      "id": "lcb-3571",
+      "pass@1": false,
+      "final": false,
+      "tokens": 58772,
+      "latency_s": 1107.46,
+      "n": 6
+    },
+    {
+      "id": "lcb-3575",
+      "pass@1": false,
+      "final": false,
+      "tokens": 37879,
+      "latency_s": 728.094,
+      "n": 6
+    },
+    {
+      "id": "lcb-3518",
+      "pass@1": false,
+      "final": false,
+      "tokens": 47651,
+      "latency_s": 838.267,
+      "n": 6
+    },
+    {
+      "id": "lcb-3559",
+      "pass@1": false,
+      "final": false,
+      "tokens": 41881,
+      "latency_s": 797.987,
+      "n": 6
+    },
+    {
+      "id": "lcb-abc372_a",
+      "pass@1": true,
+      "final": true,
+      "tokens": 907,
+      "latency_s": 13.595,
+      "n": 1
+    },
+    {
+      "id": "lcb-abc372_c",
+      "pass@1": true,
+      "final": true,
+      "tokens": 5303,
+      "latency_s": 206.477,
+      "n": 1
+    },
+    {
+      "id": "lcb-abc372_d",
+      "pass@1": false,
+      "final": false,
+      "tokens": 59406,
+      "latency_s": 1037.205,
+      "n": 6
+    },
+    {
+      "id": "lcb-abc372_e",
+      "pass@1": true,
+      "final": true,
+      "tokens": 6267,
+      "latency_s": 112.847,
+      "n": 1
+    },
+    {
+      "id": "lcb-abc372_f",
+      "pass@1": false,
+      "final": false,
+      "tokens": 59896,
+      "latency_s": 1080.582,
+      "n": 6
+    },
+    {
+      "id": "lcb-abc372_g",
+      "pass@1": false,
+      "final": false,
+      "tokens": 62574,
+      "latency_s": 1008.891,
+      "n": 6
+    },
+    {
+      "id": "lcb-3496",
+      "pass@1": false,
+      "final": true,
+      "tokens": 22538,
+      "latency_s": 426.354,
+      "n": 3
+    },
+    {
+      "id": "lcb-3541",
+      "pass@1": false,
+      "final": true,
+      "tokens": 5869,
+      "latency_s": 179.787,
+      "n": 3
+    },
+    {
+      "id": "lcb-3573",
+      "pass@1": false,
+      "final": false,
+      "tokens": 53552,
+      "latency_s": 1036.067,
+      "n": 6
+    },
+    {
+      "id": "lcb-arc184_c",
+      "pass@1": false,
+      "final": false,
+      "tokens": 59514,
+      "latency_s": 987.959,
+      "n": 6
+    },
+    {
+      "id": "lcb-arc184_d",
+      "pass@1": false,
+      "final": false,
+      "tokens": 58087,
+      "latency_s": 932.304,
+      "n": 6
+    }
+  ]
+}

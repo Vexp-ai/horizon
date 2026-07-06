@@ -1,0 +1,512 @@
+{
+  "baseline": "3b_verifier_repair",
+  "benchmark": "livecodebench",
+  "n_problems": 100,
+  "n_errors": 77,
+  "quality": {
+    "pass@1": 39.13,
+    "final": 52.17
+  },
+  "system": {
+    "avg_tokens_per_problem": 1204.5,
+    "avg_samples_per_problem": 1.3,
+    "avg_latency_s": 15.227,
+    "wall_time_s": 302.9,
+    "peak_ram_mb": 3780.1,
+    "peak_vram_mb": 0.0
+  },
+  "per_problem": [
+    {
+      "id": "lcb-3517",
+      "pass@1": false,
+      "final": true,
+      "tokens": 2397,
+      "latency_s": 32.109,
+      "n": 2
+    },
+    {
+      "id": "lcb-3519",
+      "error": "Generation failed after 4 attempts: Error code: 400 - {'object': 'error', 'message': '', 'type': 'BadRequestError', 'param': None, 'code': 400}"
+    },
+    {
+      "id": "lcb-3526",
+      "error": "Generation failed after 4 attempts: Error code: 400 - {'object': 'error', 'message': '', 'type': 'BadRequestError', 'param': None, 'code': 400}"
+    },
+    {
+      "id": "lcb-3527",
+      "error": "Generation failed after 4 attempts: Error code: 400 - {'object': 'error', 'message': '', 'type': 'BadRequestError', 'param': None, 'code': 400}"
+    },
+    {
+      "id": "lcb-3532",
+      "error": "Generation failed after 4 attempts: Error code: 400 - {'object': 'error', 'message': '', 'type': 'BadRequestError', 'param': None, 'code': 400}"
+    },
+    {
+      "id": "lcb-abc365_a",
+      "pass@1": true,
+      "final": true,
+      "tokens": 1074,
+      "latency_s": 16.316,
+      "n": 1
+    },
+    {
+      "id": "lcb-abc365_b",
+      "pass@1": true,
+      "final": true,
+      "tokens": 846,
+      "latency_s": 14.682,
+      "n": 1
+    },
+    {
+      "id": "lcb-abc365_c",
+      "error": "Generation failed after 4 attempts: Error code: 400 - {'object': 'error', 'message': '', 'type': 'BadRequestError', 'param': None, 'code': 400}"
+    },
+    {
+      "id": "lcb-abc365_d",
+      "error": "Generation failed after 4 attempts: Error code: 400 - {'object': 'error', 'message': '', 'type': 'BadRequestError', 'param': None, 'code': 400}"
+    },
+    {
+      "id": "lcb-abc365_e",
+      "error": "Generation failed after 4 attempts: Error code: 400 - {'object': 'error', 'message': '', 'type': 'BadRequestError', 'param': None, 'code': 400}"
+    },
+    {
+      "id": "lcb-arc181_a",
+      "error": "Generation failed after 4 attempts: Error code: 400 - {'object': 'error', 'message': '', 'type': 'BadRequestError', 'param': None, 'code': 400}"
+    },
+    {
+      "id": "lcb-arc181_b",
+      "error": "Generation failed after 4 attempts: Error code: 400 - {'object': 'error', 'message': '', 'type': 'BadRequestError', 'param': None, 'code': 400}"
+    },
+    {
+      "id": "lcb-arc181_c",
+      "error": "Generation failed after 4 attempts: Error code: 400 - {'object': 'error', 'message': '', 'type': 'BadRequestError', 'param': None, 'code': 400}"
+    },
+    {
+      "id": "lcb-arc181_d",
+      "error": "Generation failed after 4 attempts: Error code: 400 - {'object': 'error', 'message': '', 'type': 'BadRequestError', 'param': None, 'code': 400}"
+    },
+    {
+      "id": "lcb-3533",
+      "error": "Generation failed after 4 attempts: Error code: 400 - {'object': 'error', 'message': '', 'type': 'BadRequestError', 'param': None, 'code': 400}"
+    },
+    {
+      "id": "lcb-3535",
+      "error": "Generation failed after 4 attempts: Error code: 400 - {'object': 'error', 'message': '', 'type': 'BadRequestError', 'param': None, 'code': 400}"
+    },
+    {
+      "id": "lcb-abc366_a",
+      "pass@1": false,
+      "final": false,
+      "tokens": 760,
+      "latency_s": 9.832,
+      "n": 1
+    },
+    {
+      "id": "lcb-abc366_b",
+      "error": "Generation failed after 4 attempts: Error code: 400 - {'object': 'error', 'message': '', 'type': 'BadRequestError', 'param': None, 'code': 400}"
+    },
+    {
+      "id": "lcb-abc366_c",
+      "pass@1": false,
+      "final": false,
+      "tokens": 1229,
+      "latency_s": 13.308,
+      "n": 1
+    },
+    {
+      "id": "lcb-abc366_d",
+      "error": "Generation failed after 4 attempts: Error code: 400 - {'object': 'error', 'message': '', 'type': 'BadRequestError', 'param': None, 'code': 400}"
+    },
+    {
+      "id": "lcb-abc366_e",
+      "error": "Generation failed after 4 attempts: Error code: 400 - {'object': 'error', 'message': '', 'type': 'BadRequestError', 'param': None, 'code': 400}"
+    },
+    {
+      "id": "lcb-abc366_f",
+      "error": "Generation failed after 4 attempts: Error code: 400 - {'object': 'error', 'message': '', 'type': 'BadRequestError', 'param': None, 'code': 400}"
+    },
+    {
+      "id": "lcb-abc366_g",
+      "error": "Generation failed after 4 attempts: Error code: 400 - {'object': 'error', 'message': '', 'type': 'BadRequestError', 'param': None, 'code': 400}"
+    },
+    {
+      "id": "lcb-arc182_a",
+      "error": "Generation failed after 4 attempts: Error code: 400 - {'object': 'error', 'message': '', 'type': 'BadRequestError', 'param': None, 'code': 400}"
+    },
+    {
+      "id": "lcb-arc182_c",
+      "error": "Generation failed after 4 attempts: Error code: 400 - {'object': 'error', 'message': '', 'type': 'BadRequestError', 'param': None, 'code': 400}"
+    },
+    {
+      "id": "lcb-arc182_d",
+      "error": "Generation failed after 4 attempts: Error code: 400 - {'object': 'error', 'message': '', 'type': 'BadRequestError', 'param': None, 'code': 400}"
+    },
+    {
+      "id": "lcb-arc182_e",
+      "pass@1": false,
+      "final": false,
+      "tokens": 1118,
+      "latency_s": 12.55,
+      "n": 1
+    },
+    {
+      "id": "lcb-abc367_a",
+      "error": "Generation failed after 4 attempts: Error code: 400 - {'object': 'error', 'message': '', 'type': 'BadRequestError', 'param': None, 'code': 400}"
+    },
+    {
+      "id": "lcb-abc367_b",
+      "pass@1": true,
+      "final": true,
+      "tokens": 349,
+      "latency_s": 0.963,
+      "n": 1
+    },
+    {
+      "id": "lcb-abc367_c",
+      "error": "Generation failed after 4 attempts: Error code: 400 - {'object': 'error', 'message': '', 'type': 'BadRequestError', 'param': None, 'code': 400}"
+    },
+    {
+      "id": "lcb-abc367_d",
+      "error": "Generation failed after 4 attempts: Error code: 400 - {'object': 'error', 'message': '', 'type': 'BadRequestError', 'param': None, 'code': 400}"
+    },
+    {
+      "id": "lcb-abc367_e",
+      "error": "Generation failed after 4 attempts: Error code: 400 - {'object': 'error', 'message': '', 'type': 'BadRequestError', 'param': None, 'code': 400}"
+    },
+    {
+      "id": "lcb-abc367_f",
+      "pass@1": false,
+      "final": false,
+      "tokens": 1272,
+      "latency_s": 14.147,
+      "n": 1
+    },
+    {
+      "id": "lcb-abc367_g",
+      "error": "Generation failed after 4 attempts: Error code: 400 - {'object': 'error', 'message': '', 'type': 'BadRequestError', 'param': None, 'code': 400}"
+    },
+    {
+      "id": "lcb-3522",
+      "pass@1": false,
+      "final": true,
+      "tokens": 2093,
+      "latency_s": 27.958,
+      "n": 2
+    },
+    {
+      "id": "lcb-3550",
+      "pass@1": false,
+      "final": false,
+      "tokens": 2381,
+      "latency_s": 32.199,
+      "n": 2
+    },
+    {
+      "id": "lcb-3525",
+      "error": "Generation failed after 4 attempts: Error code: 400 - {'object': 'error', 'message': '', 'type': 'BadRequestError', 'param': None, 'code': 400}"
+    },
+    {
+      "id": "lcb-3543",
+      "error": "Generation failed after 4 attempts: Error code: 400 - {'object': 'error', 'message': '', 'type': 'BadRequestError', 'param': None, 'code': 400}"
+    },
+    {
+      "id": "lcb-3552",
+      "pass@1": false,
+      "final": false,
+      "tokens": 1380,
+      "latency_s": 18.129,
+      "n": 2
+    },
+    {
+      "id": "lcb-abc368_a",
+      "pass@1": true,
+      "final": true,
+      "tokens": 467,
+      "latency_s": 2.19,
+      "n": 1
+    },
+    {
+      "id": "lcb-abc368_b",
+      "error": "Generation failed after 4 attempts: Error code: 400 - {'object': 'error', 'message': '', 'type': 'BadRequestError', 'param': None, 'code': 400}"
+    },
+    {
+      "id": "lcb-abc368_c",
+      "error": "Generation failed after 4 attempts: Error code: 400 - {'object': 'error', 'message': '', 'type': 'BadRequestError', 'param': None, 'code': 400}"
+    },
+    {
+      "id": "lcb-abc368_d",
+      "error": "Generation failed after 4 attempts: Error code: 400 - {'object': 'error', 'message': '', 'type': 'BadRequestError', 'param': None, 'code': 400}"
+    },
+    {
+      "id": "lcb-abc368_e",
+      "error": "Generation failed after 4 attempts: Error code: 400 - {'object': 'error', 'message': '', 'type': 'BadRequestError', 'param': None, 'code': 400}"
+    },
+    {
+      "id": "lcb-abc368_f",
+      "error": "Generation failed after 4 attempts: Error code: 400 - {'object': 'error', 'message': '', 'type': 'BadRequestError', 'param': None, 'code': 400}"
+    },
+    {
+      "id": "lcb-abc368_g",
+      "error": "Generation failed after 4 attempts: Error code: 400 - {'object': 'error', 'message': '', 'type': 'BadRequestError', 'param': None, 'code': 400}"
+    },
+    {
+      "id": "lcb-3534",
+      "error": "Generation failed after 4 attempts: Error code: 400 - {'object': 'error', 'message': '', 'type': 'BadRequestError', 'param': None, 'code': 400}"
+    },
+    {
+      "id": "lcb-3555",
+      "error": "Generation failed after 4 attempts: Error code: 400 - {'object': 'error', 'message': '', 'type': 'BadRequestError', 'param': None, 'code': 400}"
+    },
+    {
+      "id": "lcb-arc183_a",
+      "error": "Generation failed after 4 attempts: Error code: 400 - {'object': 'error', 'message': '', 'type': 'BadRequestError', 'param': None, 'code': 400}"
+    },
+    {
+      "id": "lcb-arc183_b",
+      "error": "Generation failed after 4 attempts: Error code: 400 - {'object': 'error', 'message': '', 'type': 'BadRequestError', 'param': None, 'code': 400}"
+    },
+    {
+      "id": "lcb-arc183_c",
+      "error": "Generation failed after 4 attempts: Error code: 400 - {'object': 'error', 'message': '', 'type': 'BadRequestError', 'param': None, 'code': 400}"
+    },
+    {
+      "id": "lcb-arc183_d",
+      "error": "Generation failed after 4 attempts: Error code: 400 - {'object': 'error', 'message': '', 'type': 'BadRequestError', 'param': None, 'code': 400}"
+    },
+    {
+      "id": "lcb-abc369_a",
+      "error": "Generation failed after 4 attempts: Error code: 400 - {'object': 'error', 'message': '', 'type': 'BadRequestError', 'param': None, 'code': 400}"
+    },
+    {
+      "id": "lcb-abc369_b",
+      "error": "Generation failed after 4 attempts: Error code: 400 - {'object': 'error', 'message': '', 'type': 'BadRequestError', 'param': None, 'code': 400}"
+    },
+    {
+      "id": "lcb-abc369_c",
+      "pass@1": false,
+      "final": false,
+      "tokens": 1211,
+      "latency_s": 16.77,
+      "n": 1
+    },
+    {
+      "id": "lcb-abc369_d",
+      "error": "Generation failed after 4 attempts: Error code: 400 - {'object': 'error', 'message': '', 'type': 'BadRequestError', 'param': None, 'code': 400}"
+    },
+    {
+      "id": "lcb-abc369_e",
+      "error": "Generation failed after 4 attempts: Error code: 400 - {'object': 'error', 'message': '', 'type': 'BadRequestError', 'param': None, 'code': 400}"
+    },
+    {
+      "id": "lcb-abc369_g",
+      "error": "Generation failed after 4 attempts: Error code: 400 - {'object': 'error', 'message': '', 'type': 'BadRequestError', 'param': None, 'code': 400}"
+    },
+    {
+      "id": "lcb-3531",
+      "error": "Generation failed after 4 attempts: Error code: 400 - {'object': 'error', 'message': '', 'type': 'BadRequestError', 'param': None, 'code': 400}"
+    },
+    {
+      "id": "lcb-3540",
+      "pass@1": false,
+      "final": true,
+      "tokens": 1899,
+      "latency_s": 22.292,
+      "n": 2
+    },
+    {
+      "id": "lcb-3548",
+      "error": "Generation failed after 4 attempts: Error code: 400 - {'object': 'error', 'message': '', 'type': 'BadRequestError', 'param': None, 'code': 400}"
+    },
+    {
+      "id": "lcb-3568",
+      "pass@1": true,
+      "final": true,
+      "tokens": 1010,
+      "latency_s": 12.983,
+      "n": 1
+    },
+    {
+      "id": "lcb-3495",
+      "error": "Generation failed after 4 attempts: Error code: 400 - {'object': 'error', 'message': '', 'type': 'BadRequestError', 'param': None, 'code': 400}"
+    },
+    {
+      "id": "lcb-3551",
+      "error": "Generation failed after 4 attempts: Error code: 400 - {'object': 'error', 'message': '', 'type': 'BadRequestError', 'param': None, 'code': 400}"
+    },
+    {
+      "id": "lcb-3553",
+      "error": "Generation failed after 4 attempts: Error code: 400 - {'object': 'error', 'message': '', 'type': 'BadRequestError', 'param': None, 'code': 400}"
+    },
+    {
+      "id": "lcb-3563",
+      "error": "Generation failed after 4 attempts: Error code: 400 - {'object': 'error', 'message': '', 'type': 'BadRequestError', 'param': None, 'code': 400}"
+    },
+    {
+      "id": "lcb-abc370_a",
+      "pass@1": true,
+      "final": true,
+      "tokens": 400,
+      "latency_s": 1.359,
+      "n": 1
+    },
+    {
+      "id": "lcb-abc370_b",
+      "error": "Generation failed after 4 attempts: Error code: 400 - {'object': 'error', 'message': '', 'type': 'BadRequestError', 'param': None, 'code': 400}"
+    },
+    {
+      "id": "lcb-abc370_c",
+      "error": "Generation failed after 4 attempts: Error code: 400 - {'object': 'error', 'message': '', 'type': 'BadRequestError', 'param': None, 'code': 400}"
+    },
+    {
+      "id": "lcb-abc370_d",
+      "error": "Generation failed after 4 attempts: Error code: 400 - {'object': 'error', 'message': '', 'type': 'BadRequestError', 'param': None, 'code': 400}"
+    },
+    {
+      "id": "lcb-abc370_e",
+      "error": "Generation failed after 4 attempts: Error code: 400 - {'object': 'error', 'message': '', 'type': 'BadRequestError', 'param': None, 'code': 400}"
+    },
+    {
+      "id": "lcb-abc370_f",
+      "error": "Generation failed after 4 attempts: Error code: 400 - {'object': 'error', 'message': '', 'type': 'BadRequestError', 'param': None, 'code': 400}"
+    },
+    {
+      "id": "lcb-abc370_g",
+      "error": "Generation failed after 4 attempts: Error code: 400 - {'object': 'error', 'message': '', 'type': 'BadRequestError', 'param': None, 'code': 400}"
+    },
+    {
+      "id": "lcb-3485",
+      "error": "Generation failed after 4 attempts: Error code: 400 - {'object': 'error', 'message': '', 'type': 'BadRequestError', 'param': None, 'code': 400}"
+    },
+    {
+      "id": "lcb-3528",
+      "error": "Generation failed after 4 attempts: Error code: 400 - {'object': 'error', 'message': '', 'type': 'BadRequestError', 'param': None, 'code': 400}"
+    },
+    {
+      "id": "lcb-3560",
+      "error": "Generation failed after 4 attempts: Error code: 400 - {'object': 'error', 'message': '', 'type': 'BadRequestError', 'param': None, 'code': 400}"
+    },
+    {
+      "id": "lcb-3567",
+      "pass@1": true,
+      "final": true,
+      "tokens": 480,
+      "latency_s": 1.896,
+      "n": 1
+    },
+    {
+      "id": "lcb-abc371_a",
+      "pass@1": false,
+      "final": false,
+      "tokens": 2068,
+      "latency_s": 30.428,
+      "n": 2
+    },
+    {
+      "id": "lcb-abc371_b",
+      "error": "Generation failed after 4 attempts: Error code: 400 - {'object': 'error', 'message': '', 'type': 'BadRequestError', 'param': None, 'code': 400}"
+    },
+    {
+      "id": "lcb-abc371_c",
+      "error": "Generation failed after 4 attempts: Error code: 400 - {'object': 'error', 'message': '', 'type': 'BadRequestError', 'param': None, 'code': 400}"
+    },
+    {
+      "id": "lcb-abc371_d",
+      "pass@1": false,
+      "final": false,
+      "tokens": 739,
+      "latency_s": 4.79,
+      "n": 1
+    },
+    {
+      "id": "lcb-abc371_e",
+      "error": "Generation failed after 4 attempts: Error code: 400 - {'object': 'error', 'message': '', 'type': 'BadRequestError', 'param': None, 'code': 400}"
+    },
+    {
+      "id": "lcb-abc371_f",
+      "error": "Generation failed after 4 attempts: Error code: 400 - {'object': 'error', 'message': '', 'type': 'BadRequestError', 'param': None, 'code': 400}"
+    },
+    {
+      "id": "lcb-abc371_g",
+      "error": "Generation failed after 4 attempts: Error code: 400 - {'object': 'error', 'message': '', 'type': 'BadRequestError', 'param': None, 'code': 400}"
+    },
+    {
+      "id": "lcb-3558",
+      "pass@1": false,
+      "final": false,
+      "tokens": 1300,
+      "latency_s": 18.66,
+      "n": 1
+    },
+    {
+      "id": "lcb-3571",
+      "error": "Generation failed after 4 attempts: Error code: 400 - {'object': 'error', 'message': '', 'type': 'BadRequestError', 'param': None, 'code': 400}"
+    },
+    {
+      "id": "lcb-3575",
+      "error": "Generation failed after 4 attempts: Error code: 400 - {'object': 'error', 'message': '', 'type': 'BadRequestError', 'param': None, 'code': 400}"
+    },
+    {
+      "id": "lcb-3518",
+      "error": "Generation failed after 4 attempts: Error code: 400 - {'object': 'error', 'message': '', 'type': 'BadRequestError', 'param': None, 'code': 400}"
+    },
+    {
+      "id": "lcb-3559",
+      "error": "Generation failed after 4 attempts: Error code: 400 - {'object': 'error', 'message': '', 'type': 'BadRequestError', 'param': None, 'code': 400}"
+    },
+    {
+      "id": "lcb-abc372_a",
+      "pass@1": true,
+      "final": true,
+      "tokens": 650,
+      "latency_s": 9.937,
+      "n": 1
+    },
+    {
+      "id": "lcb-abc372_c",
+      "error": "Generation failed after 4 attempts: Error code: 400 - {'object': 'error', 'message': '', 'type': 'BadRequestError', 'param': None, 'code': 400}"
+    },
+    {
+      "id": "lcb-abc372_d",
+      "error": "Generation failed after 4 attempts: Error code: 400 - {'object': 'error', 'message': '', 'type': 'BadRequestError', 'param': None, 'code': 400}"
+    },
+    {
+      "id": "lcb-abc372_e",
+      "error": "Generation failed after 4 attempts: Error code: 400 - {'object': 'error', 'message': '', 'type': 'BadRequestError', 'param': None, 'code': 400}"
+    },
+    {
+      "id": "lcb-abc372_f",
+      "error": "Generation failed after 4 attempts: Error code: 400 - {'object': 'error', 'message': '', 'type': 'BadRequestError', 'param': None, 'code': 400}"
+    },
+    {
+      "id": "lcb-abc372_g",
+      "error": "Generation failed after 4 attempts: Error code: 400 - {'object': 'error', 'message': '', 'type': 'BadRequestError', 'param': None, 'code': 400}"
+    },
+    {
+      "id": "lcb-3496",
+      "error": "Generation failed after 4 attempts: Error code: 400 - {'object': 'error', 'message': '', 'type': 'BadRequestError', 'param': None, 'code': 400}"
+    },
+    {
+      "id": "lcb-3541",
+      "pass@1": true,
+      "final": true,
+      "tokens": 732,
+      "latency_s": 9.699,
+      "n": 1
+    },
+    {
+      "id": "lcb-3573",
+      "pass@1": false,
+      "final": false,
+      "tokens": 1849,
+      "latency_s": 27.019,
+      "n": 2
+    },
+    {
+      "id": "lcb-arc184_c",
+      "error": "Generation failed after 4 attempts: Error code: 400 - {'object': 'error', 'message': '', 'type': 'BadRequestError', 'param': None, 'code': 400}"
+    },
+    {
+      "id": "lcb-arc184_d",
+      "error": "Generation failed after 4 attempts: Error code: 400 - {'object': 'error', 'message': '', 'type': 'BadRequestError', 'param': None, 'code': 400}"
+    }
+  ]
+}

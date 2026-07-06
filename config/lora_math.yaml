@@ -1,0 +1,43 @@
+# MATH specialist (§4, §6). Hyperparameters = §6 defaults (to be tuned).
+specialist: math
+output_name: horizon-math-lora
+
+datasets:
+  # IMPORTANT: use Mixture-of-Thoughts config `math` (`messages` format with the
+  # R1 TRACE <think>...</think>), NOT the `solution` field of OpenR1-Math-220k, which
+  # is the SHORT reference solution (no reasoning) — source consistent with
+  # code/science. Same 93.7k problems, verified R1 traces. (§4, §6)
+  - id: open-r1/Mixture-of-Thoughts
+    config: math
+    split: train
+
+subsample: 40000              # ~30-50k/specialist for the prototype (§4, §6)
+seed: 42
+
+lora:
+  r: 64
+  lora_alpha: 128            # 2x r
+  lora_dropout: 0.05
+  target_modules: [q_proj, k_proj, v_proj, o_proj, gate_proj, up_proj, down_proj]
+  bias: none
+
+training:
+  learning_rate: 1.0e-4      # cosine
+  lr_scheduler_type: cosine
+  warmup_ratio: 0.03
+  num_train_epochs: 1
+  max_seq_length: 16384      # 4090 48GB: long code traces (median ~13k) kept whole; filtered at 16384
+  packing: true
+  bf16: true
+  gradient_checkpointing: true
+  per_device_train_batch_size: 1
+  gradient_accumulation_steps: 32
+  optim: adamw_8bit
+  logging_steps: 10
+  save_steps: 500
+
+# Fields used by the loaders to extract prompt/answer (§4: formats vary per dataset).
+schema:
+  problem_field: problem
+  solution_field: solution        # reasoning trace (with <think> when present)
+  answer_field: answer            # ground truth (for sanity checks / decontamination)

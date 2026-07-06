@@ -1,0 +1,7 @@
+-rw-r--r-- 1 nicola nicola 675710816 Jul  4 22:46 models/gguf/qwen2.5-0.5b-instruct-q8_0.gguf
+PAIR_OK server accepted the pairing
+2.58.279.025 I slot print_timing: id  3 | task 0 | prompt eval time =    2301.18 ms /    15 tokens (  153.41 ms per token,     6.52 tokens per second)
+2.58.279.077 I slot print_timing: id  3 | task 0 |        eval time =  144076.63 ms /    48 tokens ( 3001.60 ms per token,     0.33 tokens per second)
+2.58.279.087 I slot print_timing: id  3 | task 0 |       total time =  146377.81 ms /    63 tokens
+2.58.279.097 I slot print_timing: id  3 | task 0 |    graphs reused =         47
+PAIR_TEST_DONE 22:49

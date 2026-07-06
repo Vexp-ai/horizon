@@ -1,0 +1,220 @@
+{
+  "baseline": "3_base_verifier",
+  "benchmark": "math500",
+  "n_problems": 25,
+  "n_errors": 0,
+  "quality": {
+    "pass@1": 76.0,
+    "final": 88.0
+  },
+  "system": {
+    "avg_tokens_per_problem": 20060.7,
+    "avg_samples_per_problem": 8.0,
+    "avg_latency_s": 4130.554,
+    "wall_time_s": 18125.9,
+    "peak_ram_mb": 202.0,
+    "peak_vram_mb": 0.0
+  },
+  "per_problem": [
+    {
+      "id": "math500-0",
+      "pass@1": true,
+      "final": true,
+      "tokens": 6339,
+      "latency_s": 693.431,
+      "n": 8
+    },
+    {
+      "id": "math500-1",
+      "pass@1": true,
+      "final": true,
+      "tokens": 20396,
+      "latency_s": 3456.729,
+      "n": 8
+    },
+    {
+      "id": "math500-2",
+      "pass@1": true,
+      "final": true,
+      "tokens": 5949,
+      "latency_s": 645.4,
+      "n": 8
+    },
+    {
+      "id": "math500-3",
+      "pass@1": true,
+      "final": true,
+      "tokens": 4208,
+      "latency_s": 450.985,
+      "n": 8
+    },
+    {
+      "id": "math500-4",
+      "pass@1": true,
+      "final": true,
+      "tokens": 21453,
+      "latency_s": 3276.537,
+      "n": 8
+    },
+    {
+      "id": "math500-5",
+      "pass@1": true,
+      "final": true,
+      "tokens": 4193,
+      "latency_s": 420.003,
+      "n": 8
+    },
+    {
+      "id": "math500-6",
+      "pass@1": true,
+      "final": true,
+      "tokens": 7065,
+      "latency_s": 1059.889,
+      "n": 8
+    },
+    {
+      "id": "math500-7",
+      "pass@1": false,
+      "final": true,
+      "tokens": 24702,
+      "latency_s": 4588.662,
+      "n": 8
+    },
+    {
+      "id": "math500-8",
+      "pass@1": true,
+      "final": true,
+      "tokens": 5471,
+      "latency_s": 834.808,
+      "n": 8
+    },
+    {
+      "id": "math500-9",
+      "pass@1": false,
+      "final": false,
+      "tokens": 65536,
+      "latency_s": 14497.76,
+      "n": 8
+    },
+    {
+      "id": "math500-10",
+      "pass@1": false,
+      "final": true,
+      "tokens": 6326,
+      "latency_s": 1198.794,
+      "n": 8
+    },
+    {
+      "id": "math500-11",
+      "pass@1": false,
+      "final": false,
+      "tokens": 35535,
+      "latency_s": 7575.934,
+      "n": 8
+    },
+    {
+      "id": "math500-12",
+      "pass@1": true,
+      "final": true,
+      "tokens": 7155,
+      "latency_s": 1444.427,
+      "n": 8
+    },
+    {
+      "id": "math500-13",
+      "pass@1": true,
+      "final": true,
+      "tokens": 5889,
+      "latency_s": 902.901,
+      "n": 8
+    },
+    {
+      "id": "math500-14",
+      "pass@1": true,
+      "final": true,
+      "tokens": 10405,
+      "latency_s": 1744.069,
+      "n": 8
+    },
+    {
+      "id": "math500-15",
+      "pass@1": true,
+      "final": true,
+      "tokens": 30129,
+      "latency_s": 6317.372,
+      "n": 8
+    },
+    {
+      "id": "math500-16",
+      "pass@1": true,
+      "final": true,
+      "tokens": 4751,
+      "latency_s": 687.785,
+      "n": 8
+    },
+    {
+      "id": "math500-17",
+      "pass@1": true,
+      "final": true,
+      "tokens": 51496,
+      "latency_s": 11906.225,
+      "n": 8
+    },
+    {
+      "id": "math500-18",
+      "pass@1": false,
+      "final": false,
+      "tokens": 60260,
+      "latency_s": 13086.146,
+      "n": 8
+    },
+    {
+      "id": "math500-19",
+      "pass@1": true,
+      "final": true,
+      "tokens": 39001,
+      "latency_s": 9266.974,
+      "n": 8
+    },
+    {
+      "id": "math500-20",
+      "pass@1": true,
+      "final": true,
+      "tokens": 2735,
+      "latency_s": 523.781,
+      "n": 8
+    },
+    {
+      "id": "math500-21",
+      "pass@1": true,
+      "final": true,
+      "tokens": 36289,
+      "latency_s": 8286.461,
+      "n": 8
+    },
+    {
+      "id": "math500-22",
+      "pass@1": false,
+      "final": true,
+      "tokens": 26987,
+      "latency_s": 6315.207,
+      "n": 8
+    },
+    {
+      "id": "math500-23",
+      "pass@1": true,
+      "final": true,
+      "tokens": 9323,
+      "latency_s": 2043.971,
+      "n": 8
+    },
+    {
+      "id": "math500-24",
+      "pass@1": true,
+      "final": true,
+      "tokens": 9925,
+      "latency_s": 2039.604,
+      "n": 8
+    }
+  ]
+}

@@ -1,0 +1,820 @@
+{
+  "baseline": "1_base_naked",
+  "benchmark": "livecodebench",
+  "n_problems": 100,
+  "n_errors": 0,
+  "quality": {
+    "pass@1": 33.0,
+    "final": 33.0
+  },
+  "system": {
+    "avg_tokens_per_problem": 7281.4,
+    "avg_samples_per_problem": 1.0,
+    "avg_latency_s": 244.477,
+    "wall_time_s": 2578.3,
+    "peak_ram_mb": 3760.8,
+    "peak_vram_mb": 0.0
+  },
+  "per_problem": [
+    {
+      "id": "lcb-3517",
+      "pass@1": true,
+      "final": true,
+      "tokens": 5236,
+      "latency_s": 109.926,
+      "n": 1
+    },
+    {
+      "id": "lcb-3519",
+      "pass@1": true,
+      "final": true,
+      "tokens": 3261,
+      "latency_s": 64.919,
+      "n": 1
+    },
+    {
+      "id": "lcb-3526",
+      "pass@1": true,
+      "final": true,
+      "tokens": 4878,
+      "latency_s": 105.838,
+      "n": 1
+    },
+    {
+      "id": "lcb-3527",
+      "pass@1": false,
+      "final": false,
+      "tokens": 8774,
+      "latency_s": 242.024,
+      "n": 1
+    },
+    {
+      "id": "lcb-3532",
+      "pass@1": false,
+      "final": false,
+      "tokens": 8757,
+      "latency_s": 194.111,
+      "n": 1
+    },
+    {
+      "id": "lcb-abc365_a",
+      "pass@1": true,
+      "final": true,
+      "tokens": 1541,
+      "latency_s": 25.591,
+      "n": 1
+    },
+    {
+      "id": "lcb-abc365_b",
+      "pass@1": true,
+      "final": true,
+      "tokens": 2183,
+      "latency_s": 43.237,
+      "n": 1
+    },
+    {
+      "id": "lcb-abc365_c",
+      "pass@1": true,
+      "final": true,
+      "tokens": 6465,
+      "latency_s": 139.293,
+      "n": 1
+    },
+    {
+      "id": "lcb-abc365_d",
+      "pass@1": false,
+      "final": false,
+      "tokens": 8679,
+      "latency_s": 193.843,
+      "n": 1
+    },
+    {
+      "id": "lcb-abc365_e",
+      "pass@1": false,
+      "final": false,
+      "tokens": 8726,
+      "latency_s": 194.062,
+      "n": 1
+    },
+    {
+      "id": "lcb-arc181_a",
+      "pass@1": false,
+      "final": false,
+      "tokens": 8895,
+      "latency_s": 293.085,
+      "n": 1
+    },
+    {
+      "id": "lcb-arc181_b",
+      "pass@1": false,
+      "final": false,
+      "tokens": 8845,
+      "latency_s": 317.013,
+      "n": 1
+    },
+    {
+      "id": "lcb-arc181_c",
+      "pass@1": false,
+      "final": false,
+      "tokens": 9290,
+      "latency_s": 322.141,
+      "n": 1
+    },
+    {
+      "id": "lcb-arc181_d",
+      "pass@1": false,
+      "final": false,
+      "tokens": 8953,
+      "latency_s": 286.845,
+      "n": 1
+    },
+    {
+      "id": "lcb-3533",
+      "pass@1": true,
+      "final": true,
+      "tokens": 2250,
+      "latency_s": 128.393,
+      "n": 1
+    },
+    {
+      "id": "lcb-3535",
+      "pass@1": false,
+      "final": false,
+      "tokens": 8598,
+      "latency_s": 278.032,
+      "n": 1
+    },
+    {
+      "id": "lcb-abc366_a",
+      "pass@1": true,
+      "final": true,
+      "tokens": 3187,
+      "latency_s": 69.452,
+      "n": 1
+    },
+    {
+      "id": "lcb-abc366_b",
+      "pass@1": true,
+      "final": true,
+      "tokens": 7951,
+      "latency_s": 260.354,
+      "n": 1
+    },
+    {
+      "id": "lcb-abc366_c",
+      "pass@1": true,
+      "final": true,
+      "tokens": 4231,
+      "latency_s": 218.257,
+      "n": 1
+    },
+    {
+      "id": "lcb-abc366_d",
+      "pass@1": false,
+      "final": false,
+      "tokens": 9404,
+      "latency_s": 330.251,
+      "n": 1
+    },
+    {
+      "id": "lcb-abc366_e",
+      "pass@1": false,
+      "final": false,
+      "tokens": 8614,
+      "latency_s": 331.142,
+      "n": 1
+    },
+    {
+      "id": "lcb-abc366_f",
+      "pass@1": false,
+      "final": false,
+      "tokens": 8755,
+      "latency_s": 321.074,
+      "n": 1
+    },
+    {
+      "id": "lcb-abc366_g",
+      "pass@1": false,
+      "final": false,
+      "tokens": 8903,
+      "latency_s": 291.579,
+      "n": 1
+    },
+    {
+      "id": "lcb-arc182_a",
+      "pass@1": false,
+      "final": false,
+      "tokens": 9993,
+      "latency_s": 298.357,
+      "n": 1
+    },
+    {
+      "id": "lcb-arc182_c",
+      "pass@1": false,
+      "final": false,
+      "tokens": 8734,
+      "latency_s": 294.62,
+      "n": 1
+    },
+    {
+      "id": "lcb-arc182_d",
+      "pass@1": false,
+      "final": false,
+      "tokens": 9067,
+      "latency_s": 328.171,
+      "n": 1
+    },
+    {
+      "id": "lcb-arc182_e",
+      "pass@1": false,
+      "final": false,
+      "tokens": 8799,
+      "latency_s": 338.285,
+      "n": 1
+    },
+    {
+      "id": "lcb-abc367_a",
+      "pass@1": true,
+      "final": true,
+      "tokens": 3391,
+      "latency_s": 242.986,
+      "n": 1
+    },
+    {
+      "id": "lcb-abc367_b",
+      "pass@1": false,
+      "final": false,
+      "tokens": 8505,
+      "latency_s": 366.269,
+      "n": 1
+    },
+    {
+      "id": "lcb-abc367_c",
+      "pass@1": true,
+      "final": true,
+      "tokens": 3323,
+      "latency_s": 131.288,
+      "n": 1
+    },
+    {
+      "id": "lcb-abc367_d",
+      "pass@1": false,
+      "final": false,
+      "tokens": 8918,
+      "latency_s": 270.114,
+      "n": 1
+    },
+    {
+      "id": "lcb-abc367_e",
+      "pass@1": false,
+      "final": false,
+      "tokens": 8753,
+      "latency_s": 269.904,
+      "n": 1
+    },
+    {
+      "id": "lcb-abc367_f",
+      "pass@1": false,
+      "final": false,
+      "tokens": 8876,
+      "latency_s": 262.68,
+      "n": 1
+    },
+    {
+      "id": "lcb-abc367_g",
+      "pass@1": false,
+      "final": false,
+      "tokens": 9024,
+      "latency_s": 271.229,
+      "n": 1
+    },
+    {
+      "id": "lcb-3522",
+      "pass@1": true,
+      "final": true,
+      "tokens": 4493,
+      "latency_s": 219.377,
+      "n": 1
+    },
+    {
+      "id": "lcb-3550",
+      "pass@1": false,
+      "final": false,
+      "tokens": 8660,
+      "latency_s": 323.366,
+      "n": 1
+    },
+    {
+      "id": "lcb-3525",
+      "pass@1": false,
+      "final": false,
+      "tokens": 8606,
+      "latency_s": 323.595,
+      "n": 1
+    },
+    {
+      "id": "lcb-3543",
+      "pass@1": true,
+      "final": true,
+      "tokens": 3912,
+      "latency_s": 199.521,
+      "n": 1
+    },
+    {
+      "id": "lcb-3552",
+      "pass@1": false,
+      "final": false,
+      "tokens": 8482,
+      "latency_s": 294.917,
+      "n": 1
+    },
+    {
+      "id": "lcb-abc368_a",
+      "pass@1": true,
+      "final": true,
+      "tokens": 2586,
+      "latency_s": 86.689,
+      "n": 1
+    },
+    {
+      "id": "lcb-abc368_b",
+      "pass@1": true,
+      "final": true,
+      "tokens": 4719,
+      "latency_s": 118.991,
+      "n": 1
+    },
+    {
+      "id": "lcb-abc368_c",
+      "pass@1": false,
+      "final": false,
+      "tokens": 8833,
+      "latency_s": 210.474,
+      "n": 1
+    },
+    {
+      "id": "lcb-abc368_d",
+      "pass@1": false,
+      "final": false,
+      "tokens": 8613,
+      "latency_s": 245.091,
+      "n": 1
+    },
+    {
+      "id": "lcb-abc368_e",
+      "pass@1": false,
+      "final": false,
+      "tokens": 9136,
+      "latency_s": 287.793,
+      "n": 1
+    },
+    {
+      "id": "lcb-abc368_f",
+      "pass@1": false,
+      "final": false,
+      "tokens": 8600,
+      "latency_s": 294.408,
+      "n": 1
+    },
+    {
+      "id": "lcb-abc368_g",
+      "pass@1": false,
+      "final": false,
+      "tokens": 8923,
+      "latency_s": 294.63,
+      "n": 1
+    },
+    {
+      "id": "lcb-3534",
+      "pass@1": false,
+      "final": false,
+      "tokens": 8574,
+      "latency_s": 294.638,
+      "n": 1
+    },
+    {
+      "id": "lcb-3555",
+      "pass@1": true,
+      "final": true,
+      "tokens": 3459,
+      "latency_s": 162.869,
+      "n": 1
+    },
+    {
+      "id": "lcb-arc183_a",
+      "pass@1": false,
+      "final": false,
+      "tokens": 8820,
+      "latency_s": 286.758,
+      "n": 1
+    },
+    {
+      "id": "lcb-arc183_b",
+      "pass@1": false,
+      "final": false,
+      "tokens": 8816,
+      "latency_s": 316.354,
+      "n": 1
+    },
+    {
+      "id": "lcb-arc183_c",
+      "pass@1": false,
+      "final": false,
+      "tokens": 8741,
+      "latency_s": 325.245,
+      "n": 1
+    },
+    {
+      "id": "lcb-arc183_d",
+      "pass@1": false,
+      "final": false,
+      "tokens": 9150,
+      "latency_s": 330.307,
+      "n": 1
+    },
+    {
+      "id": "lcb-abc369_a",
+      "pass@1": true,
+      "final": true,
+      "tokens": 4150,
+      "latency_s": 182.632,
+      "n": 1
+    },
+    {
+      "id": "lcb-abc369_b",
+      "pass@1": false,
+      "final": false,
+      "tokens": 8787,
+      "latency_s": 302.989,
+      "n": 1
+    },
+    {
+      "id": "lcb-abc369_c",
+      "pass@1": false,
+      "final": false,
+      "tokens": 8704,
+      "latency_s": 287.479,
+      "n": 1
+    },
+    {
+      "id": "lcb-abc369_d",
+      "pass@1": true,
+      "final": true,
+      "tokens": 5908,
+      "latency_s": 224.802,
+      "n": 1
+    },
+    {
+      "id": "lcb-abc369_e",
+      "pass@1": false,
+      "final": false,
+      "tokens": 9258,
+      "latency_s": 321.125,
+      "n": 1
+    },
+    {
+      "id": "lcb-abc369_g",
+      "pass@1": false,
+      "final": false,
+      "tokens": 9076,
+      "latency_s": 340.784,
+      "n": 1
+    },
+    {
+      "id": "lcb-3531",
+      "pass@1": false,
+      "final": false,
+      "tokens": 8857,
+      "latency_s": 307.062,
+      "n": 1
+    },
+    {
+      "id": "lcb-3540",
+      "pass@1": true,
+      "final": true,
+      "tokens": 2838,
+      "latency_s": 163.629,
+      "n": 1
+    },
+    {
+      "id": "lcb-3548",
+      "pass@1": false,
+      "final": false,
+      "tokens": 8584,
+      "latency_s": 271.614,
+      "n": 1
+    },
+    {
+      "id": "lcb-3568",
+      "pass@1": true,
+      "final": true,
+      "tokens": 3915,
+      "latency_s": 128.392,
+      "n": 1
+    },
+    {
+      "id": "lcb-3495",
+      "pass@1": true,
+      "final": true,
+      "tokens": 7555,
+      "latency_s": 217.787,
+      "n": 1
+    },
+    {
+      "id": "lcb-3551",
+      "pass@1": false,
+      "final": false,
+      "tokens": 8926,
+      "latency_s": 266.665,
+      "n": 1
+    },
+    {
+      "id": "lcb-3553",
+      "pass@1": false,
+      "final": false,
+      "tokens": 2781,
+      "latency_s": 151.018,
+      "n": 1
+    },
+    {
+      "id": "lcb-3563",
+      "pass@1": false,
+      "final": false,
+      "tokens": 8495,
+      "latency_s": 294.885,
+      "n": 1
+    },
+    {
+      "id": "lcb-abc370_a",
+      "pass@1": true,
+      "final": true,
+      "tokens": 1864,
+      "latency_s": 146.067,
+      "n": 1
+    },
+    {
+      "id": "lcb-abc370_b",
+      "pass@1": true,
+      "final": true,
+      "tokens": 5811,
+      "latency_s": 218.536,
+      "n": 1
+    },
+    {
+      "id": "lcb-abc370_c",
+      "pass@1": true,
+      "final": true,
+      "tokens": 5926,
+      "latency_s": 185.0,
+      "n": 1
+    },
+    {
+      "id": "lcb-abc370_d",
+      "pass@1": false,
+      "final": false,
+      "tokens": 9148,
+      "latency_s": 230.997,
+      "n": 1
+    },
+    {
+      "id": "lcb-abc370_e",
+      "pass@1": false,
+      "final": false,
+      "tokens": 8784,
+      "latency_s": 237.16,
+      "n": 1
+    },
+    {
+      "id": "lcb-abc370_f",
+      "pass@1": false,
+      "final": false,
+      "tokens": 8934,
+      "latency_s": 248.29,
+      "n": 1
+    },
+    {
+      "id": "lcb-abc370_g",
+      "pass@1": false,
+      "final": false,
+      "tokens": 8545,
+      "latency_s": 261.675,
+      "n": 1
+    },
+    {
+      "id": "lcb-3485",
+      "pass@1": true,
+      "final": true,
+      "tokens": 7462,
+      "latency_s": 274.663,
+      "n": 1
+    },
+    {
+      "id": "lcb-3528",
+      "pass@1": false,
+      "final": false,
+      "tokens": 8495,
+      "latency_s": 330.41,
+      "n": 1
+    },
+    {
+      "id": "lcb-3560",
+      "pass@1": false,
+      "final": false,
+      "tokens": 8982,
+      "latency_s": 302.427,
+      "n": 1
+    },
+    {
+      "id": "lcb-3567",
+      "pass@1": true,
+      "final": true,
+      "tokens": 2713,
+      "latency_s": 148.946,
+      "n": 1
+    },
+    {
+      "id": "lcb-abc371_a",
+      "pass@1": true,
+      "final": true,
+      "tokens": 4647,
+      "latency_s": 204.089,
+      "n": 1
+    },
+    {
+      "id": "lcb-abc371_b",
+      "pass@1": true,
+      "final": true,
+      "tokens": 2339,
+      "latency_s": 128.437,
+      "n": 1
+    },
+    {
+      "id": "lcb-abc371_c",
+      "pass@1": false,
+      "final": false,
+      "tokens": 9716,
+      "latency_s": 259.612,
+      "n": 1
+    },
+    {
+      "id": "lcb-abc371_d",
+      "pass@1": true,
+      "final": true,
+      "tokens": 5617,
+      "latency_s": 167.794,
+      "n": 1
+    },
+    {
+      "id": "lcb-abc371_e",
+      "pass@1": true,
+      "final": true,
+      "tokens": 4467,
+      "latency_s": 120.57,
+      "n": 1
+    },
+    {
+      "id": "lcb-abc371_f",
+      "pass@1": false,
+      "final": false,
+      "tokens": 9186,
+      "latency_s": 218.295,
+      "n": 1
+    },
+    {
+      "id": "lcb-abc371_g",
+      "pass@1": false,
+      "final": false,
+      "tokens": 9161,
+      "latency_s": 237.681,
+      "n": 1
+    },
+    {
+      "id": "lcb-3558",
+      "pass@1": false,
+      "final": false,
+      "tokens": 8699,
+      "latency_s": 263.422,
+      "n": 1
+    },
+    {
+      "id": "lcb-3571",
+      "pass@1": false,
+      "final": false,
+      "tokens": 8648,
+      "latency_s": 298.956,
+      "n": 1
+    },
+    {
+      "id": "lcb-3575",
+      "pass@1": false,
+      "final": false,
+      "tokens": 8528,
+      "latency_s": 297.54,
+      "n": 1
+    },
+    {
+      "id": "lcb-3518",
+      "pass@1": false,
+      "final": false,
+      "tokens": 8640,
+      "latency_s": 301.24,
+      "n": 1
+    },
+    {
+      "id": "lcb-3559",
+      "pass@1": false,
+      "final": false,
+      "tokens": 8614,
+      "latency_s": 298.273,
+      "n": 1
+    },
+    {
+      "id": "lcb-abc372_a",
+      "pass@1": false,
+      "final": false,
+      "tokens": 8413,
+      "latency_s": 307.625,
+      "n": 1
+    },
+    {
+      "id": "lcb-abc372_c",
+      "pass@1": true,
+      "final": true,
+      "tokens": 7702,
+      "latency_s": 320.258,
+      "n": 1
+    },
+    {
+      "id": "lcb-abc372_d",
+      "pass@1": false,
+      "final": false,
+      "tokens": 8675,
+      "latency_s": 327.437,
+      "n": 1
+    },
+    {
+      "id": "lcb-abc372_e",
+      "pass@1": true,
+      "final": true,
+      "tokens": 8315,
+      "latency_s": 310.076,
+      "n": 1
+    },
+    {
+      "id": "lcb-abc372_f",
+      "pass@1": false,
+      "final": false,
+      "tokens": 8998,
+      "latency_s": 324.385,
+      "n": 1
+    },
+    {
+      "id": "lcb-abc372_g",
+      "pass@1": false,
+      "final": false,
+      "tokens": 9129,
+      "latency_s": 309.419,
+      "n": 1
+    },
+    {
+      "id": "lcb-3496",
+      "pass@1": false,
+      "final": false,
+      "tokens": 8918,
+      "latency_s": 301.73,
+      "n": 1
+    },
+    {
+      "id": "lcb-3541",
+      "pass@1": false,
+      "final": false,
+      "tokens": 2484,
+      "latency_s": 104.486,
+      "n": 1
+    },
+    {
+      "id": "lcb-3573",
+      "pass@1": false,
+      "final": false,
+      "tokens": 8495,
+      "latency_s": 275.444,
+      "n": 1
+    },
+    {
+      "id": "lcb-arc184_c",
+      "pass@1": false,
+      "final": false,
+      "tokens": 8771,
+      "latency_s": 289.932,
+      "n": 1
+    },
+    {
+      "id": "lcb-arc184_d",
+      "pass@1": false,
+      "final": false,
+      "tokens": 8598,
+      "latency_s": 286.524,
+      "n": 1
+    }
+  ]
+}
